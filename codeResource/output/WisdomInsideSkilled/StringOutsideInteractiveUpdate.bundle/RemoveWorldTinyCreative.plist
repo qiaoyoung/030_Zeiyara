@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>hiveWait</key>
+    <string>DeepSandCapture</string>
+    <key>ownerCreate</key>
+    <string>SendLogicalComposerReport</string>
+    <key>insightSpectrum</key>
+    <string>ErrorOffStore</string>
+    <key>accessProjectorAgainstFlexible</key>
+    <string>RendererTimer</string>
+    <key>timelineBindHive</key>
+    <string>RobustDecodeVia</string>
+    <key>importElegantSphere</key>
+    <string>DownDraw</string>
+</dict>
+</plist>

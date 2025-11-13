@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>plazaApplyPresenter</key>
+    <string>SteelOrbitDispatch</string>
+    <key>formatterBeyondParametricSlide</key>
+    <string>SchedulePlaceCivicController</string>
+    <key>trainFactory</key>
+    <string>ShorePlannerAssemblerHandleAlongside</string>
+    <key>hazeNearCreatorSteady</key>
+    <string>WorkflowAnimatorAnalyzeSpriteHold</string>
+    <key>shaderViewportSound</key>
+    <string>SpectrumParserPast</string>
+    <key>spectrumRavenAlign</key>
+    <string>CommandOwnerProjectorView</string>
+    <key>rendererBirchAlong</key>
+    <string>WholeCreekVastTrain</string>
+    <key>coordinatorPresent</key>
+    <string>BalancerScale</string>
+    <key>oakenRiverVisitorAbove</key>
+    <string>AmongVictoriousClose</string>
+</dict>
+</plist>

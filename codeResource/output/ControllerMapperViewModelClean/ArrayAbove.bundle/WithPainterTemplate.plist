@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>shaderMain</key>
+    <string>StandShadowFromAssemble</string>
+    <key>readyConsoleShuffleSurface</key>
+    <string>PortraitWingExport</string>
+    <key>flameFactory</key>
+    <string>SphereQuirkRestore</string>
+    <key>transformerFindBalancedTeam</key>
+    <string>AroundMoveFinishController</string>
+    <key>hubsetEasyDown</key>
+    <string>ChainPreviewRefreshPlannerChart</string>
+    <key>creativeStepSave</key>
+    <string>StartTryAccelerateTuple</string>
+    <key>passiveProjector</key>
+    <string>CreatorPlazaPrecise</string>
+    <key>forwardSignerPaintCompact</key>
+    <string>HoldDuringTuplePreload</string>
+</dict>
+</plist>

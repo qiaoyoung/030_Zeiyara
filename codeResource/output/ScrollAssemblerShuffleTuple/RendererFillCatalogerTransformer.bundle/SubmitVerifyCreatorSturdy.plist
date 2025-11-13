@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>canvasTransformer</key>
+    <string>StoreLooseCreator</string>
+    <key>waterCreatorLucid</key>
+    <string>LayoutPainterTransformable</string>
+    <key>aboveNotable</key>
+    <string>TrailHubScheduler</string>
+    <key>submitTrim</key>
+    <string>TactfulWarehouseConverter</string>
+</dict>
+</plist>

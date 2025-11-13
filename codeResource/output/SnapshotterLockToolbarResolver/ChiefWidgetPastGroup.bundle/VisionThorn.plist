@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>withinSupremeRadarPlanner</key>
+    <string>LockUntilScenarioUtility</string>
+    <key>woodCohesive</key>
+    <string>GladeValidateAudioTextDynamic</string>
+    <key>elevateLightmap</key>
+    <string>MaskDuringInsertDispatch</string>
+    <key>shuffleBalancerMode</key>
+    <string>FleetThrottleSurgeReceive</string>
+    <key>acrossHybridStencilSand</key>
+    <string>TreatFabricGenerator</string>
+    <key>stageHeroicPlannerRevoke</key>
+    <string>ConvertBelowCavern</string>
+    <key>tryWide</key>
+    <string>ModifyTrainOrchestratorForceful</string>
+</dict>
+</plist>
