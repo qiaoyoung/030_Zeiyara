@@ -1,4 +1,0 @@
-Zeiyara is a comprehensive fitness and social platform that combines AI-powered training plans, social video sharing, and interactive virtual coach chat. The app helps users create personalized workout routines based on their fitness goals and intensity preferences. Users can choose between virtual male and female coaches according to their personal preferences, ensuring a comfortable and personalized training experience. Users can browse workout videos from the community, interact with their selected virtual fitness coaches, and manage their training history. With an intuitive interface and intelligent AI assistance, Zeiyara makes fitness training accessible, engaging, and effective for everyone.
-
-Zeiyara是一款综合性健身社交平台，集成了AI智能训练计划生成、社交视频分享和虚拟教练互动聊天功能。应用帮助用户根据健身目标和强度偏好创建个性化训练方案。用户可以根据自己的习惯选择虚拟男教练或女教练，确保获得舒适且个性化的训练体验。用户可以浏览社区运动视频，与选定的虚拟健身教练互动，并管理训练历史记录。凭借直观的界面和智能AI助手，Zeiyara让健身训练变得简单、有趣且高效。
-
