@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>poplarMapper</key>
+    <string>MergeCoordinatorWorkbench</string>
+    <key>buildViewModel</key>
+    <string>RadarBinderOrderStore</string>
+    <key>primaryPush</key>
+    <string>ConductorBalancerGenerate</string>
+    <key>payloadHelper</key>
+    <string>VoyageValueInitializeConductorAlongside</string>
+    <key>yardLean</key>
+    <string>NobleDataSourceOrchestrator</string>
+    <key>accountOwnerWithPeerless</key>
+    <string>CollectorHarnessInterpreterCoordinate</string>
+    <key>validEnum</key>
+    <string>MountBrokerSearch</string>
+    <key>afterWiseParcelSigner</key>
+    <string>MagnetTimelessLiberalConnector</string>
+    <key>smartOrchestrator</key>
+    <string>ExpandCoreTrySpoke</string>
+</dict>
+</plist>

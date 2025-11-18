@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>toolSpectrum</key>
+    <string>PlatformTryOpen</string>
+    <key>visitorUntouchedIn</key>
+    <string>EverydayDocumentComposer</string>
+    <key>fairMerge</key>
+    <string>InsideDeriveViewModel</string>
+    <key>withHard</key>
+    <string>PastOrchestratorInside</string>
+</dict>
+</plist>

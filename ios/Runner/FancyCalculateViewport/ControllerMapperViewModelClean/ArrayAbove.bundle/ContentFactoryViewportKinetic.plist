@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>preloadViewModelForceful</key>
+    <string>ShadowTaskBroker</string>
+    <key>gateDecent</key>
+    <string>ArrayOpenListviewShuffle</string>
+    <key>outlinedShader</key>
+    <string>CheckTextUpdater</string>
+    <key>flashOptimizeCollector</key>
+    <string>WarehouseSortLocalize</string>
+    <key>catalogerLabelInfiniteGet</key>
+    <string>ElementHandleAfterPush</string>
+</dict>
+</plist>

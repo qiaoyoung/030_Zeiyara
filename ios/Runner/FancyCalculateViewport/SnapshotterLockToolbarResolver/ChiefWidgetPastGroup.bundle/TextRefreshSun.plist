@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>coordinatorAdaptiveConduit</key>
+    <string>DeriveComputePlanner</string>
+    <key>strikeCoordinateQualityRenderer</key>
+    <string>MapperGridlineTrainFlowInfinity</string>
+    <key>preloadSiteStencil</key>
+    <string>ParseFaithfulCompatiblePower</string>
+    <key>themeExtractStyle</key>
+    <string>EndlessPersist</string>
+    <key>assemblerPauseStringObvious</key>
+    <string>StencilStairPreview</string>
+    <key>defineValueMakeGifted</key>
+    <string>GraveThinConverter</string>
+</dict>
+</plist>

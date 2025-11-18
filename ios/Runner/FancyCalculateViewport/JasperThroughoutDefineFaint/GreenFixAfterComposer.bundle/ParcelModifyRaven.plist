@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>selectAngleStencil</key>
+    <string>SleekValidateBind</string>
+    <key>saverAfterShadowLean</key>
+    <string>InterpreterTonalSurfaceBind</string>
+    <key>conduitTemplate</key>
+    <string>ControllerCollectionCrystalQueue</string>
+    <key>memoryBefore</key>
+    <string>ReleaseFormalReady</string>
+    <key>durableTimelineModeExpand</key>
+    <string>LinkContinueModalTrim</string>
+    <key>spectrumTrainGigantic</key>
+    <string>WriteModernDisplaySnow</string>
+    <key>finishChatHeader</key>
+    <string>SkilledResumeOrderHighlight</string>
+</dict>
+</plist>

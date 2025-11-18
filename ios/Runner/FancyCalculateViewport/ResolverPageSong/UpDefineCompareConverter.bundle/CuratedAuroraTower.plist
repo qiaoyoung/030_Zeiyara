@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fallbackCollection</key>
+    <string>EnumShapeCompareTranslate</string>
+    <key>visitorControlBriefRound</key>
+    <string>MagicAcceptRetreat</string>
+    <key>viewportModalFrom</key>
+    <string>ScrollViewScheduleWallLandscape</string>
+    <key>delegatePresentSchedulerForceful</key>
+    <string>SchedulerTrainHandler</string>
+    <key>gracefulWorkflowAnimatorEnd</key>
+    <string>PetalThrottleCycle</string>
+    <key>removeSereneCreator</key>
+    <string>PrintQuillPrintFrame</string>
+</dict>
+</plist>

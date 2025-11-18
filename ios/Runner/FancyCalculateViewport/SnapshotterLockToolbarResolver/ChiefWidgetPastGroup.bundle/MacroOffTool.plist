@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>daintyOutlineDecorator</key>
+    <string>UnderBlendSyncTerminal</string>
+    <key>landDecoratorAppend</key>
+    <string>LockOrnateBasicTrainPathway</string>
+    <key>persistShader</key>
+    <string>AgileShadowOff</string>
+    <key>attachDenseStayTerminal</key>
+    <string>ParseResolverJudicious</string>
+    <key>fabricBackup</key>
+    <string>InterpreterMessagePortClean</string>
+    <key>invitingCompressDataSourceShare</key>
+    <string>WritePersistIdleAssembler</string>
+    <key>composerSnackbarParse</key>
+    <string>TrainBeforeHandler</string>
+</dict>
+</plist>
