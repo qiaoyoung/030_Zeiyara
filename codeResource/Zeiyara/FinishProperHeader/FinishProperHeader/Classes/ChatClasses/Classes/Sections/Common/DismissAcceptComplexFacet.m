@@ -135,8 +135,8 @@ typedef struct {
 #import "UpdaterMergeGuidebookHinted.h"
 //: #import "UpdatePastHelperTarget.h"
 #import "UpdatePastHelperTarget.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 //: #import "TZImageManager.h"
 #import "TZImageManager.h"
 //: #import "InletTextureConsume.h"

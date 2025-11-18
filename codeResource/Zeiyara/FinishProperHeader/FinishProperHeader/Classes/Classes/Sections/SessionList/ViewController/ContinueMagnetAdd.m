@@ -631,7 +631,7 @@
 //: @property (nonatomic,assign) BOOL supportsForceTouch;
 @property (nonatomic,assign) BOOL proud;
 
-@property (nonatomic, strong) TransformGetCacheControllerView *sizeGesture//: @property (nonatomic, strong) UIButton *resqBtn;
+@property (nonatomic, strong) TransformGetCacheControllerView *sizeGesture;//: @property (nonatomic, strong) UIButton *resqBtn;
 @property (nonatomic, strong) UIButton *knownPure;
 
 //: @property (nonatomic,strong) AtlasSurfaceSkillGigantic *header;

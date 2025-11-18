@@ -854,8 +854,8 @@ ConsoleUpbeatRenderTemplateDelegate> {
         if ([contactItem respondsToSelector:@selector(grantedScale)] && [contactItem grantedScale].length) {
             //: SEL sel = NSSelectorFromString([contactItem selName]);
             SEL sel = NSSelectorFromString([contactItem grantedScale]);
-            //: SuppressPerformSelectorLeakWarning([self performSelector:sel withObject:nil]);
-            SuppressPerformSelectorLeakWarning([self performSelector:sel withObject:nil]);
+            //:   ([self performSelector:sel withObject:nil]);
+              ([self performSelector:sel withObject:nil]);
         }
         //: else if (contactItem.vcName.length) {
         else if (contactItem.unity.length) {

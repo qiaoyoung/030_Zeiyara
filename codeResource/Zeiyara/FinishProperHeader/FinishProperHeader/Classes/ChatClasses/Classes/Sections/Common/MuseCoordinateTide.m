@@ -77,8 +77,8 @@
 #import "TextSearchLoad.h"
 //: #import "objc/runtime.h"
 #import "objc/runtime.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 //: #import "QuintessentialContentTreat.h"
 #import "QuintessentialContentTreat.h"
 //: #import "PainterScrollViewPast.h"

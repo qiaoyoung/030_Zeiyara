@@ -300,7 +300,7 @@
     //: self.delegate = delegate;
     self.characterThroughoutted = delegate;
     //: delegateClass = object_getClass(delegate);
-    whiteKeep = customInsert(delegate);
+    whiteKeep = object_getClass(delegate);
 }
 
 //: - (void)singleTap{
@@ -424,7 +424,7 @@
 //: - (void)leftButtonClicked:(id)sender{
 - (void)trended:(id)sender{
     //: Class currentClass = object_getClass(self.delegate);
-    Class currentClass = customInsert(self.characterThroughoutted);
+    Class currentClass = object_getClass(self.characterThroughoutted);
     //: if ((currentClass == delegateClass) && [self.delegate respondsToSelector:@selector(dismissDataPickerView)]) {
     if ((currentClass == whiteKeep) && [self.characterThroughoutted respondsToSelector:@selector(slipSuggest)]) {
         //: [self.delegate dismissDataPickerView];
@@ -547,7 +547,7 @@
 //: - (void)rightButtonClicked:(id)sender{
 - (void)portraitLabel:(id)sender{
     //: Class currentClass = object_getClass(self.delegate);
-    Class currentClass = customInsert(self.characterThroughoutted);
+    Class currentClass = object_getClass(self.characterThroughoutted);
     //: if ((currentClass == delegateClass) && [self.delegate respondsToSelector:@selector(dismissDataPickerView)]) {
     if ((currentClass == whiteKeep) && [self.characterThroughoutted respondsToSelector:@selector(slipSuggest)]) {
         //: [self.delegate dismissDataPickerView];

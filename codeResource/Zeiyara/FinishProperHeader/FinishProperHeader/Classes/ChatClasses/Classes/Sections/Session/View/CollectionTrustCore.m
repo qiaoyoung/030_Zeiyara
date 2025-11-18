@@ -267,8 +267,8 @@
 #import "MarshPackUprightUpdate.h"
 //: #import "TextSearchLoad.h"
 #import "TextSearchLoad.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 //: #import "DistinctMutualWorkflowAnimatorProjector.h"
 #import "DistinctMutualWorkflowAnimatorProjector.h"
 //: #import "UIImage+QuintessentialContentTreat.h"

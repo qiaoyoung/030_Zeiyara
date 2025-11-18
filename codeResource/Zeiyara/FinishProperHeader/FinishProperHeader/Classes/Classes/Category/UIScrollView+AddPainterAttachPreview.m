@@ -591,7 +591,7 @@ static char spacingMonitorKey;
             //: case AddPainterAttachPreviewPositionTop:
             case AddPainterAttachPreviewPositionTop:
                 //: scrollOffsetThreshold = self.frame.origin.y - self.originalTopInset;
-                scrollOffsetThreshold = self.frame.origin.eraseHead - self.receiverInset;
+                scrollOffsetThreshold = self.frame.origin.y - self.receiverInset;
                 //: break;
                 break;
             //: case AddPainterAttachPreviewPositionBottom:
@@ -607,19 +607,19 @@ static char spacingMonitorKey;
             //: self.state = AddPainterAttachPreviewStateLoading;
             self.sameOutsided = AddPainterAttachPreviewStateLoading;
         //: else if(contentOffset.y < scrollOffsetThreshold && self.scrollView.isDragging && self.state == AddPainterAttachPreviewStateStopped && self.position == AddPainterAttachPreviewPositionTop)
-        else if(contentOffset.eraseHead < scrollOffsetThreshold && self.transformScrollView.isDragging && self.sameOutsided == AddPainterAttachPreviewStateStopped && self.steelLead == AddPainterAttachPreviewPositionTop)
+        else if(contentOffset.y < scrollOffsetThreshold && self.transformScrollView.isDragging && self.sameOutsided == AddPainterAttachPreviewStateStopped && self.steelLead == AddPainterAttachPreviewPositionTop)
             //: self.state = AddPainterAttachPreviewStateTriggered;
             self.sameOutsided = AddPainterAttachPreviewStateTriggered;
         //: else if(contentOffset.y >= scrollOffsetThreshold && self.state != AddPainterAttachPreviewStateStopped && self.position == AddPainterAttachPreviewPositionTop)
-        else if(contentOffset.eraseHead >= scrollOffsetThreshold && self.sameOutsided != AddPainterAttachPreviewStateStopped && self.steelLead == AddPainterAttachPreviewPositionTop)
+        else if(contentOffset.y >= scrollOffsetThreshold && self.sameOutsided != AddPainterAttachPreviewStateStopped && self.steelLead == AddPainterAttachPreviewPositionTop)
             //: self.state = AddPainterAttachPreviewStateStopped;
             self.sameOutsided = AddPainterAttachPreviewStateStopped;
         //: else if(contentOffset.y > scrollOffsetThreshold && self.scrollView.isDragging && self.state == AddPainterAttachPreviewStateStopped && self.position == AddPainterAttachPreviewPositionBottom)
-        else if(contentOffset.eraseHead > scrollOffsetThreshold && self.transformScrollView.isDragging && self.sameOutsided == AddPainterAttachPreviewStateStopped && self.steelLead == AddPainterAttachPreviewPositionBottom)
+        else if(contentOffset.y > scrollOffsetThreshold && self.transformScrollView.isDragging && self.sameOutsided == AddPainterAttachPreviewStateStopped && self.steelLead == AddPainterAttachPreviewPositionBottom)
             //: self.state = AddPainterAttachPreviewStateTriggered;
             self.sameOutsided = AddPainterAttachPreviewStateTriggered;
         //: else if(contentOffset.y <= scrollOffsetThreshold && self.state != AddPainterAttachPreviewStateStopped && self.position == AddPainterAttachPreviewPositionBottom)
-        else if(contentOffset.eraseHead <= scrollOffsetThreshold && self.sameOutsided != AddPainterAttachPreviewStateStopped && self.steelLead == AddPainterAttachPreviewPositionBottom)
+        else if(contentOffset.y <= scrollOffsetThreshold && self.sameOutsided != AddPainterAttachPreviewStateStopped && self.steelLead == AddPainterAttachPreviewPositionBottom)
             //: self.state = AddPainterAttachPreviewStateStopped;
             self.sameOutsided = AddPainterAttachPreviewStateStopped;
     //: } else {
@@ -633,7 +633,7 @@ static char spacingMonitorKey;
             //: case AddPainterAttachPreviewPositionTop:
             case AddPainterAttachPreviewPositionTop:
                 //: offset = ((self.scrollView.contentOffset.y * -1) > (0.0f) ? (self.scrollView.contentOffset.y * -1) : (0.0f));
-                offset = ((self.transformScrollView.contentOffset.eraseHead * -1) > (0.0f) ? (self.transformScrollView.contentOffset.eraseHead * -1) : (0.0f));
+                offset = ((self.transformScrollView.contentOffset.y * -1) > (0.0f) ? (self.transformScrollView.contentOffset.y * -1) : (0.0f));
                 //: offset = ((offset) < (self.originalTopInset + self.bounds.size.height) ? (offset) : (self.originalTopInset + self.bounds.size.height));
                 offset = ((offset) < (self.receiverInset + self.bounds.size.height) ? (offset) : (self.receiverInset + self.bounds.size.height));
                 //: contentInset = self.scrollView.contentInset;
@@ -846,7 +846,7 @@ static char spacingMonitorKey;
         case AddPainterAttachPreviewPositionTop:
 
             //: if((fabs(self.scrollView.contentOffset.y) < 1.19209290e-7F)) {
-            if((fabs(self.transformScrollView.contentOffset.eraseHead) < 1.19209290e-7F)) {
+            if((fabs(self.transformScrollView.contentOffset.y) < 1.19209290e-7F)) {
                 //: [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x, -self.frame.size.height) animated:YES];
                 [self.transformScrollView setContentOffset:CGPointMake(self.transformScrollView.contentOffset.x, -self.frame.size.height) animated:YES];
                 //: self.wasTriggeredByUser = NO;
@@ -863,11 +863,11 @@ static char spacingMonitorKey;
         case AddPainterAttachPreviewPositionBottom:
 
             //: if(((fabs(self.scrollView.contentOffset.y) < 1.19209290e-7F) && self.scrollView.contentSize.height < self.scrollView.bounds.size.height)
-            if(((fabs(self.transformScrollView.contentOffset.eraseHead) < 1.19209290e-7F) && self.transformScrollView.contentSize.height < self.transformScrollView.bounds.size.height)
+            if(((fabs(self.transformScrollView.contentOffset.y) < 1.19209290e-7F) && self.transformScrollView.contentSize.height < self.transformScrollView.bounds.size.height)
                //: || (fabs((self.scrollView.contentOffset.y) - (self.scrollView.contentSize.height - self.scrollView.bounds.size.height)) < 1.19209290e-7F)) {
-               || (fabs((self.transformScrollView.contentOffset.eraseHead) - (self.transformScrollView.contentSize.height - self.transformScrollView.bounds.size.height)) < 1.19209290e-7F)) {
+               || (fabs((self.transformScrollView.contentOffset.y) - (self.transformScrollView.contentSize.height - self.transformScrollView.bounds.size.height)) < 1.19209290e-7F)) {
                 //: [self.scrollView setContentOffset:(CGPoint){.y = ((self.scrollView.contentSize.height - self.scrollView.bounds.size.height) > (0.0f) ? (self.scrollView.contentSize.height - self.scrollView.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
-                [self.scrollView setContentOffset:(CGPoint){.eraseHead = ((self.scrollView.contentSize.height - self.scrollView.bounds.size.height) > (0.0f) ? (self.scrollView.contentSize.height - self.scrollView.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
+                [self.transformScrollView setContentOffset:(CGPoint){.y = ((self.transformScrollView.contentSize.height - self.transformScrollView.bounds.size.height) > (0.0f) ? (self.transformScrollView.contentSize.height - self.transformScrollView.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
                 //: self.wasTriggeredByUser = NO;
                 self.maxPast = NO;
             }
@@ -940,7 +940,7 @@ static char spacingMonitorKey;
 //: - (void)setScrollViewContentInsetForLoading {
 - (void)unwelcomeRest {
     //: CGFloat offset = ((self.scrollView.contentOffset.y * -1) > (0) ? (self.scrollView.contentOffset.y * -1) : (0));
-    CGFloat offset = ((self.transformScrollView.contentOffset.eraseHead * -1) > (0) ? (self.transformScrollView.contentOffset.eraseHead * -1) : (0));
+    CGFloat offset = ((self.transformScrollView.contentOffset.y * -1) > (0) ? (self.transformScrollView.contentOffset.y * -1) : (0));
     //: UIEdgeInsets currentInsets = self.scrollView.contentInset;
     UIEdgeInsets currentInsets = self.transformScrollView.contentInset;
     //: switch (self.position) {
@@ -1053,7 +1053,7 @@ static char spacingMonitorKey;
         //: CGPoint origin = CGPointMake(roundf((self.bounds.size.width-viewBounds.size.width)/2), roundf((self.bounds.size.height-viewBounds.size.height)/2));
         CGPoint origin = CGPointMake(roundf((self.bounds.size.width-viewBounds.size.width)/2), roundf((self.bounds.size.height-viewBounds.size.height)/2));
         //: [customView setFrame:CGRectMake(origin.x, origin.y, viewBounds.size.width, viewBounds.size.height)];
-        [customView setFrame:CGRectMake(origin.x, origin.eraseHead, viewBounds.size.width, viewBounds.size.height)];
+        [customView setFrame:CGRectMake(origin.x, origin.y, viewBounds.size.width, viewBounds.size.height)];
     }
     //: else {
     else {

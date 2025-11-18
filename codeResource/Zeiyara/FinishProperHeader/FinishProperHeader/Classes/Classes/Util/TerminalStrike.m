@@ -108,8 +108,8 @@ static void lengthVibrate(SystemSoundID soundID, void *data)
     {
         //: SEL selector = NSSelectorFromString(@"vibrate");
         SEL selector = NSSelectorFromString([TooData sharedInstance].layoutCelPreference);
-        //: SuppressPerformSelectorLeakWarning([(TerminalStrike *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
-        SuppressPerformSelectorLeakWarning([(TerminalStrike *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
+        //:   ([(TerminalStrike *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
+          ([(TerminalStrike *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
     }
 }
 

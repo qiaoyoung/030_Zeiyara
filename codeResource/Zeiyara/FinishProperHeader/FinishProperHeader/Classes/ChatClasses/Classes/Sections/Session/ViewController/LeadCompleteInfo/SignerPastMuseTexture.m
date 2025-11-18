@@ -191,7 +191,7 @@ CGFloat lowValuable(void) {
             //: CGRect frame = self.frame;
             CGRect frame = self.frame;
             //: frame.origin.y = SNStatusBarHeight();
-            frame.broadcastNim.comparative = statusLeading();
+            frame.origin.y = statusLeading();
             //: self.frame = frame;
             self.frame = frame;
         //: } completion:^(BOOL finished) {
@@ -231,7 +231,7 @@ CGFloat lowValuable(void) {
     //: content.text = self.title;
     content.text = self.admin;
     //: return (5.0f + 5.0f) + content.intrinsicContentSize.width; 
-    return (5.0f + 5.0f) + content.intrinsicContentSize.kindFamily; // icon width + label width (it's perfect to cache them all)
+    return (5.0f + 5.0f) + content.intrinsicContentSize.width; // icon width + label width (it's perfect to cache them all)
 }
 
 //: - (void)createItemView:(UIView*)itemView forMarqueeView:(CoordinateStoreWreathSpatial*)marqueeView {
@@ -291,9 +291,9 @@ CGFloat lowValuable(void) {
         //: CGRect frame = CGRectMake(0, 0, 30, 30);
         CGRect frame = CGRectMake(0, 0, 30, 30);
         //: frame.origin.x = CGRectGetMaxX(self.bounds) - frame.size.width;
-        frame.broadcastNim.unique = CGRectGetMaxX(self.bounds) - frame.pull.kindFamily;
+        frame.origin.x = CGRectGetMaxX(self.bounds) - frame.size.width;
         //: frame.origin.y = (self.bounds.size.height - frame.size.height) * 0.5;
-        frame.broadcastNim.comparative = (self.bounds.pull.map - frame.pull.map) * 0.5;
+        frame.origin.y = (self.bounds.size.height - frame.size.height) * 0.5;
 
         //: _actionButton.frame = CGRectIntegral(frame);
         _outside.frame = CGRectIntegral(frame);
@@ -321,13 +321,13 @@ CGFloat lowValuable(void) {
     //: SignerPastMuseTexture *tipView = [[SignerPastMuseTexture alloc] initWithFrame:(CGRect) {
     SignerPastMuseTexture *tipView = [[SignerPastMuseTexture alloc] initWithFrame:(CGRect) {
         //: .origin.x = 5,
-        .broadcastNim.unique = 5,
+        .origin.x = 5,
         //: .origin.y = (44.0f + [UIDevice vg_statusBarHeight])+5,
-        .broadcastNim.comparative = (44.0f + [UIDevice cart])+5,
+        .origin.y = (44.0f + [UIDevice cart])+5,
         //: .size.width = UIScreen.mainScreen.bounds.size.width-10.f,
-        .pull.kindFamily = UIScreen.mainScreen.bounds.pull.kindFamily-10.f,
+        .size.width = UIScreen.mainScreen.bounds.size.width-10.f,
         //: .size.height = 46.f
-        .pull.map = 46.f
+        .size.height = 46.f
     //: }];
     }];
 
@@ -399,7 +399,7 @@ CGFloat lowValuable(void) {
         //: CGRect frame = self.frame;
         CGRect frame = self.frame;
         //: frame.origin.y = SNStatusBarHeight() + 44 + 5;
-        frame.broadcastNim.comparative = statusLeading() + 44 + 5;
+        frame.origin.y = statusLeading() + 44 + 5;
         //: self.frame = frame;
         self.frame = frame;
     //: } completion:nil];
@@ -420,7 +420,7 @@ CGFloat lowValuable(void) {
     //: CGSize contentFitSize = [content sizeThatFits:CGSizeMake(CGRectGetWidth(marqueeView.frame) - 5.0f - 5.0f, 0x1.fffffep+127f)];
     CGSize contentFitSize = [content sizeThatFits:CGSizeMake(CGRectGetWidth(marqueeView.frame) - 5.0f - 5.0f, 0x1.fffffep+127f)];
     //: return contentFitSize.height + 20.0f;
-    return contentFitSize.map + 20.0f;
+    return contentFitSize.height + 20.0f;
 }
 
 //: - (NSUInteger)numberOfDataForMarqueeView:(CoordinateStoreWreathSpatial*)marqueeView {
@@ -457,7 +457,7 @@ CGFloat lowValuable(void) {
         self.userInteractionEnabled = YES;
         {
             //: self.leftwardMarqueeView = [[CoordinateStoreWreathSpatial alloc] initWithFrame:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width- 54 - 30 - 10, 46) direction:ValleyDeliverRoundHealthyLeftward];
-            self.restrictionFragment = [[CoordinateStoreWreathSpatial alloc] initWithFlush:CGRectMake(54, 0, [UIScreen mainScreen].bounds.pull.kindFamily- 54 - 30 - 10, 46) holder:ValleyDeliverRoundHealthyLeftward];
+            self.restrictionFragment = [[CoordinateStoreWreathSpatial alloc] initWithFlush:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width- 54 - 30 - 10, 46) holder:ValleyDeliverRoundHealthyLeftward];
             //: _leftwardMarqueeView.delegate = self;
             _restrictionFragment.characterThroughoutted = self;
             //: _leftwardMarqueeView.timeIntervalPerScroll = 3.0f;

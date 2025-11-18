@@ -32,26 +32,26 @@
 //: - (void)applicationDidBecomeActive:(UIApplication *)application {
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     //: [[WorkflowAnimatorNectarOpenOption sharedInstance] applicationDidBecomeActive:application];
-    [[WorkflowAnimatorNectarOpenOption sharedInstance] applicationDidBecomeActive:application];
+    [[WorkflowAnimatorNectarOpenOption objectTo] transformed:application];
 }
 
 //: - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     //: [[WorkflowAnimatorNectarOpenOption sharedInstance] application:app didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
-    [[WorkflowAnimatorNectarOpenOption sharedInstance] application:app didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+    [[WorkflowAnimatorNectarOpenOption objectTo] progress:app obtainable:deviceToken];
 }
 
 //: - (void)applicationDidEnterBackground:(UIApplication *)application {
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     //: [[WorkflowAnimatorNectarOpenOption sharedInstance] applicationDidEnterBackground:application];
-    [[WorkflowAnimatorNectarOpenOption sharedInstance] applicationDidEnterBackground:application];
+    [[WorkflowAnimatorNectarOpenOption objectTo] engineering:application];
 }
 
 //: - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [GeneratedPluginRegistrant registerWithRegistry:self];
     //: [[WorkflowAnimatorNectarOpenOption sharedInstance] initDelegateWithWindow:self.window];
-    [[WorkflowAnimatorNectarOpenOption sharedInstance] initDelegateWithWindow:self.window];
+    [[WorkflowAnimatorNectarOpenOption objectTo] initModest:self.window];
     //: return YES;
     return YES;
 }

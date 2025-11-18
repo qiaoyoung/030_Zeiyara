@@ -21,13 +21,13 @@ IB_DESIGNABLE
 //: @property (nonatomic) IBInspectable UIColor *textColor; 
 @property (nonatomic) IBInspectable UIColor *smart;// UI_APPEARANCE_SELECTOR;
 //: @property (nonatomic) IBInspectable BOOL indeterminate;
-@property (nonatomic) IBInspectable BOOL rush;
+@property (nonatomic) IBInspectable BOOL rush
 NS_AVAILABLE_IOS(8_0);// UI_APPEARANCE_SELECTOR;
 //: @property (nonatomic) IBInspectable BOOL usesVibrancyEffect; 
 @property (nonatomic) IBInspectable BOOL limitExtend;// UI_APPEARANCE_SELECTOR;
 
 //: @property (nonatomic) UIBlurEffect *blurEffect NS_AVAILABLE_IOS(8_0); 
-@property (nonatomic) UIBlurEffect *receiveSurgeIdentify//: @property (nonatomic) IBInspectable CGFloat radius; 
+@property (nonatomic) UIBlurEffect *receiveSurgeIdentify;//: @property (nonatomic) IBInspectable CGFloat radius;
 @property (nonatomic) IBInspectable CGFloat calendar;// UI_APPEARANCE_SELECTOR;
 //: @property (nonatomic) IBInspectable CGFloat lineWidth; 
 @property (nonatomic) IBInspectable CGFloat rank;// UI_APPEARANCE_SELECTOR;

@@ -125,8 +125,8 @@ typedef struct {
 #import "TextSearchLoad.h"
 //: #import "LegacyCollectionStyle.h"
 #import "LegacyCollectionStyle.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 //: #import <YYImage/YYImage.h>
 #import <YYImage/YYImage.h>
 //: #import "QuintessentialContentTreat.h"

@@ -217,7 +217,7 @@ typedef struct {
             //: [self.km_transitionNavigationBar removeFromSuperview];
             [self.roomsOr removeFromSuperview];
             //: self.km_transitionNavigationBar = nil;
-            self.km_transitionNavigationBarsetRoomsOr = nil;
+            self.roomsOr = nil;
         }
     }
     //: if ([transitionViewController isEqual:self]) {
@@ -331,11 +331,11 @@ typedef struct {
         //: if (scrollView) {
         if (scrollView) {
             //: if (scrollView.km_shouldRestoreContentInsetAdjustmentBehavior) {
-            if (scrollView.km_shouldRestoreContentInsetAdjustmentBehavior) {
+            if (scrollView.bringEnable) {
                 //: scrollView.contentInsetAdjustmentBehavior = scrollView.km_originalContentInsetAdjustmentBehavior;
-                scrollView.contentInsetAdjustmentBehavior = scrollView.km_originalContentInsetAdjustmentBehavior;
+                scrollView.contentInsetAdjustmentBehavior = scrollView.everyFactor;
                 //: scrollView.km_shouldRestoreContentInsetAdjustmentBehavior = NO;
-                scrollView.km_shouldRestoreContentInsetAdjustmentBehavior = NO;
+                scrollView.bringEnable = NO;
             }
         }
     }
@@ -361,11 +361,11 @@ typedef struct {
             //: if (contentInsetAdjustmentBehavior != UIScrollViewContentInsetAdjustmentNever) {
             if (contentInsetAdjustmentBehavior != UIScrollViewContentInsetAdjustmentNever) {
                 //: scrollView.km_originalContentInsetAdjustmentBehavior = contentInsetAdjustmentBehavior;
-                scrollView.km_originalContentInsetAdjustmentBehavior = contentInsetAdjustmentBehavior;
+                scrollView.everyFactor = contentInsetAdjustmentBehavior;
                 //: scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
                 scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
                 //: scrollView.km_shouldRestoreContentInsetAdjustmentBehavior = YES;
-                scrollView.km_shouldRestoreContentInsetAdjustmentBehavior = YES;
+                scrollView.bringEnable = YES;
             }
         }
     }
@@ -420,7 +420,7 @@ typedef struct {
     //: [self.km_transitionNavigationBar removeFromSuperview];
     [self.roomsOr removeFromSuperview];
     //: self.km_transitionNavigationBar = bar;
-    self.km_transitionNavigationBarsetRoomsOr = bar;
+    self.roomsOr = bar;
     //: [self km_resizeTransitionNavigationBarFrame];
     [self unit];
     //: if (!self.navigationController.navigationBarHidden && !self.navigationController.navigationBar.hidden) {

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ClassFactoryLoader.h"
 #import "ClassFactoryLoader.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 
 //: @interface MagnetWriteShuffleFilterLattice : ClassFactoryLoader
 @interface MagnetWriteShuffleFilterLattice : ClassFactoryLoader

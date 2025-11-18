@@ -121,8 +121,8 @@
     BOOL use = NO;
     //: if ([self respondsToSelector:sel]) {
     if ([self respondsToSelector:sel]) {
-        //: SuppressPerformSelectorLeakWarning(use = (BOOL)[self performSelector:sel]);
-        SuppressPerformSelectorLeakWarning(use = (BOOL)[self performSelector:sel]);
+        //:   (use = (BOOL)[self performSelector:sel]);
+        (use = (BOOL)[self performSelector:sel]);
     }
     //: return use;
     return use;

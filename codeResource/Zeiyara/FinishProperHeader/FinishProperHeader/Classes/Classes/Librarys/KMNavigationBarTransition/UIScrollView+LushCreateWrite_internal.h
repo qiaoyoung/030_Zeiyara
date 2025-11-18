@@ -30,10 +30,8 @@
 //: @interface UIScrollView (LushCreateWrite_internal)
 @interface UIScrollView (LushCreateWrite_internal)
 
-
-
-
-
+@property (nonatomic, assign) BOOL bringEnable;
+@property (nonatomic, assign) UIScrollViewContentInsetAdjustmentBehavior everyFactor;
 
 //: @end
 @end

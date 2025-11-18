@@ -10,7 +10,7 @@
 
 // __M_A_C_R_O__
 //: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+#import "DistinctMutualWorkflowAnimatorProjector.h"
 
 //: @interface DistinctMutualWorkflowAnimatorProjector (QuintessentialContentTreat)
 @interface DistinctMutualWorkflowAnimatorProjector (QuintessentialContentTreat)

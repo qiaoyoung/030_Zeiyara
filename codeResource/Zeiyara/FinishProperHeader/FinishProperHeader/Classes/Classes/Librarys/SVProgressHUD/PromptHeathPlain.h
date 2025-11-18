@@ -101,7 +101,6 @@ typedef void (^PromptHeathPlainDismissCompletion)(void);
 
 /// Represents the default style for the HUD.
 /// @discussion Default: PromptHeathPlainStyleAutomatic.
-__attribute__((annotate("ui_appearance_selector")));
 
 /// Thickness of the ring shown in the HUD.
 /// @discussion Default: 2 pt.
@@ -132,7 +131,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// The image displayed when showing success messages.
 /// @discussion Default: checkmark from SF Symbols (iOS 13+) or the bundled success image provided by Freepik.
 //: @property (strong, nonatomic, nonnull) UIImage *successImage __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIImage *volumeImage /// The minimum size for the HUD. Useful for maintaining a consistent size when the message might cause resizing.
+@property (strong, nonatomic, nonnull) UIImage *volumeImage; /// The minimum size for the HUD. Useful for maintaining a consistent size when the message might cause resizing.
 /// @discussion Default: CGSizeZero.
 //: @property (assign, nonatomic) CGSize minimumSize __attribute__((annotate("ui_appearance_selector")));
 @property (assign, nonatomic) CGSize refer __attribute__((annotate("ui_appearance_selector")));
@@ -140,14 +139,14 @@ __attribute__((annotate("ui_appearance_selector")));
 /// A specific view for extensions. This property is only used if #define SV_APP_EXTENSIONS is set.
 /// @discussion Default: nil.
 //: @property (strong, nonatomic, nonnull) UIView *viewForExtension __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIView *option /// The minimum amount of time in seconds the HUD will display.
+@property (strong, nonatomic, nonnull) UIView *option; /// The minimum amount of time in seconds the HUD will display.
 /// @discussion Default: 5.0 seconds.
 //: @property (assign, nonatomic) NSTimeInterval minimumDismissTimeInterval;
 @property (assign, nonatomic) NSTimeInterval complex;
  /// The maximum amount of time in seconds the HUD will display.
 /// @discussion Default: CGFLOAT_MAX.
 //: @property (assign, nonatomic) NSTimeInterval maximumDismissTimeInterval;
-@property (assign, nonatomic) NSTimeInterval pressure;
+@property (assign, nonatomic) NSTimeInterval pressure
  __attribute__((annotate("ui_appearance_selector")));
 
 /// Color for the background layer behind the HUD.
@@ -158,7 +157,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Foreground color used for content in the HUD.
 /// @discussion Default: [UIColor blackColor].
 //: @property (strong, nonatomic, nonnull) UIColor *foregroundColor __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIColor *account //: @property (assign, nonatomic) PromptHeathPlainStyle defaultStyle __attribute__((annotate("ui_appearance_selector")));
+@property (strong, nonatomic, nonnull) UIColor *account; //: @property (assign, nonatomic) PromptHeathPlainStyle defaultStyle __attribute__((annotate("ui_appearance_selector")));
 @property (assign, nonatomic) PromptHeathPlainStyle hide __attribute__((annotate("ui_appearance_selector")));
 
 /// Duration of the fade-out animation when hiding the HUD.
@@ -179,7 +178,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// The maximum window level on which the HUD can be displayed.
 /// @discussion Default: UIWindowLevelNormal.
 //: @property (assign, nonatomic) UIWindowLevel maxSupportedWindowLevel;
-@property (assign, nonatomic) UIWindowLevel response;
+@property (assign, nonatomic) UIWindowLevel response
  __attribute__((annotate("ui_appearance_selector")));
 
 /// Size of any images displayed within the HUD.
@@ -195,18 +194,17 @@ __attribute__((annotate("ui_appearance_selector")));
 /// The interval in seconds to wait before displaying the HUD. If the HUD is displayed before this time elapses, this timer is reset.
 /// @discussion Default: 0 seconds.
 //: @property (assign, nonatomic) NSTimeInterval graceTimeInterval;
-@property (assign, nonatomic) NSTimeInterval specific;
+@property (assign, nonatomic) NSTimeInterval specific
  __attribute__((annotate("ui_appearance_selector")));
 
 /// Corner radius of the HUD view.
 /// @discussion Default: 14 pt.
 //: @property (assign, nonatomic) CGFloat cornerRadius __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) CGFloat extraTotal
+@property (assign, nonatomic) CGFloat extraTotal;
 /// Indicates if haptic feedback should be used.
 /// @discussion Default: NO.
 //: @property (assign, nonatomic) BOOL hapticsEnabled;
-@property (assign, nonatomic) BOOL chiropteran;
-
+@property (assign, nonatomic) BOOL chiropteran
 __attribute__((annotate("ui_appearance_selector")));
 
 /// Indicates whether images within the HUD should be tinted.
@@ -217,22 +215,22 @@ __attribute__((annotate("ui_appearance_selector")));
 
 /// The container view used for displaying the HUD. If nil, the default window level is used.
 //: @property (strong, nonatomic, nullable) UIView *containerView;
-@property (strong, nonatomic, nullable) UIView *personPlace;
+@property (strong, nonatomic, nullable) UIView *personPlace
  __attribute__((annotate("ui_appearance_selector")));
 
 /// Color for any foreground images in the HUD.
 /// @discussion Default: same as foregroundColor.
 //: @property (strong, nonatomic, nullable) UIColor *foregroundImageColor __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nullable) UIColor *diamondJump /// Indicates if motion effects should be applied to the HUD.
+@property (strong, nonatomic, nullable) UIColor *diamondJump; /// Indicates if motion effects should be applied to the HUD.
 /// @discussion Default: YES.
 //: @property (assign, nonatomic) BOOL motionEffectEnabled;
-@property (assign, nonatomic) BOOL edgeItem;
+@property (assign, nonatomic) BOOL edgeItem
  __attribute__((annotate("ui_appearance_selector")));
 
 /// Radius of the ring shown in the HUD when there's no associated text.
 /// @discussion Default: 24 pt.
 //: @property (assign, nonatomic) CGFloat ringNoTextRadius __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) CGFloat neutralSurfaceFloat
+@property (assign, nonatomic) CGFloat neutralSurfaceFloat;
 /// Offset from the center position, can be used to adjust the HUD position.
 /// @discussion Default: 0, 0.
 //: @property (assign, nonatomic) UIOffset offsetFromCenter __attribute__((annotate("ui_appearance_selector")));
@@ -242,7 +240,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Radius of the ring shown in the HUD when there's associated text.
 /// @discussion Default: 18 pt.
 //: @property (assign, nonatomic) CGFloat ringRadius __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) CGFloat radius
+@property (assign, nonatomic) CGFloat radius;
 /// Sets the foreground color for the HUD.
 /// @param color Desired foreground color.
 /// @discussion These implicitly set the HUD's style to `PromptHeathPlainStyleCustom`.

@@ -221,8 +221,8 @@
 #import "LedgerSnackbarGenuine.h"
 //: #import "SpectrumModifyPresenter.h"
 #import "SpectrumModifyPresenter.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 //: #import "InletTextureConsume.h"
 #import "InletTextureConsume.h"
 //: #import "NSString+QuintessentialContentTreat.h"

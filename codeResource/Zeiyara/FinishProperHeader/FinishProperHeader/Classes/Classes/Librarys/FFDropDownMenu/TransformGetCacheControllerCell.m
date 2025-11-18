@@ -146,7 +146,7 @@
 //: - (void)setMenuModel:(id)menuModel {
 - (void)setNetworkId:(id)menuModel {
     //: _menuModel = menuModel;
-    _menuModel = menuModel;
+    menuModel = menuModel;
 
     //: TransformGetCacheControllerModel *realMenuModel = (TransformGetCacheControllerModel *)menuModel;
     TransformGetCacheControllerModel *realMenuModel = (TransformGetCacheControllerModel *)menuModel;

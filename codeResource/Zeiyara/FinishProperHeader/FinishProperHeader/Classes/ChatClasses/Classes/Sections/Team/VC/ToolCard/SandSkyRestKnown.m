@@ -378,8 +378,8 @@ typedef struct {
 #import "StringControllerPlannerMine.h"
 //: #import "BrokerModuleForestProjector.h"
 #import "BrokerModuleForestProjector.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 //: #import "InletTextureConsume.h"
 #import "InletTextureConsume.h"
 //: #import "UpdatePastHelperTarget.h"

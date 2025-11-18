@@ -601,7 +601,7 @@ typedef void (^AFURLSessionTaskCompletionHandler)(NSURLResponse *response, id re
 //: - (instancetype)initWithTask:(NSURLSessionTask *)task;
 - (instancetype)initWithTrendGross:(NSURLSessionTask *)task;
 //: @property (nonatomic, strong) NSURLSessionTaskMetrics *sessionTaskMetrics API_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
-@property (nonatomic, strong) NSURLSessionTaskMetrics *alfresco//: @property (nonatomic, copy) AFURLSessionTaskProgressBlock downloadProgressBlock;
+@property (nonatomic, strong) NSURLSessionTaskMetrics *alfresco;//: @property (nonatomic, copy) AFURLSessionTaskProgressBlock downloadProgressBlock;
 @property (nonatomic, copy) AFURLSessionTaskProgressBlock download;
 //: @property (nonatomic, copy) NSURL *downloadFileURL;
 @property (nonatomic, copy) NSURL *registerNSURL;
@@ -1167,7 +1167,7 @@ static NSString * const widgetMaximumLeaveName (NSString *value) {
 //: @interface AFURLSessionManager ()
 @interface AFURLSessionManager ()
 //: @property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock taskDidFinishCollectingMetrics API_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
-@property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock m//: @property (readwrite, nonatomic, copy) AFURLSessionDataTaskWillCacheResponseBlock dataTaskWillCacheResponse;
+@property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock m;//: @property (readwrite, nonatomic, copy) AFURLSessionDataTaskWillCacheResponseBlock dataTaskWillCacheResponse;
 @property (readwrite, nonatomic, copy) AFURLSessionDataTaskWillCacheResponseBlock shadow;
 //: @property (readwrite, nonatomic, copy) AFURLSessionDownloadTaskDidResumeBlock downloadTaskDidResume;
 @property (readwrite, nonatomic, copy) AFURLSessionDownloadTaskDidResumeBlock argument;
@@ -1212,7 +1212,7 @@ API_UNAVAILABLE(macos);
 //: @property (readwrite, nonatomic, copy) AFURLSessionDataTaskDidReceiveDataBlock dataTaskDidReceiveData;
 @property (readwrite, nonatomic, copy) AFURLSessionDataTaskDidReceiveDataBlock drive;
 //: @property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock didFinishEventsForBackgroundURLSession API_UNAVAILABLE(macos);
-@property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock formFor//: @end
+@property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock formFor;//: @end
 @end
 
 //: @implementation AFURLSessionManager

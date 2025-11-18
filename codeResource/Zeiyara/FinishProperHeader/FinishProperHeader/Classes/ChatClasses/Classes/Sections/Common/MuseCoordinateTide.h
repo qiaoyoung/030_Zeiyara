@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 
 //: @interface MuseCoordinateTide : UIControl
 @interface MuseCoordinateTide : UIControl

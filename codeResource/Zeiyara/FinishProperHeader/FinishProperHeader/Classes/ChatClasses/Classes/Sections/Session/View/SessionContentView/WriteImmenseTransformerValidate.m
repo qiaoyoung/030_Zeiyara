@@ -26,8 +26,8 @@ Byte screenPorterEvent[] = {76, 25, 43, 7, 99, 249, 204, 113, 113, 113, 118, 148
 #import "TextSearchLoad.h"
 //: #import "LegacyCollectionStyle.h"
 #import "LegacyCollectionStyle.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 //: #import <YYImage/YYImage.h>
 #import <YYImage/YYImage.h>
 //: #import "CandidHeaderProgramAccess.h"

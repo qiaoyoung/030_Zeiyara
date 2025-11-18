@@ -307,8 +307,8 @@ typedef struct {
 #import "SpectrumModifyPresenter.h"
 //: #import "LedgerSnackbarGenuine.h"
 #import "LedgerSnackbarGenuine.h"
-//: #import "NativeWidgetResize.h"
-#import "NativeWidgetResize.h"
+//:  
+ 
 //: #import "InletTextureConsume.h"
 #import "InletTextureConsume.h"
 //: #import "UpdatePastHelperTarget.h"
