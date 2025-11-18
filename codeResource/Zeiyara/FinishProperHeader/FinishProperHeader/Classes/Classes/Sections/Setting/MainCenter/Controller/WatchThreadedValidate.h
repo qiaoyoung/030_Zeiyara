@@ -1,0 +1,17 @@
+//
+//  WatchThreadedValidate.h
+//  Zeiyara
+//
+//  Created by Yan Wang on 2024/12/30.
+//  Copyright © 2024 Zeiyara. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface WatchThreadedValidate : UIViewController
+
+@end
+
+NS_ASSUME_NONNULL_END
