@@ -134,23 +134,23 @@ typedef struct {
 //        [self addSubview:_activity];
 
         //: self.progressView = [[CandidHeaderProgramAccess alloc] initWithFrame:self.bounds];
-        self.minute = [[CandidHeaderProgramAccess alloc] initWithFrame:self.bounds];
+        self.progressView = [[CandidHeaderProgramAccess alloc] initWithFrame:self.bounds];
         //: self.progressView.backgroundColor = [UIColor clearColor];
-        self.minute.backgroundColor = [UIColor clearColor];
+        self.progressView.backgroundColor = [UIColor clearColor];
         //: self.progressView.translatesAutoresizingMaskIntoConstraints = NO;
-        self.minute.translatesAutoresizingMaskIntoConstraints = NO;
+        self.progressView.translatesAutoresizingMaskIntoConstraints = NO;
         //: self.progressView.showsText = YES;
-        self.minute.foot = YES;
+        self.progressView.foot = YES;
         //: self.progressView.tintColor = [UIColor colorWithHexString:@"#A148FF"];
-        self.minute.tintColor = [UIColor distinctDown:[AntData commonCombinedLogger]];
+        self.progressView.tintColor = [UIColor distinctDown:[AntData commonCombinedLogger]];
 //        self.progressView.tintColor = RGB_COLOR_String(kCommonBGColor_All);
 //        self.progressView.tintColor = [UIColor colorWithPatternImage:[PlayfulExpandRepaintNeat getLinearGradientImage:RGB_COLOR_String(kCommonBGColor_begin) and:RGB_COLOR_String(kCommonBGColor_end) directionType:PlayfulExpandRepaintNeatDirectionLevel]];
 
         //: [self addSubview:self.progressView];
-        [self addSubview:self.minute];
+        [self addSubview:self.progressView];
 
         //: NSDictionary *views = NSDictionaryOfVariableBindings(_progressView);
-        NSDictionary *views = NSDictionaryOfVariableBindings(_minute);
+        NSDictionary *views = NSDictionaryOfVariableBindings(_progressView);
         //: [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[_progressView]-0-|" options:0 metrics:nil views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:[AntData componentSpringKey] options:0 metrics:nil views:views]];
         //: [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_progressView]-0-|" options:0 metrics:nil views:views]];
@@ -179,7 +179,7 @@ typedef struct {
 //        _progressLabel.text = [NSString stringWithFormat:@"%d%%", (int)(progress*100)];
 //        [_activity startAnimating];
         //: self.progressView.progress = progress;
-        self.minute.alongside = progress;
+        self.progressView.alongside = progress;
     }
 
     //: [self setNeedsLayout];

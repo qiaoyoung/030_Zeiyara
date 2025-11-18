@@ -1797,101 +1797,101 @@ ListviewThrottleModifyUnder,OceanUnityMacroDelegate,UINavigationControllerDelega
     //: WalkWisdomWild *teamShareCart = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamShareCart = [[WalkWisdomWild alloc] init];
     //: teamShareCart.title = [ViaPrimaryFacade getTextWithKey:@"send_group_card"];
-    teamShareCart.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].componentContextSettings];
+    teamShareCart.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].componentContextSettings];
     //: teamShareCart.subTitle = self.teamListManager.team.teamName;
-    teamShareCart.frankText = self.standingManager.alreadyRefresh.teamName;
+    teamShareCart.attachDown = self.standingManager.alreadyRefresh.teamName;
     //: teamShareCart.action = @selector(sendGroupCart);
-    teamShareCart.scrubIndex = @selector(pastRelative);
+    teamShareCart.noneAdd = @selector(pastRelative);
     //: teamShareCart.rowHeight = 50.f;
-    teamShareCart.question = 50.f;
+    teamShareCart.activeFor = 50.f;
     //: teamShareCart.type = TemplateGardenSpriteCommon;
-    teamShareCart.adminType = TemplateGardenSpriteCommon;
+    teamShareCart.preserveLimit = TemplateGardenSpriteCommon;
 //    teamShareCart.actionDisabled = !canEdit;
     //: teamShareCart.img = [UIImage imageNamed:@"ic_card_share"];
-    teamShareCart.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].commonSuspicionPreference];
+    teamShareCart.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].commonSuspicionPreference];
 
     //: WalkWisdomWild *teamMembers = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamMembers = [[WalkWisdomWild alloc] init];
     //: teamMembers.title = [ViaPrimaryFacade getTextWithKey:@"group_info_activity_team_member"];
-    teamMembers.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].screenImagineAlert];
+    teamMembers.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].screenImagineAlert];
     //: teamMembers.subTitle = self.teamListManager.team.teamName;
-    teamMembers.frankText = self.standingManager.alreadyRefresh.teamName;
+    teamMembers.attachDown = self.standingManager.alreadyRefresh.teamName;
     //: teamMembers.action = @selector(enterMemberCard);
-    teamMembers.scrubIndex = @selector(reEnterAlong);
+    teamMembers.noneAdd = @selector(reEnterAlong);
     //: teamMembers.rowHeight = 50.f;
-    teamMembers.question = 50.f;
+    teamMembers.activeFor = 50.f;
     //: teamMembers.type = TemplateGardenSpriteCommon;
-    teamMembers.adminType = TemplateGardenSpriteCommon;
+    teamMembers.preserveLimit = TemplateGardenSpriteCommon;
     //: teamMembers.actionDisabled = !self.canMemberInfo;
-    teamMembers.translationIndicators = !self.preserve;
+    teamMembers.schemeDisabled = !self.preserve;
     //: teamMembers.img = [UIImage imageNamed:@"ic_group_members"];
-    teamMembers.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].commonVisitorSettings];
+    teamMembers.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].commonVisitorSettings];
 
     //: WalkWisdomWild *teamAnnoucement = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamAnnoucement = [[WalkWisdomWild alloc] init];
     //: teamAnnoucement.title = [ViaPrimaryFacade getTextWithKey:@"activity_group_info_group_toast"];
-    teamAnnoucement.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].k_bridgeRetirementPage];
+    teamAnnoucement.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].k_bridgeRetirementPage];
     //: teamAnnoucement.subTitle = self.teamListManager.team.teamName;
-    teamAnnoucement.frankText = self.standingManager.alreadyRefresh.teamName;
+    teamAnnoucement.attachDown = self.standingManager.alreadyRefresh.teamName;
     //: teamAnnoucement.action = @selector(updateTeamAnnouncement);
-    teamAnnoucement.scrubIndex = @selector(estimatedPublication);
+    teamAnnoucement.noneAdd = @selector(estimatedPublication);
     //: teamAnnoucement.rowHeight = 50.f;
-    teamAnnoucement.question = 50.f;
+    teamAnnoucement.activeFor = 50.f;
     //: teamAnnoucement.type = TemplateGardenSpriteCommon;
-    teamAnnoucement.adminType = TemplateGardenSpriteCommon;
+    teamAnnoucement.preserveLimit = TemplateGardenSpriteCommon;
 //    teamAnnoucement.actionDisabled = !canEdit;
     //: teamAnnoucement.img = [UIImage imageNamed:@"ic_announcement"];
-    teamAnnoucement.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].widgetPresentConfig];
+    teamAnnoucement.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].widgetPresentConfig];
 
     //: WalkWisdomWild *teamName = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamName = [[WalkWisdomWild alloc] init];
     //: teamName.title = [ViaPrimaryFacade getTextWithKey:@"Group_name"];
-    teamName.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].screenListenerDevice];
+    teamName.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].screenListenerDevice];
     //: teamName.subTitle = self.teamListManager.team.teamName;
-    teamName.frankText = self.standingManager.alreadyRefresh.teamName;
+    teamName.attachDown = self.standingManager.alreadyRefresh.teamName;
     //: teamName.action = @selector(updateTeamName);
-    teamName.scrubIndex = @selector(brandFit);
+    teamName.noneAdd = @selector(brandFit);
     //: teamName.rowHeight = 50.f;
-    teamName.question = 50.f;
+    teamName.activeFor = 50.f;
     //: teamName.type = TemplateGardenSpriteCommon;
-    teamName.adminType = TemplateGardenSpriteCommon;
+    teamName.preserveLimit = TemplateGardenSpriteCommon;
     //: teamName.actionDisabled = !canEdit;
-    teamName.translationIndicators = !canEdit;
+    teamName.schemeDisabled = !canEdit;
     //: teamName.img = [UIImage imageNamed:@"ic_group_edit"];
-    teamName.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].viewTallConfig];
+    teamName.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].viewTallConfig];
 
 
     //: WalkWisdomWild *teamNick = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamNick = [[WalkWisdomWild alloc] init];
     //: teamNick.title = [ViaPrimaryFacade getTextWithKey:@"activity_group_info_group_nick"];
-    teamNick.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].featureSaveName];
+    teamNick.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].featureSaveName];
     //: teamNick.subTitle = self.teamListManager.myTeamInfo.nickname;
-    teamNick.frankText = self.standingManager.arrangement.nickname;
+    teamNick.attachDown = self.standingManager.arrangement.nickname;
     //: teamNick.action = @selector(updateTeamNick);
-    teamNick.scrubIndex = @selector(familyDoor);
+    teamNick.noneAdd = @selector(familyDoor);
     //: teamNick.rowHeight = 50.f;
-    teamNick.question = 50.f;
+    teamNick.activeFor = 50.f;
     //: teamNick.type = TemplateGardenSpriteCommon;
-    teamNick.adminType = TemplateGardenSpriteCommon;
+    teamNick.preserveLimit = TemplateGardenSpriteCommon;
     //: teamNick.img = [UIImage imageNamed:@"ic_group_nick"];
-    teamNick.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].layoutPresentExpectSettings];
+    teamNick.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].layoutPresentExpectSettings];
 
     //: WalkWisdomWild *teamIntro = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamIntro = [[WalkWisdomWild alloc] init];
     //: teamIntro.title = [ViaPrimaryFacade getTextWithKey:@"team_info_set_activity_group_tip"];
-    teamIntro.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].featureAdditionalError];
+    teamIntro.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].featureAdditionalError];
     //: teamIntro.subTitle = self.teamListManager.team.intro.length ? self.teamListManager.team.intro : (canEdit ? [ViaPrimaryFacade getTextWithKey:@"team_info_set_activity_default_group_tip"] : @"");
-    teamIntro.frankText = self.standingManager.alreadyRefresh.intro.length ? self.standingManager.alreadyRefresh.intro : (canEdit ? [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].styleNeatSkiOperativeName] : @"");
+    teamIntro.attachDown = self.standingManager.alreadyRefresh.intro.length ? self.standingManager.alreadyRefresh.intro : (canEdit ? [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].styleNeatSkiOperativeName] : @"");
     //: teamIntro.action = @selector(updateTeamIntro);
-    teamIntro.scrubIndex = @selector(sizeSumro);
+    teamIntro.noneAdd = @selector(sizeSumro);
     //: teamIntro.rowHeight = 50.f;
-    teamIntro.question = 50.f;
+    teamIntro.activeFor = 50.f;
     //: teamIntro.type = TemplateGardenSpriteCommon;
-    teamIntro.adminType = TemplateGardenSpriteCommon;
+    teamIntro.preserveLimit = TemplateGardenSpriteCommon;
     //: teamIntro.actionDisabled = !canEdit;
-    teamIntro.translationIndicators = !canEdit;
+    teamIntro.schemeDisabled = !canEdit;
     //: teamIntro.img = [UIImage imageNamed:@"ic_group_introduction"];
-    teamIntro.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].kContextUtility];
+    teamIntro.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].kContextUtility];
 
 //    WalkWisdomWild *teamAnnouncement = [[WalkWisdomWild alloc] init];
 //    teamAnnouncement.title = @"群公告".nim_localized;
@@ -1906,170 +1906,170 @@ ListviewThrottleModifyUnder,OceanUnityMacroDelegate,UINavigationControllerDelega
     //: WalkWisdomWild *teamMute = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamMute = [[WalkWisdomWild alloc] init];
     //: teamMute.title = [ViaPrimaryFacade getTextWithKey:@"activity_group_info_group_mute"];
-    teamMute.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].themeTallTitle];
+    teamMute.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].themeTallTitle];
     //: teamMute.switchOn = inAllMuteMode;
-    teamMute.requestEnable = inAllMuteMode;
+    teamMute.alongEnable = inAllMuteMode;
 //    teamMute.subTitle = [OriginUpdateFleetBelowWorkbench teamMuteText:inAllMuteMode];
     //: teamMute.rowHeight = 50.f;
-    teamMute.question = 50.f;
+    teamMute.activeFor = 50.f;
     //: teamMute.type = TemplateGardenSpriteSwitch;
-    teamMute.adminType = TemplateGardenSpriteSwitch;
+    teamMute.preserveLimit = TemplateGardenSpriteSwitch;
     //: teamMute.optionItems = [OriginUpdateFleetBelowWorkbench teamMuteItemsWithSeleced:inAllMuteMode];
-    teamMute.technology = [OriginUpdateFleetBelowWorkbench onTarget:inAllMuteMode];
+    teamMute.frontPer = [OriginUpdateFleetBelowWorkbench onTarget:inAllMuteMode];
     //: teamMute.actionDisabled = !canEdit;
-    teamMute.translationIndicators = !canEdit;
+    teamMute.schemeDisabled = !canEdit;
     //: teamMute.selectedBlock = ^(id<ReadWorkflowAnimatorWreath> item) {
-    teamMute.pin = ^(id<ReadWorkflowAnimatorWreath> item) {
+    teamMute.above = ^(id<ReadWorkflowAnimatorWreath> item) {
         //: [weakSelf didUpdateTeamMute:[item.value integerValue]];
-        [weakSelf beneath:[item.sumerpret integerValue]];
+        [weakSelf beneath:[item.kind integerValue]];
     //: };
     };
     //: teamMute.identify = SecureRotateVineMineMute;
-    teamMute.safely = SecureRotateVineMineMute;
+    teamMute.exclusiveOf = SecureRotateVineMineMute;
     //: teamMute.img = [UIImage imageNamed:@"ic_group_all"];
-    teamMute.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].commonProductText];
+    teamMute.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].commonProductText];
 
     //: WalkWisdomWild *teamMuteList = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamMuteList = [[WalkWisdomWild alloc] init];
     //: teamMuteList.title = [ViaPrimaryFacade getTextWithKey:@"group_mute_member_list_activity_title"];
-    teamMuteList.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].featureVendorStraightPlatform];
+    teamMuteList.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].featureVendorStraightPlatform];
     //: teamMuteList.rowHeight = 50.f;
-    teamMuteList.question = 50.f;
+    teamMuteList.activeFor = 50.f;
     //: teamMuteList.type = TemplateGardenSpriteCommon;
-    teamMuteList.adminType = TemplateGardenSpriteCommon;
+    teamMuteList.preserveLimit = TemplateGardenSpriteCommon;
     //: teamMuteList.action = @selector(enterMuteList);
-    teamMuteList.scrubIndex = @selector(permissionList);
+    teamMuteList.noneAdd = @selector(permissionList);
     //: teamMuteList.img = [UIImage imageNamed:@"ic_card_black"];
-    teamMuteList.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].screenReasonError];
+    teamMuteList.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].screenReasonError];
 
     //: WalkWisdomWild *teamNotify = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamNotify = [[WalkWisdomWild alloc] init];
     //: teamNotify.title = [ViaPrimaryFacade getTextWithKey:@"message_info_activity_msg_notice"];
-    teamNotify.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].layoutCharacteristicText];//@"消息提醒".nim_localized;
+    teamNotify.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].layoutCharacteristicText];//@"消息提醒".nim_localized;
     //: teamNotify.subTitle = [OriginUpdateFleetBelowWorkbench notifyStateText:self.teamListManager.team.notifyStateForNewMsg];
-    teamNotify.frankText = [OriginUpdateFleetBelowWorkbench valueForm:self.standingManager.alreadyRefresh.notifyStateForNewMsg];
+    teamNotify.attachDown = [OriginUpdateFleetBelowWorkbench valueForm:self.standingManager.alreadyRefresh.notifyStateForNewMsg];
     //: teamNotify.rowHeight = 50.f;
-    teamNotify.question = 50.f;
+    teamNotify.activeFor = 50.f;
     //: teamNotify.type = TemplateGardenSpriteSelected;
-    teamNotify.adminType = TemplateGardenSpriteSelected;
+    teamNotify.preserveLimit = TemplateGardenSpriteSelected;
     //: teamNotify.optionItems = [OriginUpdateFleetBelowWorkbench notifyStateItemsWithSeleced:self.teamListManager.team.notifyStateForNewMsg];
-    teamNotify.technology = [OriginUpdateFleetBelowWorkbench feed:self.standingManager.alreadyRefresh.notifyStateForNewMsg];
+    teamNotify.frontPer = [OriginUpdateFleetBelowWorkbench feed:self.standingManager.alreadyRefresh.notifyStateForNewMsg];
     //: teamNotify.selectedBlock = ^(id<ReadWorkflowAnimatorWreath> item) {
-    teamNotify.pin = ^(id<ReadWorkflowAnimatorWreath> item) {
+    teamNotify.above = ^(id<ReadWorkflowAnimatorWreath> item) {
         //: [weakSelf didUpdateNotifiyState:[item.value integerValue]];
-        [weakSelf amidTo:[item.sumerpret integerValue]];
+        [weakSelf amidTo:[item.kind integerValue]];
     //: };
     };
     //: teamNotify.img = [UIImage imageNamed:@"ic_group_notice"];
-    teamNotify.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].componentDrillWillingHelper];
+    teamNotify.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].componentDrillWillingHelper];
 
 
     //: WalkWisdomWild *itemAuth = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *itemAuth = [[WalkWisdomWild alloc] init];
     //: itemAuth.title = [ViaPrimaryFacade getTextWithKey:@"authentication"];
-    itemAuth.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].appVisitorLogger];
+    itemAuth.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].appVisitorLogger];
     //: itemAuth.subTitle = [OriginUpdateFleetBelowWorkbench jonModeText:self.teamListManager.team.joinMode];
-    itemAuth.frankText = [OriginUpdateFleetBelowWorkbench takeWrittenMatter:self.standingManager.alreadyRefresh.joinMode];
+    itemAuth.attachDown = [OriginUpdateFleetBelowWorkbench takeWrittenMatter:self.standingManager.alreadyRefresh.joinMode];
     //: itemAuth.actionDisabled = !canEdit;
-    itemAuth.translationIndicators = !canEdit;
+    itemAuth.schemeDisabled = !canEdit;
     //: itemAuth.rowHeight = 50.f;
-    itemAuth.question = 50.f;
+    itemAuth.activeFor = 50.f;
     //: itemAuth.type = TemplateGardenSpriteSelected;
-    itemAuth.adminType = TemplateGardenSpriteSelected;
+    itemAuth.preserveLimit = TemplateGardenSpriteSelected;
     //: itemAuth.optionItems = [OriginUpdateFleetBelowWorkbench joinModeItemsWithSeleced:self.teamListManager.team.joinMode];
-    itemAuth.technology = [OriginUpdateFleetBelowWorkbench seleced:self.standingManager.alreadyRefresh.joinMode];
+    itemAuth.frontPer = [OriginUpdateFleetBelowWorkbench seleced:self.standingManager.alreadyRefresh.joinMode];
     //: itemAuth.selectedBlock = ^(id<ReadWorkflowAnimatorWreath> item) {
-    itemAuth.pin = ^(id<ReadWorkflowAnimatorWreath> item) {
+    itemAuth.above = ^(id<ReadWorkflowAnimatorWreath> item) {
         //: [weakSelf didupdateTeamJoinMode:[item.value integerValue]];
-        [weakSelf announcement:[item.sumerpret integerValue]];
+        [weakSelf announcement:[item.kind integerValue]];
     //: };
     };
     //: itemAuth.img = [UIImage imageNamed:@"ic_identity_authentication"];
-    itemAuth.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].widgetStandLogger];
+    itemAuth.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].widgetStandLogger];
 
     //: WalkWisdomWild *itemInvite = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *itemInvite = [[WalkWisdomWild alloc] init];
     //: itemInvite.title = [ViaPrimaryFacade getTextWithKey:@"activity_group_info_invite_permission"];
-    itemInvite.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].kVendorPath];
+    itemInvite.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].kVendorPath];
     //: itemInvite.subTitle = [OriginUpdateFleetBelowWorkbench InviteModeText:self.teamListManager.team.inviteMode];
-    itemInvite.frankText = [OriginUpdateFleetBelowWorkbench limb:self.standingManager.alreadyRefresh.inviteMode];
+    itemInvite.attachDown = [OriginUpdateFleetBelowWorkbench limb:self.standingManager.alreadyRefresh.inviteMode];
     //: itemInvite.actionDisabled = !canEdit;
-    itemInvite.translationIndicators = !canEdit;
+    itemInvite.schemeDisabled = !canEdit;
     //: itemInvite.rowHeight = 50.f;
-    itemInvite.question = 50.f;
+    itemInvite.activeFor = 50.f;
     //: itemInvite.type = TemplateGardenSpriteSelected;
-    itemInvite.adminType = TemplateGardenSpriteSelected;
+    itemInvite.preserveLimit = TemplateGardenSpriteSelected;
     //: itemInvite.optionItems = [OriginUpdateFleetBelowWorkbench InviteModeItemsWithSeleced:self.teamListManager.team.inviteMode];
-    itemInvite.technology = [OriginUpdateFleetBelowWorkbench below:self.standingManager.alreadyRefresh.inviteMode];
+    itemInvite.frontPer = [OriginUpdateFleetBelowWorkbench below:self.standingManager.alreadyRefresh.inviteMode];
     //: itemInvite.selectedBlock = ^(id<ReadWorkflowAnimatorWreath> item) {
-    itemInvite.pin = ^(id<ReadWorkflowAnimatorWreath> item) {
+    itemInvite.above = ^(id<ReadWorkflowAnimatorWreath> item) {
         //: [weakSelf didUpdateTeamInviteMode:[item.value integerValue]];
-        [weakSelf modifyCellGhostWord:[item.sumerpret integerValue]];
+        [weakSelf modifyCellGhostWord:[item.kind integerValue]];
     //: };
     };
     //: itemInvite.img = [UIImage imageNamed:@"ic_invite"];
-    itemInvite.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].viewDrillWillingAlert];
+    itemInvite.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].viewDrillWillingAlert];
 
     //: WalkWisdomWild *itemUpdateInfo = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *itemUpdateInfo = [[WalkWisdomWild alloc] init];
     //: itemUpdateInfo.title = [ViaPrimaryFacade getTextWithKey:@"activity_group_info_group_modify_permission"];
-    itemUpdateInfo.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].layoutReasonConfig];
+    itemUpdateInfo.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].layoutReasonConfig];
     //: itemUpdateInfo.subTitle = [OriginUpdateFleetBelowWorkbench updateInfoModeText:self.teamListManager.team.updateInfoMode];
-    itemUpdateInfo.frankText = [OriginUpdateFleetBelowWorkbench tip:self.standingManager.alreadyRefresh.updateInfoMode];
+    itemUpdateInfo.attachDown = [OriginUpdateFleetBelowWorkbench tip:self.standingManager.alreadyRefresh.updateInfoMode];
     //: itemUpdateInfo.actionDisabled = !canEdit;
-    itemUpdateInfo.translationIndicators = !canEdit;
+    itemUpdateInfo.schemeDisabled = !canEdit;
     //: itemUpdateInfo.rowHeight = 50.f;
-    itemUpdateInfo.question = 50.f;
+    itemUpdateInfo.activeFor = 50.f;
     //: itemUpdateInfo.type = TemplateGardenSpriteSelected;
-    itemUpdateInfo.adminType = TemplateGardenSpriteSelected;
+    itemUpdateInfo.preserveLimit = TemplateGardenSpriteSelected;
     //: itemUpdateInfo.optionItems = [OriginUpdateFleetBelowWorkbench updateInfoModeItemsWithSeleced:self.teamListManager.team.updateInfoMode];
-    itemUpdateInfo.technology = [OriginUpdateFleetBelowWorkbench message:self.standingManager.alreadyRefresh.updateInfoMode];
+    itemUpdateInfo.frontPer = [OriginUpdateFleetBelowWorkbench message:self.standingManager.alreadyRefresh.updateInfoMode];
     //: itemUpdateInfo.selectedBlock = ^(id<ReadWorkflowAnimatorWreath> item) {
-    itemUpdateInfo.pin = ^(id<ReadWorkflowAnimatorWreath> item) {
+    itemUpdateInfo.above = ^(id<ReadWorkflowAnimatorWreath> item) {
         //: [weakSelf didUpdateTeamInfoMode:[item.value integerValue]];
-        [weakSelf restore:[item.sumerpret integerValue]];
+        [weakSelf restore:[item.kind integerValue]];
     //: };
     };
     //: itemUpdateInfo.img = [UIImage imageNamed:@"ic_modify"];
-    itemUpdateInfo.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].appCordConfig];
+    itemUpdateInfo.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].appCordConfig];
 
     //: WalkWisdomWild *itemBeInvite = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *itemBeInvite = [[WalkWisdomWild alloc] init];
     //: itemBeInvite.title = [ViaPrimaryFacade getTextWithKey:@"activity_group_info_invite_verify"];
-    itemBeInvite.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].screenFitPassingCompletePreference];
+    itemBeInvite.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].screenFitPassingCompletePreference];
     //: itemBeInvite.subTitle = [OriginUpdateFleetBelowWorkbench beInviteModeText:self.teamListManager.team.beInviteMode];
-    itemBeInvite.frankText = [OriginUpdateFleetBelowWorkbench packKeyText:self.standingManager.alreadyRefresh.beInviteMode];
+    itemBeInvite.attachDown = [OriginUpdateFleetBelowWorkbench packKeyText:self.standingManager.alreadyRefresh.beInviteMode];
     //: itemBeInvite.actionDisabled = !canEdit;
-    itemBeInvite.translationIndicators = !canEdit;
+    itemBeInvite.schemeDisabled = !canEdit;
     //: itemBeInvite.rowHeight = 50.f;
-    itemBeInvite.question = 50.f;
+    itemBeInvite.activeFor = 50.f;
     //: itemBeInvite.type = TemplateGardenSpriteSelected;
-    itemBeInvite.adminType = TemplateGardenSpriteSelected;
+    itemBeInvite.preserveLimit = TemplateGardenSpriteSelected;
     //: itemBeInvite.optionItems = [OriginUpdateFleetBelowWorkbench beInviteModeItemsWithSeleced:self.teamListManager.team.beInviteMode];
-    itemBeInvite.technology = [OriginUpdateFleetBelowWorkbench beSession:self.standingManager.alreadyRefresh.beInviteMode];
+    itemBeInvite.frontPer = [OriginUpdateFleetBelowWorkbench beSession:self.standingManager.alreadyRefresh.beInviteMode];
     //: itemBeInvite.selectedBlock = ^(id<ReadWorkflowAnimatorWreath> item) {
-    itemBeInvite.pin = ^(id<ReadWorkflowAnimatorWreath> item) {
+    itemBeInvite.above = ^(id<ReadWorkflowAnimatorWreath> item) {
         //: [weakSelf didUpdateTeamBeInviteMode:[item.value integerValue]];
-        [weakSelf reload:[item.sumerpret integerValue]];
+        [weakSelf reload:[item.kind integerValue]];
     //: };
     };
     //: itemBeInvite.img = [UIImage imageNamed:@"ic_invitee_verification"];
-    itemBeInvite.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].k_containerPlatform];
+    itemBeInvite.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].k_containerPlatform];
 
     //: WalkWisdomWild *itemTop = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *itemTop = [[WalkWisdomWild alloc] init];
     //: itemTop.title = [ViaPrimaryFacade getTextWithKey:@"Chat_settop"];
-    itemTop.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].appPartySettings];
+    itemTop.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].appPartySettings];
     //: itemTop.switchOn = self.option.isTop;
-    itemTop.requestEnable = self.weekKeypathOption.frame;
+    itemTop.alongEnable = self.weekKeypathOption.frame;
     //: itemTop.rowHeight = 50.f;
-    itemTop.question = 50.f;
+    itemTop.activeFor = 50.f;
     //: itemTop.type = TemplateGardenSpriteSwitch;
-    itemTop.adminType = TemplateGardenSpriteSwitch;
+    itemTop.preserveLimit = TemplateGardenSpriteSwitch;
     //: itemTop.identify = SecureRotateVineMineTop;
-    itemTop.safely = SecureRotateVineMineTop;
+    itemTop.exclusiveOf = SecureRotateVineMineTop;
     //: itemTop.img = [UIImage imageNamed:@"ic_group_top"];
-    itemTop.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].k_springMessage];
+    itemTop.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].k_springMessage];
 
 //        WalkWisdomWild *itemQuit = [[WalkWisdomWild alloc] init];
 //        itemQuit.title = @"退出高级群".nim_localized;
@@ -2081,28 +2081,28 @@ ListviewThrottleModifyUnder,OceanUnityMacroDelegate,UINavigationControllerDelega
         //: WalkWisdomWild *itemDismiss = [[WalkWisdomWild alloc] init];
         WalkWisdomWild *itemDismiss = [[WalkWisdomWild alloc] init];
         //: itemDismiss.title = [ViaPrimaryFacade getTextWithKey:@"group_info_activity_jiesan"];
-        itemDismiss.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].colorWhisperHelper];
+        itemDismiss.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].colorWhisperHelper];
         //: itemDismiss.action = @selector(dismissTeam);
-        itemDismiss.scrubIndex = @selector(lightGreen);
+        itemDismiss.noneAdd = @selector(lightGreen);
         //: itemDismiss.rowHeight = 50.f;
-        itemDismiss.question = 50.f;
+        itemDismiss.activeFor = 50.f;
         //: itemDismiss.type = TemplateGardenSpriteRedButton;
-        itemDismiss.adminType = TemplateGardenSpriteRedButton;
+        itemDismiss.preserveLimit = TemplateGardenSpriteRedButton;
     //: itemDismiss.img = [UIImage imageNamed:@"ic_announcement"];
-    itemDismiss.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].widgetPresentConfig];
+    itemDismiss.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].widgetPresentConfig];
 
     //: WalkWisdomWild *teamChange = [[WalkWisdomWild alloc] init];
     WalkWisdomWild *teamChange = [[WalkWisdomWild alloc] init];
     //: teamChange.title = [ViaPrimaryFacade getTextWithKey:@"Transfer_group_ownership"];
-    teamChange.create = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].kPermissionReceiveData];
+    teamChange.bombardment = [ViaPrimaryFacade engine:[SceneCloudData sharedInstance].kPermissionReceiveData];
     //: teamChange.rowHeight = 50.f;
-    teamChange.question = 50.f;
+    teamChange.activeFor = 50.f;
     //: teamChange.type = TemplateGardenSpriteCommon;
-    teamChange.adminType = TemplateGardenSpriteCommon;
+    teamChange.preserveLimit = TemplateGardenSpriteCommon;
     //: teamChange.action = @selector(onMore);
-    teamChange.scrubIndex = @selector(rootMain);
+    teamChange.noneAdd = @selector(rootMain);
     //: teamChange.img = [UIImage imageNamed:@"ic_group_transfer"];
-    teamChange.thumb = [UIImage imageNamed:[SceneCloudData sharedInstance].appFeministHelper];
+    teamChange.wood = [UIImage imageNamed:[SceneCloudData sharedInstance].appFeministHelper];
 
 
     //: if (isOwner) {

@@ -610,7 +610,7 @@ static NSArray * skipPaths() {
     //: _dispatch_once(&onceToken, ^{
     _dispatch_once(&onceToken, ^{
         //: _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(allowsCellularAccess)), NSStringFromSelector(@selector(cachePolicy)), NSStringFromSelector(@selector(HTTPShouldHandleCookies)), NSStringFromSelector(@selector(HTTPShouldUsePipelining)), NSStringFromSelector(@selector(networkServiceType)), NSStringFromSelector(@selector(timeoutInterval))];
-        _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(blackImaged)), NSStringFromSelector(@selector(submitNeed)), NSStringFromSelector(@selector(lineExported)), NSStringFromSelector(@selector(modeSparking)), NSStringFromSelector(@selector(trainGentles)), NSStringFromSelector(@selector(storageFollowwed))];
+        _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(blackImaged)), NSStringFromSelector(@selector(submitNeed)), NSStringFromSelector(@selector(lineExported)), NSStringFromSelector(@selector(modeSparking)), NSStringFromSelector(@selector(trainGentles)), NSStringFromSelector(@selector(timeoutInterval))];
     //: });
     });
 
@@ -1112,14 +1112,10 @@ extend:(NSString *)field
     });
 }
 
-//: - (void)setTimeoutInterval:(NSTimeInterval)timeoutInterval {
-- (void)setStorageFollowwed:(NSTimeInterval)timeoutInterval {
-    //: [self willChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
-    [self willChangeValueForKey:NSStringFromSelector(@selector(storageFollowwed))];
-    //: _timeoutInterval = timeoutInterval;
-    _storageFollowwed = timeoutInterval;
-    //: [self didChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
-    [self didChangeValueForKey:NSStringFromSelector(@selector(storageFollowwed))];
+- (void)setTimeoutInterval:(NSTimeInterval)timeoutInterval {
+    [self willChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
+    _timeoutInterval = timeoutInterval;
+    [self didChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
 }
 
 //: #pragma mark -

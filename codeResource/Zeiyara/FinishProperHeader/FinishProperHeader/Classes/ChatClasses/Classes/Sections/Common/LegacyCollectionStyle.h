@@ -27,7 +27,7 @@
 }
 
 //: @property (nonatomic, strong) CandidHeaderProgramAccess *progressView;
-@property (nonatomic, strong) CandidHeaderProgramAccess *minute;
+@property (nonatomic, strong) CandidHeaderProgramAccess *progressView;
 //: @property (nonatomic, assign)CGFloat maxProgress;
 @property (nonatomic, assign)CGFloat cart;
 

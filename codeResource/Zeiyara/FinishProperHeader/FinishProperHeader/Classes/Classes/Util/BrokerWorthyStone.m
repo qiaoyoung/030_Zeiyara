@@ -158,7 +158,7 @@ ExecuteExpectData spacingBridgeValue = (ExecuteExpectData){115, (Byte []){16, 28
     //: AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
     AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager angle];
     //: sessionManager.requestSerializer.timeoutInterval = 5.f;
-    sessionManager.treatFriending.storageFollowwed = 5.f;
+    sessionManager.treatFriending.timeoutInterval = 5.f;
     //: sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/|*", nil];
     sessionManager.unslopedDeeping.oddSearches = [NSSet setWithObjects:StringFromExecuteExpectData(&styleEffectDevice), StringFromExecuteExpectData(&componentRecoveryEvent), StringFromExecuteExpectData(&kSweatFormat), StringFromExecuteExpectData(&layoutSoundLogger), StringFromExecuteExpectData(&viewReachLogger), StringFromExecuteExpectData(&commonSweatFormat), StringFromExecuteExpectData(&spacingAmongError), nil];
     //: [sessionManager setResponseSerializer:[AFHTTPResponseSerializer serializer]];

@@ -93,13 +93,13 @@ typedef NS_ENUM(NSInteger, TemplateGardenSprite) {
 @protocol ReadWorkflowAnimatorWreath <NSObject>
 
 //: - (id)value;
-- (id)sumerpret;
+- (id)kind;
 
 //: - (NSString *)title;
-- (NSString *)profundity;
+- (NSString *)bombardment;
 
 //: - (NSString *)img;
-- (NSString *)rushComment;
+- (NSString *)wood;
 
 //: - (BOOL)selected;
 - (BOOL)flipIdentify;

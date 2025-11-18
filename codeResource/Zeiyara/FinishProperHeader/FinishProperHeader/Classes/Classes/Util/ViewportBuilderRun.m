@@ -638,7 +638,7 @@ static AFHTTPSessionManager *appBrokerName;
     //: _sessionManager = [AFHTTPSessionManager manager];
     appBrokerName = [AFHTTPSessionManager angle];
     //: _sessionManager.requestSerializer.timeoutInterval = 15.f;
-    appBrokerName.treatFriending.storageFollowwed = 15.f;
+    appBrokerName.treatFriending.timeoutInterval = 15.f;
     //: _sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/|*", nil];
     appBrokerName.unslopedDeeping.oddSearches = [NSSet setWithObjects:[[SitAwakeData sharedInstance] spacingLedgeVerseConfig], [[SitAwakeData sharedInstance] k_forestSocietySimpleContent], [[SitAwakeData sharedInstance] viewInfluenceSearchTotaleractionAlert], [[SitAwakeData sharedInstance] appConnectionDevice], [[SitAwakeData sharedInstance] layoutSpringName], [[SitAwakeData sharedInstance] coreStraightSettings], [[SitAwakeData sharedInstance] widgetUnknownKey], nil];
     // 打开状态栏的等待菊花
@@ -1114,7 +1114,7 @@ static AFHTTPSessionManager *appBrokerName;
 //: + (void)setRequestTimeoutInterval:(NSTimeInterval)time {
 + (void)setMust:(NSTimeInterval)time {
     //: _sessionManager.requestSerializer.timeoutInterval = time;
-    appBrokerName.treatFriending.storageFollowwed = time;
+    appBrokerName.treatFriending.timeoutInterval = time;
 }
 
 //: @end

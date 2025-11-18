@@ -747,13 +747,13 @@ typedef struct {
         //: WalkWisdomWild *item = [[WalkWisdomWild alloc] init];
         WalkWisdomWild *item = [[WalkWisdomWild alloc] init];
         //: item.value = dic[[OriginUpdateFleetBelowWorkbench getTeamHelperValue]];
-        item.cheapJack = dic[[OriginUpdateFleetBelowWorkbench numericalQuantityOwner]];
+        item.kind = dic[[OriginUpdateFleetBelowWorkbench numericalQuantityOwner]];
         //: item.title = dic[[OriginUpdateFleetBelowWorkbench getTeamHelperText]];
-        item.create = dic[[OriginUpdateFleetBelowWorkbench arrayTranslate]];
+        item.bombardment = dic[[OriginUpdateFleetBelowWorkbench arrayTranslate]];
         //: item.img = dic[[OriginUpdateFleetBelowWorkbench getTeamHelperImg]];
-        item.thumb = dic[[OriginUpdateFleetBelowWorkbench draft]];
+        item.wood = dic[[OriginUpdateFleetBelowWorkbench draft]];
         //: item.selected = (selectValue == [dic[[OriginUpdateFleetBelowWorkbench getTeamHelperValue]] integerValue]);
-        item.filter = (selectValue == [dic[[OriginUpdateFleetBelowWorkbench numericalQuantityOwner]] integerValue]);
+        item.flipIdentify = (selectValue == [dic[[OriginUpdateFleetBelowWorkbench numericalQuantityOwner]] integerValue]);
         //: [items addObject:item];
         [items addObject:item];
     }

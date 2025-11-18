@@ -145,7 +145,7 @@ typedef NS_ENUM(NSUInteger, AFHTTPRequestQueryStringSerializationStyle) {
  @see NSMutableURLRequest -setTimeoutInterval:
  */
 //: @property (nonatomic, assign) NSTimeInterval timeoutInterval;
-@property (nonatomic, assign) NSTimeInterval storageFollowwed;
+@property (nonatomic, assign) NSTimeInterval timeoutInterval;
 
 /**
  Whether created requests should use the default cookie handling. `YES` by default.

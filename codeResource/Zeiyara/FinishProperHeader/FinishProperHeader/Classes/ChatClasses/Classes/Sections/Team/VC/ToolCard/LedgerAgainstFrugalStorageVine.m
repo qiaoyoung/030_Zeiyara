@@ -488,9 +488,9 @@
     //: cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     //: cell.iconImageView.image = [UIImage imageNamed:bodyData.img];
-    cell.traitSmart.image = [UIImage imageNamed:bodyData.rushComment];
+    cell.traitSmart.image = [UIImage imageNamed:bodyData.wood];
     //: cell.titleLabel.text = bodyData.title;
-    cell.pointBlank.text = bodyData.profundity;
+    cell.pointBlank.text = bodyData.bombardment;
     //: cell.arrowsImageView.hidden = ![bodyData selected];
     cell.view.hidden = ![bodyData flipIdentify];
 
