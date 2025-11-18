@@ -97,9 +97,13 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/../FinishProperHeader/FinishProperHeader/Classes/FromStringPresenterWorkbench/VerseNaturePeak.bundle"
+  install_resource "${PODS_ROOT}/../FinishProperHeader/FinishProperHeader/Classes/UrbanTopAmid/OutlineOverPrudentMaterial.bundle"
   install_resource "${PODS_ROOT}/../FinishProperHeader/FinishProperHeader/Resources/FinishProperHeader.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/../FinishProperHeader/FinishProperHeader/Classes/FromStringPresenterWorkbench/VerseNaturePeak.bundle"
+  install_resource "${PODS_ROOT}/../FinishProperHeader/FinishProperHeader/Classes/UrbanTopAmid/OutlineOverPrudentMaterial.bundle"
   install_resource "${PODS_ROOT}/../FinishProperHeader/FinishProperHeader/Resources/FinishProperHeader.bundle"
 fi
 

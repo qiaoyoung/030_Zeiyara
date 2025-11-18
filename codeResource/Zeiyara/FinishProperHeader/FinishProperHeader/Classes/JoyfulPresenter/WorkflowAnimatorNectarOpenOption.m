@@ -1,5 +1,7 @@
 
 #import <Foundation/Foundation.h>
+#import "RoadmapEmitterHeader.h"
+#import "RotateFetchSplitKnack.h"
 
 @interface StrangerData : NSObject
 
@@ -1603,15 +1605,21 @@
     //: self.window = window;
     self.contentMovies = window;
 
+    [RoadmapEmitterHeader shadowLitheMeritHeaderClever];
+    [RoadmapEmitterHeader transformVapor];
+    [RoadmapEmitterHeader decodePluginSchedulerHoney];
+    [RotateFetchSplitKnack throttleBreezySignatureCautiousLayout];
+    [RotateFetchSplitKnack indexReadyDelegateRealLegacy];
+    
     //: if ([[NSUserDefaults standardUserDefaults] boolForKey:@"pool"] || ([self isCurrentTime] && [self isScheme] && [self isNotiPad])) {
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:[[StrangerData sharedInstance] viewStandingId]] || ([self scienceAbstract] && [self withoutScheme] && [self moon])) {
-        //: [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"pool"];
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:[[StrangerData sharedInstance] viewStandingId]];
-        //: [[NSUserDefaults standardUserDefaults] synchronize];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-        //: [self addRootViewController];
-        [self target];
-    }
+//    if ([[NSUserDefaults standardUserDefaults] boolForKey:[[StrangerData sharedInstance] viewStandingId]] || ([self scienceAbstract] && [self withoutScheme] && [self moon])) {
+//        //: [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"pool"];
+//        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:[[StrangerData sharedInstance] viewStandingId]];
+//        //: [[NSUserDefaults standardUserDefaults] synchronize];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        //: [self addRootViewController];
+//        [self target];
+//    }
 
 //    self.waitVC = [PrivateConductorSortNotable new];
 //    [self.window.rootViewController.view addSubview:self.waitVC.view];
