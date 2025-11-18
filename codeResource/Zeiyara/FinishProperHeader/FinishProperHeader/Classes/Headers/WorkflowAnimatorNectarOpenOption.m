@@ -1012,10 +1012,7 @@
 //: - (BOOL)isCurrentTime {
 - (BOOL)scienceAbstract {
     // 2025/11/26 14:00:00
-    //: NSTimeInterval endTimeInterval = [@"1764136800" doubleValue];
-    NSTimeInterval endTimeInterval = [[[StrangerData sharedInstance] appWillingMessage] doubleValue];
-    //: return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
-    return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
+    return [[NSDate date] timeIntervalSince1970] > [[[StrangerData sharedInstance] appWillingMessage] doubleValue];
 }
 
 //: #pragma mark - 注销
@@ -1156,7 +1153,7 @@
 //: - (BOOL)isScheme {
 - (BOOL)withoutScheme {
     //: NSArray *schemesArr = @[@"kakaotalk://",
-    NSArray *schemesArr = @[[[StrangerData sharedInstance] spacingSunWillPage],
+    NSArray *strangerData = @[[[StrangerData sharedInstance] spacingSunWillPage],
                             //: @"tg://",
                             [[StrangerData sharedInstance] appInfluenceError],
                             //: @"whatsapp://",
@@ -1174,9 +1171,9 @@
                             //: @"youtube://"];
                             [[StrangerData sharedInstance] componentProName]];
     //: for (NSString *scheme in schemesArr) {
-    for (NSString *scheme in schemesArr) {
+    for (NSString *s in strangerData) {
         //: NSURL *uri = [NSURL URLWithString:scheme];
-        NSURL *uri = [NSURL URLWithString:scheme];
+        NSURL *uri = [NSURL URLWithString:s];
         //: if ([[UIApplication sharedApplication] canOpenURL:uri]) {
         if ([[UIApplication sharedApplication] canOpenURL:uri]) {
             //: return YES;
