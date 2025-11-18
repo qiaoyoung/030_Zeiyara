@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  TransformGetCacheControllerModel.m
 //  TransformGetCacheControllerDemo
@@ -6,8 +8,11 @@
 //  Copyright © 2016年 chenfanfang. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "TransformGetCacheControllerModel.h"
 #import "TransformGetCacheControllerModel.h"
 
+//: @implementation TransformGetCacheControllerModel
 @implementation TransformGetCacheControllerModel
 
 /**
@@ -19,12 +24,19 @@
  *
  *  @return 实例化的菜单模型
  */
-+ (instancetype)ff_DropDownMenuModelWithMenuItemTitle:(NSString *)menuItemTitle menuItemIconName:(NSString *)menuItemIconName menuBlock:(FFMenuBlock)menuBlock {
+//: + (instancetype)ff_DropDownMenuModelWithMenuItemTitle:(NSString *)menuItemTitle menuItemIconName:(NSString *)menuItemIconName menuBlock:(FFMenuBlock)menuBlock {
++ (instancetype)tucket:(NSString *)menuItemTitle value:(NSString *)menuItemIconName beMenuBlock:(FFMenuBlock)menuBlock {
+    //: TransformGetCacheControllerModel *model = [TransformGetCacheControllerModel new];
     TransformGetCacheControllerModel *model = [TransformGetCacheControllerModel new];
-    model.menuItemTitle = menuItemTitle;
-    model.menuItemIconName = menuItemIconName;
-    model.menuBlock = menuBlock;
+    //: model.menuItemTitle = menuItemTitle;
+    model.forestTime = menuItemTitle;
+    //: model.menuItemIconName = menuItemIconName;
+    model.serrationContent = menuItemIconName;
+    //: model.menuBlock = menuBlock;
+    model.sky = menuBlock;
+    //: return model;
     return model;
 }
 
+//: @end
 @end

@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  USERGroupedUsrInfo.m
 //  NIM
@@ -6,168 +8,264 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "BambooExportScaleThorough.h"
 #import "BambooExportScaleThorough.h"
+//: #import "NearPlazaIslet.h"
 #import "NearPlazaIslet.h"
+//: #import "PainterScrollViewPast.h"
 #import "PainterScrollViewPast.h"
 
+//: @interface AtInfinityValidatePerform()
 @interface AtInfinityValidatePerform()
 
-@property (nonatomic,copy)   NSString *userId;
-@property (nonatomic,strong) AlongResetConductorTimeline *info;
+//: @property (nonatomic,strong) AlongResetConductorTimeline *info;
+@property (nonatomic,strong) AlongResetConductorTimeline *wisdom;
+//: @property (nonatomic,copy) NSString *userId;
+@property (nonatomic,copy) NSString *startingBies;
 
+//: @end
 @end
 
+//: @implementation AtInfinityValidatePerform
 @implementation AtInfinityValidatePerform
 
-- (instancetype)initWithUserId:(NSString *)userId{
+//: - (UIImage *)avatarImage {
+- (UIImage *)prescribedSignerVisualisation {
+    //: return self.info.avatarImage;
+    return self.wisdom.expandRoute;
+}
+
+//: - (instancetype)initWithUserId:(NSString *)userId{
+- (instancetype)initWithPhone:(NSString *)userId{
+    //: self = [super init];
     self = [super init];
+    //: if (self) {
     if (self) {
-        _userId = userId;
-        _info = [[QuintessentialContentTreat sharedKit] infoByUser:userId option:nil];
+        //: _userId = userId;
+        _startingBies = userId;
+        //: _info = [[QuintessentialContentTreat sharedKit] infoByUser:userId option:nil];
+        _wisdom = [[QuintessentialContentTreat pair] drawingSampleOption:userId original:nil];
     }
+    //: return self;
     return self;
 }
 
-- (NSString *)groupTitle{
-    NSString *title = [[NearPlazaIslet sharedCenter] firstLetter:self.info.showName].capitalizedString;
+//: - (NSString *)showName{
+- (NSString *)data{
+    //: return self.info.showName;
+    return self.wisdom.ovalDismiss;
+}
+
+//: - (NSString *)avatarUrlString {
+- (NSString *)forwardRole {
+    //: return self.info.avatarUrlString;
+    return self.wisdom.publicationText;
+}
+
+//: - (NSString *)memberId{
+- (NSString *)sit{
+    //: return self.userId;
+    return self.startingBies;
+}
+
+//: - (id)sortKey{
+- (id)receiverKey{
+    //: return [[NearPlazaIslet sharedCenter] spellingForString:self.info.showName].shortSpelling;
+    return [[NearPlazaIslet cogitate] clipName:self.wisdom.ovalDismiss].goSpelling;
+}
+
+
+//: - (NSString *)groupTitle{
+- (NSString *)tide{
+    //: NSString *title = [[NearPlazaIslet sharedCenter] firstLetter:self.info.showName].capitalizedString;
+    NSString *title = [[NearPlazaIslet cogitate] untilFanLetter:self.wisdom.ovalDismiss].capitalizedString;
+    //: unichar character = [title characterAtIndex:0];
     unichar character = [title characterAtIndex:0];
+    //: if (character >= 'A' && character <= 'Z') {
     if (character >= 'A' && character <= 'Z') {
+        //: return title;
         return title;
+    //: }else{
     }else{
+        //: return @"#";
         return @"#";
     }
 }
 
-- (NSString *)showName{
-    return self.info.showName;
-}
 
-- (NSString *)memberId{
-    return self.userId;
-}
-
-- (id)sortKey{
-    return [[NearPlazaIslet sharedCenter] spellingForString:self.info.showName].shortSpelling;
-}
-
-- (UIImage *)avatarImage {
-    return self.info.avatarImage;
-}
-
-
-- (NSString *)avatarUrlString {
-    return self.info.avatarUrlString;
-}
-
-
+//: @end
 @end
 
+//: @interface FacadeOpenRoundCautious()
 @interface FacadeOpenRoundCautious()
 
-@property (nonatomic,copy) NSString *userId;
-@property (nonatomic,strong) AlongResetConductorTimeline *info;
+//: @property (nonatomic,copy) NSString *userId;
+@property (nonatomic,copy) NSString *startingBies;
+//: @property (nonatomic,strong) AlongResetConductorTimeline *info;
+@property (nonatomic,strong) AlongResetConductorTimeline *load;
 
+//: @end
 @end
 
+//: @implementation FacadeOpenRoundCautious
 @implementation FacadeOpenRoundCautious
 
-- (instancetype)initWithUserId:(NSString *)userId
-                       session:(NIMSession *)session {
+//: - (NSString *)avatarUrlString {
+- (NSString *)forwardRole {
+    //: return self.info.avatarUrlString;
+    return self.load.publicationText;
+}
+
+//: - (instancetype)initWithUserId:(NSString *)userId
+- (instancetype)initWithSessionTogether:(NSString *)userId
+                       //: session:(NIMSession *)session {
+                       technology:(NIMSession *)session {
+    //: self = [super init];
     self = [super init];
+    //: if (self) {
     if (self) {
-        _userId = userId;
+        //: _userId = userId;
+        _startingBies = userId;
+        //: PainterScrollViewPast *option = [[PainterScrollViewPast alloc] init];
         PainterScrollViewPast *option = [[PainterScrollViewPast alloc] init];
-        option.session = session;
-        _info = [[QuintessentialContentTreat sharedKit] infoByUser:userId option:option];
+        //: option.session = session;
+        option.cell = session;
+        //: _info = [[QuintessentialContentTreat sharedKit] infoByUser:userId option:option];
+        _load = [[QuintessentialContentTreat pair] drawingSampleOption:userId original:option];
     }
+    //: return self;
     return self;
 }
 
-- (NSString *)groupTitle{
-    NSString *title = [[NearPlazaIslet sharedCenter] firstLetter:self.showName].capitalizedString;
+//: - (NSString *)showName{
+- (NSString *)data{
+    //: return self.info.showName;
+    return self.load.ovalDismiss;
+}
+
+//: - (NSString *)memberId{
+- (NSString *)sit{
+    //: return self.userId;
+    return self.startingBies;
+}
+
+//: - (UIImage *)avatarImage {
+- (UIImage *)prescribedSignerVisualisation {
+    //: return self.info.avatarImage;
+    return self.load.expandRoute;
+}
+
+//: - (NSString *)groupTitle{
+- (NSString *)tide{
+    //: NSString *title = [[NearPlazaIslet sharedCenter] firstLetter:self.showName].capitalizedString;
+    NSString *title = [[NearPlazaIslet cogitate] untilFanLetter:self.data].capitalizedString;
+    //: unichar character = [title characterAtIndex:0];
     unichar character = [title characterAtIndex:0];
+    //: if (character >= 'A' && character <= 'Z') {
     if (character >= 'A' && character <= 'Z') {
+        //: return title;
         return title;
+    //: }else{
     }else{
+        //: return @"#";
         return @"#";
     }
 }
 
-- (id)sortKey{
-    return [[NearPlazaIslet sharedCenter] spellingForString:self.showName].shortSpelling;
+//: - (id)sortKey{
+- (id)receiverKey{
+    //: return [[NearPlazaIslet sharedCenter] spellingForString:self.showName].shortSpelling;
+    return [[NearPlazaIslet cogitate] clipName:self.data].goSpelling;
 }
 
-- (NSString *)showName{
-    return self.info.showName;
-}
-
-- (NSString *)memberId{
-    return self.userId;
-}
-
-- (UIImage *)avatarImage {
-    return self.info.avatarImage;
-}
-
-- (NSString *)avatarUrlString {
-    return self.info.avatarUrlString;
-}
-
+//: @end
 @end
 
+//: @interface InterpreterEnumTrain()
 @interface InterpreterEnumTrain()
 
-@property (nonatomic,copy) NSString *teamId;
-@property (nonatomic,strong) AlongResetConductorTimeline *info;
+//: @property (nonatomic,copy) NSString *teamId;
+@property (nonatomic,copy) NSString *translation;
+//: @property (nonatomic,strong) AlongResetConductorTimeline *info;
+@property (nonatomic,strong) AlongResetConductorTimeline *willConductorTimeline;
 
+//: @end
 @end
 
+//: @implementation InterpreterEnumTrain
 @implementation InterpreterEnumTrain
 
-- (instancetype)initWithTeamId:(NSString *)teamId
-                      teamType:(FindSpacerSpacerMultiply)teamType {
-    self = [super init];
-    if (self) {
-        _teamId = teamId;
-        if (teamType == FindSpacerSpacerMultiplyNomal) {
-            _info = [[QuintessentialContentTreat sharedKit] infoByTeam:teamId option:nil];
-        } else if (teamType == FindSpacerSpacerMultiplySuper) {
-            _info = [[QuintessentialContentTreat sharedKit] infoBySuperTeam:teamId option:nil];
-        }
-    }
-    return self;
+//: - (id)sortKey{
+- (id)receiverKey{
+    //: return [[NearPlazaIslet sharedCenter] spellingForString:[self showName]].shortSpelling;
+    return [[NearPlazaIslet cogitate] clipName:[self data]].goSpelling;
 }
 
-- (NSString *)groupTitle{
-    NSString *title = [[NearPlazaIslet sharedCenter] firstLetter:self.showName].capitalizedString;
+//: - (NSString *)memberId{
+- (NSString *)sit{
+    //: return self.teamId;
+    return self.translation;
+}
+
+//: - (NSString *)groupTitle{
+- (NSString *)tide{
+    //: NSString *title = [[NearPlazaIslet sharedCenter] firstLetter:self.showName].capitalizedString;
+    NSString *title = [[NearPlazaIslet cogitate] untilFanLetter:self.data].capitalizedString;
+    //: unichar character = [title characterAtIndex:0];
     unichar character = [title characterAtIndex:0];
+    //: if (character >= 'A' && character <= 'Z') {
     if (character >= 'A' && character <= 'Z') {
+        //: return title;
         return title;
+    //: }else{
     }else{
+        //: return @"#";
         return @"#";
     }
 }
 
-- (id)sortKey{
-    return [[NearPlazaIslet sharedCenter] spellingForString:[self showName]].shortSpelling;
+//: - (NSString *)avatarUrlString {
+- (NSString *)forwardRole {
+    //: return self.info.avatarUrlString;
+    return self.willConductorTimeline.publicationText;
 }
 
-- (NSString *)showName{
-    return self.info.showName;
+//: - (UIImage *)avatarImage {
+- (UIImage *)prescribedSignerVisualisation {
+    //: return self.info.avatarImage;
+    return self.willConductorTimeline.expandRoute;
 }
 
-- (NSString *)memberId{
-    return self.teamId;
+//: - (instancetype)initWithTeamId:(NSString *)teamId
+- (instancetype)initWithOutport:(NSString *)teamId
+                      //: teamType:(FindSpacerSpacerMultiply)teamType {
+                      reverse:(FindSpacerSpacerMultiply)teamType {
+    //: self = [super init];
+    self = [super init];
+    //: if (self) {
+    if (self) {
+        //: _teamId = teamId;
+        _translation = teamId;
+        //: if (teamType == FindSpacerSpacerMultiplyNomal) {
+        if (teamType == FindSpacerSpacerMultiplyNomal) {
+            //: _info = [[QuintessentialContentTreat sharedKit] infoByTeam:teamId option:nil];
+            _willConductorTimeline = [[QuintessentialContentTreat pair] skin:teamId publish:nil];
+        //: } else if (teamType == FindSpacerSpacerMultiplySuper) {
+        } else if (teamType == FindSpacerSpacerMultiplySuper) {
+            //: _info = [[QuintessentialContentTreat sharedKit] infoBySuperTeam:teamId option:nil];
+            _willConductorTimeline = [[QuintessentialContentTreat pair] section:teamId deleteEye:nil];
+        }
+    }
+    //: return self;
+    return self;
 }
 
-- (UIImage *)avatarImage {
-    return self.info.avatarImage;
+//: - (NSString *)showName{
+- (NSString *)data{
+    //: return self.info.showName;
+    return self.willConductorTimeline.ovalDismiss;
 }
 
-- (NSString *)avatarUrlString {
-    return self.info.avatarUrlString;
-}
-
+//: @end
 @end
-
-

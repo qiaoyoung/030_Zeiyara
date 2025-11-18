@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  LushCreateWrite.h
 //
@@ -20,15 +22,20 @@
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
-
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-
 //! Project version number for LushCreateWrite.
+
+// __M_A_C_R_O__
+
+//: FOUNDATION_EXPORT double LushCreateWriteVersionNumber;
 FOUNDATION_EXPORT double LushCreateWriteVersionNumber;
 
 //! Project version string for LushCreateWrite.
+//: FOUNDATION_EXPORT const unsigned char LushCreateWriteVersionString[];
 FOUNDATION_EXPORT const unsigned char LushCreateWriteVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LushCreateWrite/PublicHeader.h>
 
+//: #import <LushCreateWrite/UINavigationController+LushCreateWrite.h>
 #import <LushCreateWrite/UINavigationController+LushCreateWrite.h>

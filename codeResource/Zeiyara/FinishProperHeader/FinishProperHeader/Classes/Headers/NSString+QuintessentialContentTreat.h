@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NSString+NIM.h
 // QuintessentialContentTreat
@@ -6,28 +8,42 @@
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @interface NSString (QuintessentialContentTreat)
 @interface NSString (QuintessentialContentTreat)
 
-- (CGSize)nim_stringSizeWithFont:(UIFont *)font;
+//: - (UIColor *)nim_hexToColor;
+- (UIColor *)nearPersonExpand;
 
-- (NSString *)nim_MD5String;
+//: - (BOOL)nim_fileIsExist;
+- (BOOL)back;
 
-- (NSUInteger)nim_getBytesLength;
+//: - (BOOL)nim_containsEmoji;
+- (BOOL)signalHair;
 
-- (NSString *)nim_stringByDeletingPictureResolution;
+//: - (NSRange)nim_rangeOfLastUnicode;
+- (NSRange)range;
 
-- (UIColor *)nim_hexToColor;
+//: - (NSString *)nim_localizedWithTable:(NSString *)table;
+- (NSString *)attorneyTable:(NSString *)table;
 
-- (BOOL)nim_fileIsExist;
+//: - (NSString *)nim_MD5String;
+- (NSString *)limit;
 
 
-- (NSString *)nim_localized;
+//: - (NSString *)nim_stringByDeletingPictureResolution;
+- (NSString *)horizonDownResolution;
 
-- (NSString *)nim_localizedWithTable:(NSString *)table;
+//: - (NSString *)nim_localized;
+- (NSString *)ignore;
 
-- (BOOL)nim_containsEmoji;
+//: - (CGSize)nim_stringSizeWithFont:(UIFont *)font;
+- (CGSize)atSignalAppearance:(UIFont *)font;
 
-- (NSRange)nim_rangeOfLastUnicode;
+//: - (NSUInteger)nim_getBytesLength;
+- (NSUInteger)condition;
+//: @end
 @end

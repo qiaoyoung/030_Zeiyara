@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  SaverComputeSpirited.h
 //  NIM
@@ -6,17 +8,25 @@
 //  Copyright © 2017年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
 
+//: @interface SaverComputeSpirited : NSObject
 @interface SaverComputeSpirited : NSObject
 
-+ (instancetype)sharedManager;
+//: - (void)start;
+- (void)suspendOn;
 
-- (void)start;
+//: - (void)subscribeTempMaskWriteHideState:(NSString *)userId;
+- (void)rain:(NSString *)userId;
 
-- (NSDictionary<NIMSubscribeEvent *, NSString *> *)eventsForType:(NSInteger)type;
+//: + (instancetype)sharedManager;
++ (instancetype)sharedDo;
 
-- (void)subscribeTempMaskWriteHideState:(NSString *)userId;
+//: - (void)unsubscribeTempMaskWriteHideState:(NSString *)userId;
+- (void)bottom:(NSString *)userId;
 
-- (void)unsubscribeTempMaskWriteHideState:(NSString *)userId;
+//: - (NSDictionary<NIMSubscribeEvent *, NSString *> *)eventsForType:(NSInteger)type;
+- (NSDictionary<NIMSubscribeEvent *, NSString *> *)outEstablishType:(NSInteger)type;
 
+//: @end
 @end

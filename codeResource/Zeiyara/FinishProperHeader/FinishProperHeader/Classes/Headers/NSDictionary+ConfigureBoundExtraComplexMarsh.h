@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NSDictionary+ConfigureBoundExtraComplexMarsh.h
 //  Kitalker
@@ -6,25 +8,38 @@
 //  Copyright (c) 2012年 ibm. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @interface NSDictionary (ConfigureBoundExtraComplexMarsh)
 @interface NSDictionary (ConfigureBoundExtraComplexMarsh)
 
-- (NSString *)jsonString;
+//: - (NSInteger)integerValueForKey:(id)key;
+- (NSInteger)mountain:(id)key;
 
-- (BOOL)boolValueForKey:(id)key;
+//: - (NSArray *)arrayValueForKey:(id)aKey;
+- (NSArray *)walk:(id)aKey;
 
-- (int)intValueForKey:(id)key;
+//: - (id)valueObjectForKey:(id)aKey;
+- (id)chainOperation:(id)aKey;
 
-- (NSInteger)integerValueForKey:(id)key;
+//: - (double)doubleValueForKey:(id)key;
+- (double)constant:(id)key;
 
-- (float)floatValueForKey:(id)key;
+//: - (NSString *)jsonString;
+- (NSString *)formation;
 
-- (double)doubleValueForKey:(id)key;
+//: - (int)intValueForKey:(id)key;
+- (int)component:(id)key;
 
-- (NSString *)newStringValueForKey:(id)key;
+//: - (float)floatValueForKey:(id)key;
+- (float)creation:(id)key;
 
-- (id)valueObjectForKey:(id)aKey;
+//: - (NSString *)newStringValueForKey:(id)key;
+- (NSString *)awe:(id)key;
 
-- (NSArray *)arrayValueForKey:(id)aKey;
+//: - (BOOL)boolValueForKey:(id)key;
+- (BOOL)selection:(id)key;
+//: @end
 @end

@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  CompressNaturePlannerAnimate.h
 // QuintessentialContentTreat
@@ -6,20 +8,30 @@
 //  Copyright © 2016年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @interface CompressNaturePlannerAnimate : NSObject
 @interface CompressNaturePlannerAnimate : NSObject
 
-+ (NSString *)getAppDocumentPath;
+//: + (NSString *)genFilenameWithExt:(NSString *)ext;
++ (NSString *)behavior:(NSString *)ext;
 
-+ (NSString *)getAppTempPath;
+//: + (NSString *)userDirectory;
++ (NSString *)his;
 
-+ (NSString *)userDirectory;
+//: + (NSString *)getAppDocumentPath;
++ (NSString *)chip;
 
-+ (NSString *)genFilenameWithExt:(NSString *)ext;
+//: + (NSString *)filepathForImage:(NSString *)filename;
++ (NSString *)filepathAngleTotalernalRepresentation:(NSString *)filename;
 
-+ (NSString *)filepathForVideo:(NSString *)filename;
+//: + (NSString *)getAppTempPath;
++ (NSString *)soleQuantity;
 
-+ (NSString *)filepathForImage:(NSString *)filename;
+//: + (NSString *)filepathForVideo:(NSString *)filename;
++ (NSString *)historical:(NSString *)filename;
 
+//: @end
 @end

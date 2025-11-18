@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ValueStarOntoScheduler.h
 // QuintessentialContentTreat
@@ -6,22 +8,34 @@
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
+//: #import "CollectionTrustCore.h"
 #import "CollectionTrustCore.h"
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface ValueStarOntoScheduler : CollectionTrustCore
 @interface ValueStarOntoScheduler : CollectionTrustCore
 
-@property (nonatomic,strong) UIButton *replyButton;
-@property (nonatomic,strong) UIButton *pinView;
+//: @property (nonatomic,strong) UIView *praiseView;
+@property (nonatomic,strong) UIView *infoView;
+//: @property (nonatomic,nullable,strong) UICollectionView *emoticonsContainerView;
+@property (nonatomic,nullable,strong) UICollectionView *keepStableReceiver;
 
-@property (nonatomic,nullable,strong) UICollectionView *emoticonsContainerView;
+//: @property (nonatomic,strong) UIView *translationView;
+@property (nonatomic,strong) UIView *hill;
 
-@property (nonatomic,strong) UIView *translationView;
+//: @property (nonatomic,strong) UIButton *pinView;
+@property (nonatomic,strong) UIButton *pin;
 
-@property (nonatomic,strong) UIView *praiseView;
+//: @property (nonatomic,strong) UIButton *replyButton;
+@property (nonatomic,strong) UIButton *move;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

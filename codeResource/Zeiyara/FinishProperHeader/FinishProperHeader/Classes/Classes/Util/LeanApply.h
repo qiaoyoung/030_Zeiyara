@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  LeanApply.h
 //  NIM
@@ -6,25 +8,33 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
-#define ImageExt   (@"jpg")
-
-
+//: @interface LeanApply : NSObject
 @interface LeanApply : NSObject
 
-+ (NSString *)getAppDocumentPath;
+//: + (NSString *)filepathForImage:(NSString *)filename;
++ (NSString *)rendering:(NSString *)filename;
 
-+ (NSString *)getAppTempPath;
+//: + (NSString *)userDirectory;
++ (NSString *)fan;
 
-+ (NSString *)userDirectory;
+//: + (NSString *)filepathForMergeForwardFile:(NSString *)filename;
++ (NSString *)file:(NSString *)filename;
 
-+ (NSString *)genFilenameWithExt:(NSString *)ext;
+//: + (NSString *)getAppDocumentPath;
++ (NSString *)method;
 
-+ (NSString *)filepathForVideo:(NSString *)filename;
+//: + (NSString *)filepathForVideo:(NSString *)filename;
++ (NSString *)representationChoose:(NSString *)filename;
 
-+ (NSString *)filepathForImage:(NSString *)filename;
+//: + (NSString *)genFilenameWithExt:(NSString *)ext;
++ (NSString *)molarity:(NSString *)ext;
 
-+ (NSString *)filepathForMergeForwardFile:(NSString *)filename;
+//: + (NSString *)getAppTempPath;
++ (NSString *)starLetter;
 
+//: @end
 @end

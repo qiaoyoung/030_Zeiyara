@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NIMInputAtManager.h
 // QuintessentialContentTreat
@@ -6,31 +8,42 @@
 //  Copyright © 2016年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
-#define NIMInputAtStartChar  @"@"
-#define NIMInputAtEndChar    @"\u2004"
-
+//: @interface ReflectMatchBinder : NSObject
 @interface ReflectMatchBinder : NSObject
 
-@property (nonatomic,copy) NSString *name;
+//: @property (nonatomic,assign) NSRange range;
+@property (nonatomic,assign) NSRange leaf;
 
-@property (nonatomic,copy) NSString *uid;
+//: @property (nonatomic,copy) NSString *uid;
+@property (nonatomic,copy) NSString *addressBehavior;
 
-@property (nonatomic,assign) NSRange range;
+//: @property (nonatomic,copy) NSString *name;
+@property (nonatomic,copy) NSString *character;
 
+//: @end
 @end
 
+//: @interface PausePrimeTenseGridline : NSObject
 @interface PausePrimeTenseGridline : NSObject
 
-- (NSArray *)allAtUid:(NSString *)sendText;
+//: - (ReflectMatchBinder *)removeName:(NSString *)name;
+- (ReflectMatchBinder *)companyTitleMovie:(NSString *)name;
 
-- (void)clean;
+//: - (ReflectMatchBinder *)item:(NSString *)name;
+- (ReflectMatchBinder *)emotion:(NSString *)name;
 
-- (void)addAtItem:(ReflectMatchBinder *)item;
+//: - (void)clean;
+- (void)skinWith;
 
-- (ReflectMatchBinder *)item:(NSString *)name;
+//: - (NSArray *)allAtUid:(NSString *)sendText;
+- (NSArray *)literal:(NSString *)sendText;
 
-- (ReflectMatchBinder *)removeName:(NSString *)name;
+//: - (void)addAtItem:(ReflectMatchBinder *)item;
+- (void)lake:(ReflectMatchBinder *)item;
 
+//: @end
 @end

@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  DenseSmartSpark.h
 //  ZCBusinessCar
@@ -5,123 +7,68 @@
 //  Created by peng on 2021/2/24.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
+//: #import "AFNetworking.h"
 #import "AFNetworking.h"
+//: #import <SDWebImage/SDWebImage.h>
 #import <SDWebImage/SDWebImage.h>
-
-
-#define NSStringFormat(format,...) [NSString stringWithFormat:format,##__VA_ARGS__]
 
 /**
  *  是否开启https SSL 验证
  *  @return YES为开启，NO为关闭
  */
-#define openHttpsSSL NO
+
 
 /**
  *  SSL 证书名称，仅支持cer格式。“app.bishe.com.cer”,则填“app.bishe.com”
  */
-#define myCertificate @"xiaokaapi.com"
+
 
 //请求成功的回调block
+//: typedef void(^ResponseSuccess)(id responseObject);
 typedef void(^ResponseSuccess)(id responseObject);
 
 //请求失败的回调block
+//: typedef void(^ResponseFailed)(id responseObject ,NSError *error);
 typedef void(^ResponseFailed)(id responseObject ,NSError *error);
 
 //文件下载的成功回调block
+//: typedef void(^DownloadSuccess)(NSURLResponse *response, NSURL *filePath);
 typedef void(^DownloadSuccess)(NSURLResponse *response, NSURL *filePath);
 
 //文件下载的失败回调block
+//: typedef void(^DownloadFailed)( NSError *error);
 typedef void(^DownloadFailed)( NSError *error);
 
 //文件上传下载的进度block
+//: typedef void (^HttpProgress)(NSProgress *progress);
 typedef void (^HttpProgress)(NSProgress *progress);
 
 
+//: @interface DenseSmartSpark : NSObject
 @interface DenseSmartSpark : NSObject
 
 /**
  管理者单例
  */
-+ (instancetype)sharedManager;
-
-@property (nonatomic, copy) NSString *lastLang;
-
-
-/**
- get请求
-
- @param urlStr 请求url
- @param params 参数
- @param success 成功回调
- @param failed 失败回调
- */
-
-+ (void)getWithUrl:(NSString *)urlStr
-            params:(NSDictionary *)params
-            isShow:(BOOL)isShow
-           success:(ResponseSuccess)success
-            failed:(ResponseFailed)failed;
-
-+ (void)getWithUrl: (NSString *)urlStr
-            params: (NSDictionary *)params
-            isShow: (BOOL)isShow
-         cacheTime: (int)cacheDuration
-       mustResrush: (BOOL)mustResrush
-           success: (ResponseSuccess)success
-            failed: (ResponseFailed)failed;
-
-
-
-
-/**
- post请求
-
- @param urlStr 请求url
- @param params 参数
- @param success 成功回调
- @param failed 失败回调
- */
-+ (void)postWithUrl: (NSString *)urlStr
-             params: (NSDictionary *)params
-             isShow: (BOOL)isShow
-            success: (ResponseSuccess)success
-             failed: (ResponseFailed)failed;
-
-+ (void)postWithUrl: (NSString *)urlStr
-             params: (NSDictionary *)params
-             isShow: (BOOL)isShow
-          cacheTime: (int)cacheDuration
-        mustResrush: (BOOL)mustResrush
-            success: (ResponseSuccess)success
-             failed: (ResponseFailed)failed;
-
-+ (void)postWithUrl: (NSString *)urlStr
-           checksum: (NSString *)checksum
-              nonce: (NSString *)nonce
-            CurTime: (NSString *)CurTime
-             params: (NSDictionary *)params
-            success: (ResponseSuccess)success
-             failed: (ResponseFailed)failed;
-
-/**
- * 上传文件
- *  @param URL 请求地址
- *  @param parameters 请求参数
- *  @param name              文件对应服务器上的字段
- *  @param filePath     文件本地的沙盒路径
- *  @param progress     上传进度信息
- *  @param success       请求成功的回调
- *  @param failed    请求失败的回调
- */
-+ (void)uploadFileWithURL:(NSString *)URL
-               parameters:(id)parameters
-                     name:(NSString *)name
-                 filePath:(NSURL *)filePath
-                 progress:(HttpProgress)progress
-                  success:(ResponseSuccess)success
-                   failed:(ResponseFailed)failed;
+//: + (void)postWithUrl: (NSString *)urlStr
++ (void)with: (NSString *)urlStr
+           //: checksum: (NSString *)checksum
+           slump: (NSString *)checksum
+              //: nonce: (NSString *)nonce
+              safely: (NSString *)nonce
+            //: CurTime: (NSString *)CurTime
+            sane: (NSString *)CurTime
+             //: params: (NSDictionary *)params
+             ringPart: (NSDictionary *)params
+            //: success: (ResponseSuccess)success
+            bind: (ResponseSuccess)success
+             //: failed: (ResponseFailed)failed;
+             decent: (ResponseFailed)failed;
+//: @property (nonatomic, copy) NSString *lastLang;
+@property (nonatomic, copy) NSString *quantityernationalismContent;
 
 
 /**
@@ -134,12 +81,23 @@ typedef void (^HttpProgress)(NSProgress *progress);
  * @param success 请求成功的回调
  * @param failed 请求失败的回调
  */
-+ (void)uploadImagesWithURL:(NSString *)URL
-                 parameters:(id)parameters
-                     images:(NSArray<NSData *> *)images
-                   progress:(HttpProgress)progress
-                    success:(ResponseSuccess)success
-                     failed:(ResponseFailed)failed;
+//: + (void)uploadImagesWithURL:(NSString *)URL
++ (void)team:(NSString *)URL
+                 //: parameters:(id)parameters
+                 replaceScience:(id)parameters
+                     //: images:(NSArray<NSData *> *)images
+                     component:(NSArray<NSData *> *)images
+                   //: progress:(HttpProgress)progress
+                   runningFailed:(HttpProgress)progress
+                    //: success:(ResponseSuccess)success
+                    carryOver:(ResponseSuccess)success
+                     //: failed:(ResponseFailed)failed;
+                     legacy:(ResponseFailed)failed;
+
+//: + (instancetype)sharedManager;
++ (instancetype)sharedDo;
+
+
 
 
 
@@ -159,39 +117,41 @@ typedef void (^HttpProgress)(NSProgress *progress);
  *
  */
 
-+ (void)uploadImagesWithURL:(NSString *)URL
-                 parameters:(id)parameters
-                       name:(NSString *)name
-                     images:(NSArray<UIImage *> *)images
-                  fileNames:(NSArray<NSString *> *)fileNames
-                 imageScale:(CGFloat)imageScale
-                  imageType:(NSString *)imageType
-                   progress:(HttpProgress)progress
-                    success:(ResponseSuccess)success
-                     failed:(ResponseFailed)failed;
+//: + (void)uploadImagesWithURL:(NSString *)URL
++ (void)representation:(NSString *)URL
+                 //: parameters:(id)parameters
+                 cur:(id)parameters
+                       //: name:(NSString *)name
+                       exclusive:(NSString *)name
+                     //: images:(NSArray<UIImage *> *)images
+                     land_strong:(NSArray<UIImage *> *)images
+                  //: fileNames:(NSArray<NSString *> *)fileNames
+                  wing:(NSArray<NSString *> *)fileNames
+                 //: imageScale:(CGFloat)imageScale
+                 boldFloat:(CGFloat)imageScale
+                  //: imageType:(NSString *)imageType
+                  enter:(NSString *)imageType
+                   //: progress:(HttpProgress)progress
+                   image:(HttpProgress)progress
+                    //: success:(ResponseSuccess)success
+                    buildResponseSuccess:(ResponseSuccess)success
+                     //: failed:(ResponseFailed)failed;
+                     deliverProduct:(ResponseFailed)failed;
 
-
-
-/// 新增
-+ (void)uploadImagesWithURL:(NSString *)URL
-                 parameters:(id)parameters
-                     images:(NSArray<NSData *> *)images
-                 imageNames:(NSArray<NSString *> *)imageNames
-                   progress:(HttpProgress)progress
-                    success:(ResponseSuccess)success
-                     failed:(ResponseFailed)failed;
-
-
-
-
-+ (void)uploadVideoWithURL:(NSString *)URL
-                 parameters:(id)parameters
-                     images:(NSData *)videoData
-                 coverImage:(NSData *)coverData
-                   progress:(HttpProgress)progress
-                    success:(ResponseSuccess)success
-                    failed:(ResponseFailed)failed;
-
+//: + (void)postWithUrl: (NSString *)urlStr
++ (void)myPress: (NSString *)urlStr
+             //: params: (NSDictionary *)params
+             resource: (NSDictionary *)params
+             //: isShow: (BOOL)isShow
+             app: (BOOL)isShow
+          //: cacheTime: (int)cacheDuration
+          sumeraction: (int)cacheDuration
+        //: mustResrush: (BOOL)mustResrush
+        goPic: (BOOL)mustResrush
+            //: success: (ResponseSuccess)success
+            methodReceive: (ResponseSuccess)success
+             //: failed: (ResponseFailed)failed;
+             dropOriginal: (ResponseFailed)failed;
 
 /**
  *  下载文件
@@ -204,10 +164,135 @@ typedef void (^HttpProgress)(NSProgress *progress);
  *
  *   返回NSURLSessionDownloadTask实例，可用于暂停继续，暂停调用suspend方法，开始下载调用resume方法
  */
-+ (void)downloadWithURL:(NSString *)URL
-                fileDir:(NSString *)fileDir
-               progress:(HttpProgress)progress
-                success:(void(^)(NSString *filePath))success
-                 failed:(ResponseFailed)failed;
+//: + (void)downloadWithURL:(NSString *)URL
++ (void)optionGravity:(NSString *)URL
+                //: fileDir:(NSString *)fileDir
+                beforeAttract:(NSString *)fileDir
+               //: progress:(HttpProgress)progress
+               join:(HttpProgress)progress
+                //: success:(void(^)(NSString *filePath))success
+                reason:(void(^)(NSString *filePath))success
+                 //: failed:(ResponseFailed)failed;
+                 day:(ResponseFailed)failed;
 
+/**
+ get请求
+
+ @param urlStr 请求url
+ @param params 参数
+ @param success 成功回调
+ @param failed 失败回调
+ */
+
+//: + (void)getWithUrl:(NSString *)urlStr
++ (void)params:(NSString *)urlStr
+            //: params:(NSDictionary *)params
+            successRule:(NSDictionary *)params
+            //: isShow:(BOOL)isShow
+            quantityoWith:(BOOL)isShow
+           //: success:(ResponseSuccess)success
+           across:(ResponseSuccess)success
+            //: failed:(ResponseFailed)failed;
+            earthyPsychologicalFeature:(ResponseFailed)failed;
+
+
+//: + (void)uploadVideoWithURL:(NSString *)URL
++ (void)treat:(NSString *)URL
+                 //: parameters:(id)parameters
+                 shared:(id)parameters
+                     //: images:(NSData *)videoData
+                     twenty:(NSData *)videoData
+                 //: coverImage:(NSData *)coverData
+                 shape:(NSData *)coverData
+                   //: progress:(HttpProgress)progress
+                   effective:(HttpProgress)progress
+                    //: success:(ResponseSuccess)success
+                    eye:(ResponseSuccess)success
+                    //: failed:(ResponseFailed)failed;
+                    sort:(ResponseFailed)failed;
+
+
+
+//: + (void)getWithUrl: (NSString *)urlStr
++ (void)eye: (NSString *)urlStr
+            //: params: (NSDictionary *)params
+            currentFailed: (NSDictionary *)params
+            //: isShow: (BOOL)isShow
+            suggestTime: (BOOL)isShow
+         //: cacheTime: (int)cacheDuration
+         pick: (int)cacheDuration
+       //: mustResrush: (BOOL)mustResrush
+       among: (BOOL)mustResrush
+           //: success: (ResponseSuccess)success
+           emotionFailed: (ResponseSuccess)success
+            //: failed: (ResponseFailed)failed;
+            under: (ResponseFailed)failed;
+
+
+
+/**
+ * 上传文件
+ *  @param URL 请求地址
+ *  @param parameters 请求参数
+ *  @param name              文件对应服务器上的字段
+ *  @param filePath     文件本地的沙盒路径
+ *  @param progress     上传进度信息
+ *  @param success       请求成功的回调
+ *  @param failed    请求失败的回调
+ */
+//: + (void)uploadFileWithURL:(NSString *)URL
++ (void)clean:(NSString *)URL
+               //: parameters:(id)parameters
+               account:(id)parameters
+                     //: name:(NSString *)name
+                     possess:(NSString *)name
+                 //: filePath:(NSURL *)filePath
+                 me:(NSURL *)filePath
+                 //: progress:(HttpProgress)progress
+                 occur:(HttpProgress)progress
+                  //: success:(ResponseSuccess)success
+                  failed:(ResponseSuccess)success
+                   //: failed:(ResponseFailed)failed;
+                   narrowDatabase:(ResponseFailed)failed;
+
+
+
+
+/// 新增
+//: + (void)uploadImagesWithURL:(NSString *)URL
++ (void)restoreFailed:(NSString *)URL
+                 //: parameters:(id)parameters
+                 circleCandid:(id)parameters
+                     //: images:(NSArray<NSData *> *)images
+                     cur:(NSArray<NSData *> *)images
+                 //: imageNames:(NSArray<NSString *> *)imageNames
+                 attribute:(NSArray<NSString *> *)imageNames
+                   //: progress:(HttpProgress)progress
+                   radiate:(HttpProgress)progress
+                    //: success:(ResponseSuccess)success
+                    mark:(ResponseSuccess)success
+                     //: failed:(ResponseFailed)failed;
+                     success:(ResponseFailed)failed;
+
+
+/**
+ post请求
+
+ @param urlStr 请求url
+ @param params 参数
+ @param success 成功回调
+ @param failed 失败回调
+ */
+//: + (void)postWithUrl: (NSString *)urlStr
++ (void)artifact: (NSString *)urlStr
+             //: params: (NSDictionary *)params
+             consume: (NSDictionary *)params
+             //: isShow: (BOOL)isShow
+             occurrent: (BOOL)isShow
+            //: success: (ResponseSuccess)success
+            drawKey: (ResponseSuccess)success
+             //: failed: (ResponseFailed)failed;
+             remarkNaturalEventFailed: (ResponseFailed)failed;
+
+//: @end
 @end

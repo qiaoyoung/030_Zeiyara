@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  USERTeamCardMemberItem.h
 //  NIM
@@ -6,20 +8,28 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
+//: #import "PaletteBeaconPushSend.h"
 #import "PaletteBeaconPushSend.h"
 
+//: @interface SpectrumModifyPresenter : NSObject<HighlightPerformVerifyHighlight>
 @interface SpectrumModifyPresenter : NSObject<HighlightPerformVerifyHighlight>
 
-@property (nonatomic, readonly) NIMTeamMember *member;
+//: @property (nonatomic, assign) StencilBlendPaint opeator;
+@property (nonatomic, assign) StencilBlendPaint transform;
 
-@property (nonatomic, copy) NSString *userId;
+//: @property (nonatomic, copy) NSString *userId;
+@property (nonatomic, copy) NSString *startingBies;
 
-@property (nonatomic, assign) StencilBlendPaint opeator;
+//: @property (nonatomic, readonly) NIMTeamMember *member;
+@property (nonatomic, readonly) NIMTeamMember *load;
 
-- (instancetype)initWithMember:(NIMTeamMember *)member
-                      teamType:(NIMTeamType)teamType;
+//: - (instancetype)initWithMember:(NIMTeamMember *)member
+- (instancetype)initWithStrike:(NIMTeamMember *)member
+                      //: teamType:(NIMTeamType)teamType;
+                      transport:(NIMTeamType)teamType;
 
+//: @end
 @end
-
-

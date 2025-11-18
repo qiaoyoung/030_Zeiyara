@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  TransformGetCacheControllerBasedCell.m
 //  TransformGetCacheControllerDemo
@@ -6,9 +8,13 @@
 //  Copyright © 2016年 chenfanfang. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "TransformGetCacheControllerBasedCell.h"
 #import "TransformGetCacheControllerBasedCell.h"
 
+//: @implementation TransformGetCacheControllerBasedCell
 @implementation TransformGetCacheControllerBasedCell
 
 
+//: @end
 @end

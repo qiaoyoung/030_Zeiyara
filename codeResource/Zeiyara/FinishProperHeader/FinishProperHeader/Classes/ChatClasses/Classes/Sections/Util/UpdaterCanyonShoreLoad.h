@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NIMUtil.h
 // QuintessentialContentTreat
@@ -6,28 +8,43 @@
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
+//: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
+//: #import "UpdatePastHelperTarget.h"
 #import "UpdatePastHelperTarget.h"
 
+//: @interface UpdaterCanyonShoreLoad : NSObject
 @interface UpdaterCanyonShoreLoad : NSObject
 
-+ (NSString *)showNick:(NSString *)uid inMessage:(NIMMessage *)message;
+//: + (NSString *)messageTipContent:(NIMMessage *)message;
++ (NSString *)throughout:(NIMMessage *)message;
 
-+ (NSString *)showNick:(NSString *)uid inSession:(NIMSession *)session;
+//: + (NSString *)showNick:(NSString *)uid inSession:(NIMSession *)session;
++ (NSString *)gray:(NSString *)uid auNaturel:(NIMSession *)session;
 
-+ (NSString *)showTime:(NSTimeInterval)msglastTime showDetail:(BOOL)showDetail;
+//: + (BOOL)canInviteMemberToTeam:(NIMTeamMember *)member;
++ (BOOL)shadow:(NIMTeamMember *)member;
 
-+ (NSString *)messageTipContent:(NIMMessage *)message;
+//: + (NSString *)durationTextWithSeconds:(NSTimeInterval)seconds;
++ (NSString *)added:(NSTimeInterval)seconds;
 
-+ (NSString *)durationTextWithSeconds:(NSTimeInterval)seconds;
+//: + (BOOL)canInviteMemberToSuperTeam:(NIMTeamMember *)member;
++ (BOOL)document:(NIMTeamMember *)member;
 
-+ (BOOL)canEditTeamInfo:(NIMTeamMember *)member;
+//: + (NSString *)showTime:(NSTimeInterval)msglastTime showDetail:(BOOL)showDetail;
++ (NSString *)flame:(NSTimeInterval)msglastTime thread:(BOOL)showDetail;
 
-+ (BOOL)canInviteMemberToTeam:(NIMTeamMember *)member;
+//: + (BOOL)canEditSuperTeamInfo:(NIMTeamMember *)member;
++ (BOOL)ceremonial:(NIMTeamMember *)member;
 
-+ (BOOL)canEditSuperTeamInfo:(NIMTeamMember *)member;
+//: + (NSString *)showNick:(NSString *)uid inMessage:(NIMMessage *)message;
++ (NSString *)more:(NSString *)uid beyondClick:(NIMMessage *)message;
 
-+ (BOOL)canInviteMemberToSuperTeam:(NIMTeamMember *)member;
+//: + (BOOL)canEditTeamInfo:(NIMTeamMember *)member;
++ (BOOL)observe:(NIMTeamMember *)member;
 
+//: @end
 @end

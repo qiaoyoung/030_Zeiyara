@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  DefineSlipDistinctFacade.h
 //  https://github.com/hackiftekhar/PreciseStripeAtlas
@@ -21,41 +23,49 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-
+//: #import "UpdaterShareThread.h"
 #import "UpdaterShareThread.h"
-
 
 /**
  DefineSlipDistinctFacade for PreciseStripeAtlas.
  */
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
+//: @interface DefineSlipDistinctFacade : UIToolbar <UIInputViewAudioFeedback>
 @interface DefineSlipDistinctFacade : UIToolbar <UIInputViewAudioFeedback>
 
 /**
  Previous bar button of toolbar.
  */
-@property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *previousBarButton;
-
-/**
- Next bar button of toolbar.
- */
-@property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *nextBarButton;
-
-/**
- Title bar button of toolbar.
- */
-@property(nonnull, nonatomic, strong, readonly) UpdaterShareThread *titleBarButton;
-
-/**
- Done bar button of toolbar.
- */
-@property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *doneBarButton;
+//: @property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *previousBarButton;
+@property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *previousBehind;
 
 /**
  Fixed space bar button of toolbar.
  */
-@property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *fixedSpaceBarButton;
+//: @property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *fixedSpaceBarButton;
+@property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *wood;
 
+/**
+ Title bar button of toolbar.
+ */
+//: @property(nonnull, nonatomic, strong, readonly) UpdaterShareThread *titleBarButton;
+@property(nonnull, nonatomic, strong, readonly) UpdaterShareThread *cloying;
+
+/**
+ Done bar button of toolbar.
+ */
+//: @property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *doneBarButton;
+@property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *magnitudeo;
+
+/**
+ Next bar button of toolbar.
+ */
+//: @property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *nextBarButton;
+@property(nonnull, nonatomic, strong) LargeSunHoneyOrchestrator *balefire;
+
+//: @end
 @end
-

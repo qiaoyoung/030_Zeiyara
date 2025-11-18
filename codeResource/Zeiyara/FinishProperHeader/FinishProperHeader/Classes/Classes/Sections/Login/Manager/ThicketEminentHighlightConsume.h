@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ThicketEminentHighlightConsume.h
 //  sohunews
@@ -7,10 +9,11 @@
 //
 //  modify by tengli on 2022.8.1 (V6.7.8)
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
-
-
+//: @interface ThicketEminentHighlightConsume : NSObject
 @interface ThicketEminentHighlightConsume : NSObject
 
 
@@ -19,20 +22,17 @@
  IUUID 生成后保存至磁盘,卸载重装后重新生成
  IDFA & IDFV & MCI 变化,也会重新生成
  */
-+ (NSString *)deviceIUUID;
+/// 国家
+//: + (NSString *)countryCode;
++ (NSString *)musePolicy;
 
-/**
- IDFA & IDFV & MCI 变化,重新生成
- */
-+ (void)updateDeviceIUUID;
+/// 语言
+//: + (NSString *)language;
++ (NSString *)magnitudeJointed;
 
-/*
- * @method uniqueDeviceIdentifier
- * @description use this method when you need a unique identifier in one app.
- * It generates a hash from the MAC-address in combination with the bundle identifier
- * of your app.
- */
-- (NSString *)uniqueDeviceIdentifier;
+/// 系统更新时间
+//: + (NSString *)sysFileTime;
++ (NSString *)list;
 
 /*
  * @method uniqueGlobalDeviceIdentifier
@@ -41,33 +41,49 @@
  * from different apps.
  * It generates a hash from the MAC-address only.
  */
-- (NSString *)uniqueGlobalDeviceIdentifier;
+//: - (NSString *)uniqueGlobalDeviceIdentifier;
+- (NSString *)year;
 
 
+//: #pragma mark - CAID
 #pragma mark - CAID
 
 /// 设备启动时间
-+ (NSString *)bootTimeInSec;
+//: + (NSString *)bootTimeInSec;
++ (NSString *)press;
 
-/// 国家
-+ (NSString *)countryCode;
+//get system uptime since last boot 获取系统当前运行了多长时间
+//: + (NSTimeInterval)uptime;
++ (NSTimeInterval)hair;
 
-/// 语言
-+ (NSString *)language;
-
-
-/// 运营商
-+(NSString* )carrierInfo;
-
-/// 系统更新时间
-+ (NSString *)sysFileTime;
+//: + (NSString *)deviceIUUID;
++ (NSString *)director;
 
 
 ///时区
-+ (NSString *)timeZone;
+//: + (NSString *)timeZone;
++ (NSString *)observe;
 
-//get system uptime since last boot 获取系统当前运行了多长时间
-+ (NSTimeInterval)uptime;
+/// 运营商
+//: +(NSString* )carrierInfo;
++(NSString* )should;
 
 
+/*
+ * @method uniqueDeviceIdentifier
+ * @description use this method when you need a unique identifier in one app.
+ * It generates a hash from the MAC-address in combination with the bundle identifier
+ * of your app.
+ */
+//: - (NSString *)uniqueDeviceIdentifier;
+- (NSString *)underVehicleIdentifier;
+
+/**
+ IDFA & IDFV & MCI 变化,重新生成
+ */
+//: + (void)updateDeviceIUUID;
++ (void)sumeraction;
+
+
+//: @end
 @end

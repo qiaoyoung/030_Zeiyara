@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  USERSessionMsgHelper.h
 //  NIMDemo
@@ -6,53 +8,84 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @class ReadScheduleZestful;
 @class ReadScheduleZestful;
+//: @class AnalyzeMarshVastClass;
 @class AnalyzeMarshVastClass;
+//: @class SpectrumHorizonGulfKinetic;
 @class SpectrumHorizonGulfKinetic;
+//: @class WorkbenchCoralChiefConfigure;
 @class WorkbenchCoralChiefConfigure;
+//: @class LeafArtifactAbove;
 @class LeafArtifactAbove;
+//: @class ApplyMultiplyFileGenerate;
 @class ApplyMultiplyFileGenerate;
+//: @class ColorOn;
 @class ColorOn;
 
+//: @interface AddDeliverInsightGreenAssemble : NSObject
 @interface AddDeliverInsightGreenAssemble : NSObject
 
-+ (NIMMessage *)msgWithText:(NSString *)text;
+//: + (NIMMessage *)msgWithText:(NSString *)text;
++ (NIMMessage *)board:(NSString *)text;
 
-+ (NIMMessage *)msgWithImage:(UIImage *)image;
+//: + (NIMMessage *)msgWithRevocationMessage:(NIMMessage *)revocationMessage;
++ (NIMMessage *)replyMessage:(NIMMessage *)revocationMessage;
 
-+ (NIMMessage *)msgWithImagePath:(NSString *)path;
+//: + (NIMMessage *)msgWithWhiteboardAttachment:(SpectrumHorizonGulfKinetic *)attachment;
++ (NIMMessage *)flameField:(SpectrumHorizonGulfKinetic *)attachment;
 
-+ (NIMMessage *)msgWithAudio:(NSString *)filePath;
+//: + (NIMMessage *)msgWithRedPacket:(WorkbenchCoralChiefConfigure *)attachment;
++ (NIMMessage *)circuit:(WorkbenchCoralChiefConfigure *)attachment;
 
-+ (NIMMessage *)msgWithVideo:(NSString *)filePath;
+//: + (NIMMessage *)msgWithFileData:(NSData *)data extension:(NSString *)extension;
++ (NIMMessage *)that:(NSData *)data skipWorker:(NSString *)extension;
 
-+ (NIMMessage *)msgWithJenKenPon:(ReadScheduleZestful *)attachment;
+//: + (NIMMessage *)msgWithImagePath:(NSString *)path;
++ (NIMMessage *)createRed:(NSString *)path;
 
-+ (NIMMessage *)msgWithSnapchatAttachment:(AnalyzeMarshVastClass *)attachment;
+//: + (NIMMessage *)msgWithVideo:(NSString *)filePath;
++ (NIMMessage *)compare:(NSString *)filePath;
 
-+ (NIMMessage *)msgWithWhiteboardAttachment:(SpectrumHorizonGulfKinetic *)attachment;
+//: + (NIMMessage *)msgWithImage:(UIImage *)image;
++ (NIMMessage *)processImage:(UIImage *)image;
 
-+ (NIMMessage *)msgWithFilePath:(NSString *)path;
+//: + (NIMMessage *)msgWithMultiRetweetAttachment:(ApplyMultiplyFileGenerate *)attachment;
++ (NIMMessage *)channelOccur:(ApplyMultiplyFileGenerate *)attachment;
 
-+ (NIMMessage *)msgWithFileData:(NSData *)data extension:(NSString *)extension;
+//: + (NIMMessage *)msgWithTip:(NSString *)tip;
++ (NIMMessage *)with:(NSString *)tip;
 
-+ (NIMMessage *)msgWithTip:(NSString *)tip;
+//: + (NIMMessage *)msgWithRedPacketTip:(LeafArtifactAbove *)attachment;
++ (NIMMessage *)moon:(LeafArtifactAbove *)attachment;
 
-+ (NIMMessage *)msgWithTip:(NSString *)tip
-              revokeAttach:(NSString *)revokeAttach
-         revokeCallbackExt:(NSString *)revokeCallbackExt;
+//: + (NIMMessage *)msgWithTip:(NSString *)tip
++ (NIMMessage *)iceTemporary:(NSString *)tip
+              //: revokeAttach:(NSString *)revokeAttach
+              tune:(NSString *)revokeAttach
+         //: revokeCallbackExt:(NSString *)revokeCallbackExt;
+         examineed:(NSString *)revokeCallbackExt;
 
-+ (NIMMessage *)msgWithRedPacket:(WorkbenchCoralChiefConfigure *)attachment;
+//: + (NIMMessage *)msgWithShareCard:(ColorOn *)attachment;
++ (NIMMessage *)merely:(ColorOn *)attachment;
 
-+ (NIMMessage *)msgWithRedPacketTip:(LeafArtifactAbove *)attachment;
+//: + (NIMMessage *)msgWithSnapchatAttachment:(AnalyzeMarshVastClass *)attachment;
++ (NIMMessage *)controlAmong:(AnalyzeMarshVastClass *)attachment;
 
-+ (NIMMessage *)msgWithMultiRetweetAttachment:(ApplyMultiplyFileGenerate *)attachment;
+//: + (NIMMessage *)msgWithAudio:(NSString *)filePath;
++ (NIMMessage *)exclude:(NSString *)filePath;
 
-+ (NIMMessage *)msgWithRevocationMessage:(NIMMessage *)revocationMessage;
+//: + (NIMMessage *)msgWithFilePath:(NSString *)path;
++ (NIMMessage *)starchyPath:(NSString *)path;
 
-+ (NIMMessage *)msgWithShareCard:(ColorOn *)attachment;
+//: + (NIMMessage *)msgWithJenKenPon:(ReadScheduleZestful *)attachment;
++ (NIMMessage *)driveAcrossPon:(ReadScheduleZestful *)attachment;
 
+//: @end
 @end

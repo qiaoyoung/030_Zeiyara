@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  StopConverterConvertOf.h
 //  StopConverterConvertOf
@@ -5,6 +7,10 @@
 //  Created by aier on 15-3-22.
 //  Copyright (c) 2015年 GSD. All rights reserved.
 //
+
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
 
 /*
  
@@ -33,146 +39,196 @@
  * 更新日期：2016.04.21
  */
 
-#import <UIKit/UIKit.h>
 
+
+//: typedef enum {
 typedef enum {
+    //: StopConverterConvertOfPageContolAlimentRight,
     StopConverterConvertOfPageContolAlimentRight,
+    //: StopConverterConvertOfPageContolAlimentCenter
     StopConverterConvertOfPageContolAlimentCenter
+//: } StopConverterConvertOfPageContolAliment;
 } StopConverterConvertOfPageContolAliment;
 
+//: typedef enum {
 typedef enum {
+    //: StopConverterConvertOfPageContolStyleStrip,
     StopConverterConvertOfPageContolStyleStrip,
-    StopConverterConvertOfPageContolStyleClassic,        // 系统自带经典样式
-    StopConverterConvertOfPageContolStyleAnimated,       // 动画效果pagecontrol
-    StopConverterConvertOfPageContolStyleNone            // 不显示pagecontrol
+    //: StopConverterConvertOfPageContolStyleClassic, 
+    StopConverterConvertOfPageContolStyleClassic, // 系统自带经典样式
+    //: StopConverterConvertOfPageContolStyleAnimated, 
+    StopConverterConvertOfPageContolStyleAnimated, // 动画效果pagecontrol
+    //: StopConverterConvertOfPageContolStyleNone 
+    StopConverterConvertOfPageContolStyleNone // 不显示pagecontrol
+//: } StopConverterConvertOfPageContolStyle;
 } StopConverterConvertOfPageContolStyle;
 
+//: @class StopConverterConvertOf;
 @class StopConverterConvertOf;
 
+//: @protocol StopConverterConvertOfDelegate <NSObject>
 @protocol StopConverterConvertOfDelegate <NSObject>
 
+//: @optional
 @optional
 
 /** 点击图片回调 */
-- (void)cycleScrollView:(StopConverterConvertOf *)cycleScrollView didSelectItemAtIndex:(NSInteger)index;
+//: - (void)cycleScrollView:(StopConverterConvertOf *)cycleScrollView didSelectItemAtIndex:(NSInteger)index;
+- (void)indexVehicle:(StopConverterConvertOf *)cycleScrollView will:(NSInteger)index;
 
 /** 图片滚动回调 */
-- (void)cycleScrollView:(StopConverterConvertOf *)cycleScrollView didScrollToIndex:(NSInteger)index;
+//: - (void)cycleScrollView:(StopConverterConvertOf *)cycleScrollView didScrollToIndex:(NSInteger)index;
+- (void)find:(StopConverterConvertOf *)cycleScrollView scale:(NSInteger)index;
 
+//: @end
 @end
 
+//: @interface StopConverterConvertOf : UIView
 @interface StopConverterConvertOf : UIView
 
 
 /** 初始轮播图（推荐使用） */
-+ (instancetype)cycleScrollViewWithFrame:(CGRect)frame delegate:(id<StopConverterConvertOfDelegate>)delegate placeholderImage:(UIImage *)placeholderImage;
-
-+ (instancetype)cycleScrollViewWithFrame:(CGRect)frame imageURLStringsGroup:(NSArray *)imageURLStringsGroup;
-
-
 /** 本地图片轮播初始化方式 */
-+ (instancetype)cycleScrollViewWithFrame:(CGRect)frame imageNamesGroup:(NSArray *)imageNamesGroup;
+//: + (instancetype)cycleScrollViewWithFrame:(CGRect)frame imageNamesGroup:(NSArray *)imageNamesGroup;
++ (instancetype)near:(CGRect)frame direct:(NSArray *)imageNamesGroup;
 
 /** 本地图片轮播初始化方式2,infiniteLoop:是否无限循环 */
-+ (instancetype)cycleScrollViewWithFrame:(CGRect)frame shouldInfiniteLoop:(BOOL)infiniteLoop imageNamesGroup:(NSArray *)imageNamesGroup;
-
-
-
-//////////////////////  数据源接口  //////////////////////
-
-/** 网络图片 url string 数组 */
-@property (nonatomic, strong) NSArray *imageURLStringsGroup;
-
-/** 每张图片对应要显示的文字数组 */
-@property (nonatomic, strong) NSArray *titlesGroup;
-
-/** 本地图片数组 */
-@property (nonatomic, strong) NSArray *localizationImageNamesGroup;
-
-
-
-
-
-//////////////////////  滚动控制接口 //////////////////////
-
-/** 自动滚动间隔时间,默认2s */
-@property (nonatomic, assign) CGFloat autoScrollTimeInterval;
-
-/** 是否无限循环,默认Yes */
-@property (nonatomic,assign) BOOL infiniteLoop;
-
-/** 是否自动滚动,默认Yes */
-@property (nonatomic,assign) BOOL autoScroll;
-
-/** 图片滚动方向，默认为水平滚动 */
-@property (nonatomic, assign) UICollectionViewScrollDirection scrollDirection;
-
-@property (nonatomic, weak) id<StopConverterConvertOfDelegate> delegate;
-
-/** block方式监听点击 */
-@property (nonatomic, copy) void (^clickItemOperationBlock)(NSInteger currentIndex);
-
-/** block方式监听滚动 */
-@property (nonatomic, copy) void (^itemDidScrollOperationBlock)(NSInteger currentIndex);
-
-
-
-//////////////////////  自定义样式接口  //////////////////////
-
-/** 轮播图片的ContentMode，默认为 UIViewContentModeScaleToFill */
-@property (nonatomic, assign) UIViewContentMode bannerImageViewContentMode;
-
-/** 占位图，用于网络未加载到图片时 */
-@property (nonatomic, strong) UIImage *placeholderImage;
-
-/** 是否显示分页控件 */
-@property (nonatomic, assign) BOOL showPageControl;
-
-/** 是否在只有一张图时隐藏pagecontrol，默认为YES */
-@property(nonatomic) BOOL hidesForSinglePage;
-
-/** pagecontrol 样式，默认为动画样式 */
-@property (nonatomic, assign) StopConverterConvertOfPageContolStyle pageControlStyle;
-
-/** 分页控件位置 */
-@property (nonatomic, assign) StopConverterConvertOfPageContolAliment pageControlAliment;
-
-/** 分页控件小圆标大小 */
-@property (nonatomic, assign) CGSize pageControlDotSize;
-
-/** 当前分页控件小圆标颜色 */
-@property (nonatomic, strong) UIColor *currentPageDotColor;
-
-/** 其他分页控件小圆标颜色 */
-@property (nonatomic, strong) UIColor *pageDotColor;
-
-/** 当前分页控件小圆标图片 */
-@property (nonatomic, strong) UIImage *currentPageDotImage;
-
-/** 其他分页控件小圆标图片 */
-@property (nonatomic, strong) UIImage *pageDotImage;
-
-/** 轮播文字label字体颜色 */
-@property (nonatomic, strong) UIColor *titleLabelTextColor;
-
-/** 轮播文字label字体大小 */
-@property (nonatomic, strong) UIFont  *titleLabelTextFont;
-
-/** 轮播文字label背景颜色 */
-@property (nonatomic, strong) UIColor *titleLabelBackgroundColor;
-
-/** 轮播文字label高度 */
-@property (nonatomic, assign) CGFloat titleLabelHeight;
-
-@property (nonatomic, assign) BOOL showGradient;
+//: + (instancetype)cycleScrollViewWithFrame:(CGRect)frame shouldInfiniteLoop:(BOOL)infiniteLoop imageNamesGroup:(NSArray *)imageNamesGroup;
++ (instancetype)circleConfirm:(CGRect)frame commit:(BOOL)infiniteLoop snap:(NSArray *)imageNamesGroup;
 
 
 //////////////////////  清除缓存接口  //////////////////////
 
 /** 清除图片缓存（此次升级后统一使用SDWebImage管理图片加载和缓存）  */
-+ (void)clearImagesCache;
+//: + (void)clearImagesCache;
++ (void)trisodiumOrthophosphate;
+
+//: + (instancetype)cycleScrollViewWithFrame:(CGRect)frame imageURLStringsGroup:(NSArray *)imageURLStringsGroup;
++ (instancetype)beautyGroup:(CGRect)frame applyGroup:(NSArray *)imageURLStringsGroup;
+
+
+
+/** 当前分页控件小圆标图片 */
+//: @property (nonatomic, strong) UIImage *currentPageDotImage;
+@property (nonatomic, strong) UIImage *connection;
+
+/** 是否在只有一张图时隐藏pagecontrol，默认为YES */
+//: @property(nonatomic) BOOL hidesForSinglePage;
+@property(nonatomic) BOOL length;
+
+/** 当前分页控件小圆标颜色 */
+//: @property (nonatomic, strong) UIColor *currentPageDotColor;
+@property (nonatomic, strong) UIColor *border;
+
+
+
+
+
+/** 本地图片数组 */
+//: @property (nonatomic, strong) NSArray *localizationImageNamesGroup;
+@property (nonatomic, strong) NSArray *bigLink;
+
+/** 轮播文字label背景颜色 */
+//: @property (nonatomic, strong) UIColor *titleLabelBackgroundColor;
+@property (nonatomic, strong) UIColor *inheritance;
+
+/** block方式监听滚动 */
+//: @property (nonatomic, copy) void (^itemDidScrollOperationBlock)(NSInteger currentIndex);
+@property (nonatomic, copy) void (^quality)(NSInteger currentIndex);
+
+/** 分页控件位置 */
+//: @property (nonatomic, assign) StopConverterConvertOfPageContolAliment pageControlAliment;
+@property (nonatomic, assign) StopConverterConvertOfPageContolAliment perDocument;
+
+/** 轮播文字label高度 */
+//: @property (nonatomic, assign) CGFloat titleLabelHeight;
+@property (nonatomic, assign) CGFloat artifact;
+
+//////////////////////  自定义样式接口  //////////////////////
+
+/** 轮播图片的ContentMode，默认为 UIViewContentModeScaleToFill */
+//: @property (nonatomic, assign) UIViewContentMode bannerImageViewContentMode;
+@property (nonatomic, assign) UIViewContentMode carrier;
+
+/** 图片滚动方向，默认为水平滚动 */
+//: @property (nonatomic, assign) UICollectionViewScrollDirection scrollDirection;
+@property (nonatomic, assign) UICollectionViewScrollDirection threadPortrait;
+
+
+
+/** 其他分页控件小圆标图片 */
+//: @property (nonatomic, strong) UIImage *pageDotImage;
+@property (nonatomic, strong) UIImage *decide;
+
+/** 轮播文字label字体颜色 */
+//: @property (nonatomic, strong) UIColor *titleLabelTextColor;
+@property (nonatomic, strong) UIColor *switchence;
+
+/** 是否无限循环,默认Yes */
+//: @property (nonatomic,assign) BOOL infiniteLoop;
+@property (nonatomic,assign) BOOL exclusiveLoop;
+
+/** 占位图，用于网络未加载到图片时 */
+//: @property (nonatomic, strong) UIImage *placeholderImage;
+@property (nonatomic, strong) UIImage *sinceInstance;
+
+//////////////////////  滚动控制接口 //////////////////////
+
+/** 自动滚动间隔时间,默认2s */
+//: @property (nonatomic, assign) CGFloat autoScrollTimeInterval;
+@property (nonatomic, assign) CGFloat way;
+
+//: @property (nonatomic, weak) id<StopConverterConvertOfDelegate> delegate;
+@property (nonatomic, weak) id<StopConverterConvertOfDelegate> characterThroughoutted;
+
+/** block方式监听点击 */
+//: @property (nonatomic, copy) void (^clickItemOperationBlock)(NSInteger currentIndex);
+@property (nonatomic, copy) void (^mine)(NSInteger currentIndex);
+
+/** pagecontrol 样式，默认为动画样式 */
+//: @property (nonatomic, assign) StopConverterConvertOfPageContolStyle pageControlStyle;
+@property (nonatomic, assign) StopConverterConvertOfPageContolStyle maneuverBeyondContolStyle;
+
+/** 分页控件小圆标大小 */
+//: @property (nonatomic, assign) CGSize pageControlDotSize;
+@property (nonatomic, assign) CGSize pageTemp;
+
+/** 是否显示分页控件 */
+//: @property (nonatomic, assign) BOOL showPageControl;
+@property (nonatomic, assign) BOOL gravityOff;
+
+/** 其他分页控件小圆标颜色 */
+//: @property (nonatomic, strong) UIColor *pageDotColor;
+@property (nonatomic, strong) UIColor *expandColoration;
+
+//////////////////////  数据源接口  //////////////////////
+
+/** 网络图片 url string 数组 */
+//: @property (nonatomic, strong) NSArray *imageURLStringsGroup;
+@property (nonatomic, strong) NSArray *direct;
+
+/** 是否自动滚动,默认Yes */
+//: @property (nonatomic,assign) BOOL autoScroll;
+@property (nonatomic,assign) BOOL method;
+
+/** 每张图片对应要显示的文字数组 */
+//: @property (nonatomic, strong) NSArray *titlesGroup;
+@property (nonatomic, strong) NSArray *section;
+
+//: @property (nonatomic, assign) BOOL showGradient;
+@property (nonatomic, assign) BOOL picOn;
+
+/** 轮播文字label字体大小 */
+//: @property (nonatomic, strong) UIFont *titleLabelTextFont;
+@property (nonatomic, strong) UIFont *transmissionFont;
+
+
+//: + (instancetype)cycleScrollViewWithFrame:(CGRect)frame delegate:(id<StopConverterConvertOfDelegate>)delegate placeholderImage:(UIImage *)placeholderImage;
++ (instancetype)writingTag:(CGRect)frame placeholder:(id<StopConverterConvertOfDelegate>)delegate program:(UIImage *)placeholderImage;
 
 /** 清除图片缓存（兼容旧版本方法） */
-- (void)clearCache;
+//: - (void)clearCache;
+- (void)onSkip;
 
+//: @end
 @end

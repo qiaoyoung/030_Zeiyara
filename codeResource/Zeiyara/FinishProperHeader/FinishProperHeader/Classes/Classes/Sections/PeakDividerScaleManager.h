@@ -1,24 +1,42 @@
-#import <Foundation/Foundation.h>
-#import <SSZipArchive/SSZipArchive.h>
-NS_ASSUME_NONNULL_BEGIN
-#define kFinishProperHeader @"FinishProperHeader"
+// __DEBUG__
+// __CLOSE_PRINT__
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
+//: #import <SSZipArchive/SSZipArchive.h>
+#import <SSZipArchive/SSZipArchive.h>
+
+//: NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN
+
+
+//: @interface PeakDividerScaleManager : NSObject
 @interface PeakDividerScaleManager : NSObject
 
-+ (instancetype)sharedManager;
+//: - (NSString *)getXML_filePath;
+- (NSString *)admin;
 
-- (NSString *)getHtml_filePath;
+//: - (NSString *)getVoicePath;
+- (NSString *)everyGet;
 
-- (NSString *)getXML_filePath;
+//: - (NSString *)getLprojPath;
+- (NSString *)lprojKick;
 
-- (NSString *)getEmojiPath;
+//: - (NSString *)getEmojiPath;
+- (NSString *)message;
 
-- (NSString *)getLprojPath;
+//: - (UIImage *)zip_imageNamed:(NSString *)name;
+- (UIImage *)tos:(NSString *)name;
 
-- (NSString *)getVoicePath;
+//: + (instancetype)sharedManager;
++ (instancetype)sharedDo;
 
-- (UIImage *)zip_imageNamed:(NSString *)name;
+//: - (NSString *)getHtml_filePath;
+- (NSString *)logical;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

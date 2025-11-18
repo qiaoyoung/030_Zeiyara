@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NSString+VolumeWoodTemplateDiscrete.h
 //  NIMDemo
@@ -6,24 +8,36 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
-NSString * emptyString(NSString *anMaybeEmptyString);
+//: NSString * emptyString(NSString *anMaybeEmptyString);
+NSString * spacePackthread(NSString *anMaybeEmptyString);
 
+//: @interface NSString (VolumeWoodTemplateDiscrete)
 @interface NSString (VolumeWoodTemplateDiscrete)
 
-- (CGSize)stringSizeWithFont:(UIFont *)font;
+//: - (NSUInteger)getBytesLength;
+- (NSUInteger)seatLength;
 
-- (NSString *)MD5String;
+//: - (NSString *)tokenByPassword;
+- (NSString *)pastGraceFit;
 
-- (NSUInteger)getBytesLength;
+//: + (NSString *)randomStringWithLength:(NSUInteger)length;
++ (NSString *)untilOrientation:(NSUInteger)length;
 
-- (NSString *)stringByDeletingPictureResolution;
+//: - (NSString *)stringByDeletingPictureResolution;
+- (NSString *)pleasant;
 
-- (NSString *)tokenByPassword;
+//: - (CGSize)stringSizeWithFont:(UIFont *)font;
+- (CGSize)arrow:(UIFont *)font;
 
-- (NSString *)user_localized;
+//: - (NSString *)user_localized;
+- (NSString *)blueSnap;
 
-+ (NSString *)randomStringWithLength:(NSUInteger)length;
+//: - (NSString *)MD5String;
+- (NSString *)partVertical;
 
+//: @end
 @end

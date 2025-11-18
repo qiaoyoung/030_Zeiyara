@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  PreciseStripeAtlasConstants.h
 //  https://github.com/hackiftekhar/PreciseStripeAtlas
@@ -20,15 +22,13 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-
-#ifndef PreciseStripeAtlasConstants_h
-#define PreciseStripeAtlasConstants_h
-
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-
 ///-----------------------------------
 /// @name WhiteMarshPaintPetalPlannerManageBehavior
 ///-----------------------------------
+
+// __M_A_C_R_O__
 
 /**
  `WhiteMarshPaintPetalPlannerBySubviews`
@@ -40,10 +40,15 @@
  `WhiteMarshPaintPetalPlannerByPosition`
  Creates Toolbar according to the y,x position of textField in it's superview coordinate.
  */
+//: typedef NS_ENUM(NSInteger, WhiteMarshPaintPetalPlannerManageBehavior) {
 typedef NS_ENUM(NSInteger, WhiteMarshPaintPetalPlannerManageBehavior) {
+    //: WhiteMarshPaintPetalPlannerBySubviews,
     WhiteMarshPaintPetalPlannerBySubviews,
+    //: WhiteMarshPaintPetalPlannerByTag,
     WhiteMarshPaintPetalPlannerByTag,
+    //: WhiteMarshPaintPetalPlannerByPosition,
     WhiteMarshPaintPetalPlannerByPosition,
+//: };
 };
 
 /**
@@ -56,10 +61,15 @@ typedef NS_ENUM(NSInteger, WhiteMarshPaintPetalPlannerManageBehavior) {
  `ByAbundantPieceCreatorAlwaysShow`
  Always show nextPrevious buttons, if there are more than 1 textField then both buttons will be visible but will be shown as disabled.
  */
+//: typedef NS_ENUM(NSUInteger, ByAbundantPieceCreator) {
 typedef NS_ENUM(NSUInteger, ByAbundantPieceCreator) {
+    //: ByAbundantPieceCreatorDefault,
     ByAbundantPieceCreatorDefault,
+    //: ByAbundantPieceCreatorAlwaysHide,
     ByAbundantPieceCreatorAlwaysHide,
+    //: ByAbundantPieceCreatorAlwaysShow,
     ByAbundantPieceCreatorAlwaysShow,
+//: };
 };
 
 /**
@@ -72,13 +82,18 @@ typedef NS_ENUM(NSUInteger, ByAbundantPieceCreator) {
  `DatasetAgainstDisabled`
  setting is disabled.
  */
+//: typedef NS_ENUM(NSUInteger, DatasetAgainst) {
 typedef NS_ENUM(NSUInteger, DatasetAgainst) {
+    //: DatasetAgainstDefault,
     DatasetAgainstDefault,
+    //: DatasetAgainstEnabled,
     DatasetAgainstEnabled,
+    //: DatasetAgainstDisabled,
     DatasetAgainstDisabled,
+//: };
 };
 
-#endif
+
 
 /*
  

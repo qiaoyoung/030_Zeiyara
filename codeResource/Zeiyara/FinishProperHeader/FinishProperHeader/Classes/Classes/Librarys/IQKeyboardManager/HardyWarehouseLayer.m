@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  HardyWarehouseLayer.m
 //  https://github.com/hackiftekhar/PreciseStripeAtlas
@@ -21,9 +23,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+// __M_A_C_R_O__
+//: #import "HardyWarehouseLayer.h"
 #import "HardyWarehouseLayer.h"
 
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
+//: @implementation HardyWarehouseLayer
 @implementation HardyWarehouseLayer
 
+//: @end
 @end

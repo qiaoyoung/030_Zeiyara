@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  IterativeWithoutShuffleStencil.m
 // QuintessentialContentTreat
@@ -6,17 +8,27 @@
 //  Copyright © 2019 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "IterativeWithoutShuffleStencil.h"
 #import "IterativeWithoutShuffleStencil.h"
 
+//: @implementation IterativeWithoutShuffleStencil
 @implementation IterativeWithoutShuffleStencil
 
+//: - (instancetype)init {
 - (instancetype)init {
+    //: if (self = [super init]) {
     if (self = [super init]) {
-        _offset = 0;
-        _count = -1;
-        _isRefresh = YES;
+        //: _offset = 0;
+        _near = 0;
+        //: _count = -1;
+        _evenCount = -1;
+        //: _isRefresh = YES;
+        _filterWhite = YES;
     }
+    //: return self;
     return self;
 }
 
+//: @end
 @end

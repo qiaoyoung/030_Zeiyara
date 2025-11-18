@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  UntilEminentToast.h
 //  fanxingxue
@@ -6,24 +8,38 @@
 //  Copyright © 2018年 caoyu. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @interface UntilEminentToast : NSObject
 @interface UntilEminentToast : NSObject
-+(BOOL)isLogin;
-+ (void)refrushNewData;
-+ (NSString *)getUserId;
+//: + (void)callSevicePhoneNumber;
++ (void)drag;
+//: + (NSString *)getNickName;
++ (NSString *)sinceNet;
+//: + (NSString *)getMobileNumber;
++ (NSString *)my;
 
-+ (NSString *)getHeaderImageUrl;
-+ (NSString *)getNickName;
-
-
-+ (void)callSevicePhoneNumber;
-+ (NSString *)getMobileNumber;
-
-+ (void)saveUserInfo:(id)responseObject;
-+ (void)logout;
+//: + (void)refrushNewData;
++ (void)jumpNoData;
+//: + (NSString *)getLocaleString;
++ (NSString *)get;
 
 
-+ (NSString *)getLocaleString;
+//: + (void)saveUserInfo:(id)responseObject;
++ (void)technology:(id)responseObject;
+//: +(BOOL)isLogin;
++(BOOL)exhibit;
 
+//: + (NSString *)getUserId;
++ (NSString *)result;
+//: + (void)logout;
++ (void)pastScenario;
+
+
+//: + (NSString *)getHeaderImageUrl;
++ (NSString *)aspect;
+
+//: @end
 @end

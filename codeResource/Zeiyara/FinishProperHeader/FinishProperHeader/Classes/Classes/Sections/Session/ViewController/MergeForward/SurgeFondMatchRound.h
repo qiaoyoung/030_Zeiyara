@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  SurgeFondMatchRound.h
 //  NIM
@@ -6,15 +8,23 @@
 //  Copyright © 2019 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface SurgeFondMatchRound : UIView
 @interface SurgeFondMatchRound : UIView
 
-@property (nonatomic, strong) UIButton *sureBtn;
-@property (nonatomic, strong) UIButton *deleteButton;
+//: @property (nonatomic, strong) UIButton *deleteButton;
+@property (nonatomic, strong) UIButton *informationButton;
+//: @property (nonatomic, strong) UIButton *sureBtn;
+@property (nonatomic, strong) UIButton *transport;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

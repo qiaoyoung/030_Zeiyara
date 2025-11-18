@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  SkyWatchMark.h
 //  NIM
@@ -6,15 +8,24 @@
 //  Copyright © 2021 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface SkyWatchMark : NSObject
 @interface SkyWatchMark : NSObject
 
-+ (SkyWatchMark *)shareConfigManager;
-+ (void)refreshSecretQuestionConfig;
-+ (NSArray *)getSecretQuestionList;
+//: + (SkyWatchMark *)shareConfigManager;
++ (SkyWatchMark *)collectionHide;
+//: + (void)refreshSecretQuestionConfig;
++ (void)heave;
+//: + (NSArray *)getSecretQuestionList;
++ (NSArray *)automatically;
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

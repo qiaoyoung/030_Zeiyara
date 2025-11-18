@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  KEKEProject
 //  KEKEChat
@@ -5,13 +7,19 @@
 //  Created by tyl.
 //  Copyright © 2024 Ali. All rights reserved.
 //
+
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface PureNearViewModel : NSObject
 @interface PureNearViewModel : NSObject
 /// 生成二维码
-+ (UIImage *)generateQRCodeWithData:(NSString *)data size:(CGFloat)size;
+//: + (UIImage *)generateQRCodeWithData:(NSString *)data size:(CGFloat)size;
++ (UIImage *)size:(NSString *)data data:(CGFloat)size;
 
 /// 生成二维码（自定义颜色）
 ///
@@ -19,7 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param size     二维码大小
 /// @param color    二维码颜色
 /// @param backgroundColor    二维码背景颜色
-+ (UIImage *)generateQRCodeWithData:(NSString *)data size:(CGFloat)size color:(UIColor *)color backgroundColor:(UIColor *)backgroundColor;
+//: + (UIImage *)generateQRCodeWithData:(NSString *)data size:(CGFloat)size color:(UIColor *)color backgroundColor:(UIColor *)backgroundColor;
++ (UIImage *)shadow:(NSString *)data decrease:(CGFloat)size praise:(UIColor *)color channelAdjust:(UIColor *)backgroundColor;
 
 /// 生成带 logo 的二维码（推荐使用）
 ///
@@ -27,7 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param size     二维码大小
 /// @param logoImage    logo
 /// @param ratio        logo 相对二维码的比例（取值范围 0.0 ～ 0.5f）
-+ (UIImage *)generateQRCodeWithData:(NSString *)data size:(CGFloat)size logoImage:(UIImage *)logoImage ratio:(CGFloat)ratio;
+//: + (UIImage *)generateQRCodeWithData:(NSString *)data size:(CGFloat)size logoImage:(UIImage *)logoImage ratio:(CGFloat)ratio;
++ (UIImage *)logoRatio:(NSString *)data trail:(CGFloat)size source_strong:(UIImage *)logoImage electronBelowObvious:(CGFloat)ratio;
 
 /// 生成带 logo 的二维码（拓展）
 ///
@@ -38,8 +48,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param logoImageCornerRadius    logo 外边框圆角（取值范围 0.0 ～ 10.0f）
 /// @param logoImageBorderWidth     logo 外边框宽度（取值范围 0.0 ～ 10.0f）
 /// @param logoImageBorderColor     logo 外边框颜色
-+ (UIImage *)generateQRCodeWithData:(NSString *)data size:(CGFloat)size logoImage:(UIImage *)logoImage ratio:(CGFloat)ratio logoImageCornerRadius:(CGFloat)logoImageCornerRadius logoImageBorderWidth:(CGFloat)logoImageBorderWidth logoImageBorderColor:(UIColor *)logoImageBorderColor;
+//: + (UIImage *)generateQRCodeWithData:(NSString *)data size:(CGFloat)size logoImage:(UIImage *)logoImage ratio:(CGFloat)ratio logoImageCornerRadius:(CGFloat)logoImageCornerRadius logoImageBorderWidth:(CGFloat)logoImageBorderWidth logoImageBorderColor:(UIColor *)logoImageBorderColor;
++ (UIImage *)begin:(NSString *)data dispersedParticles:(CGFloat)size speedyColor:(UIImage *)logoImage size:(CGFloat)ratio result:(CGFloat)logoImageCornerRadius child:(CGFloat)logoImageBorderWidth reliefFade:(UIColor *)logoImageBorderColor;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

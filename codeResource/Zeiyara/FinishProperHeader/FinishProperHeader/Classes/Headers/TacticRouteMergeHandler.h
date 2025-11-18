@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  TacticRouteMergeHandler.h
 //  TacticRouteMergeHandler
@@ -6,10 +8,15 @@
 //  Copyright (c) 2012 Gangverk. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @interface TacticRouteMergeHandler : NSObject
 @interface TacticRouteMergeHandler : NSObject
 
-+ (instancetype)standardUserDefaults;
+//: + (instancetype)standardUserDefaults;
++ (instancetype)defaultsGray;
 
+//: @end
 @end

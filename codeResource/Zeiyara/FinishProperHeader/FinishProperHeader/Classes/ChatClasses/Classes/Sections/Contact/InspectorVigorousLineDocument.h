@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  InspectorVigorousLineDocument.h
 // QuintessentialContentTreat
@@ -6,13 +8,21 @@
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
+
+//: @class PlazaWisdomSuiteConnector;
 @class PlazaWisdomSuiteConnector;
 
+//: @interface InspectorVigorousLineDocument : UIView
 @interface InspectorVigorousLineDocument : UIView
 
-@property (nonatomic,strong) PlazaWisdomSuiteConnector *pickedView;
+//: @property (nonatomic,strong) UIButton *doneButton;
+@property (nonatomic,strong) UIButton *shouldDetail;
 
-@property (nonatomic,strong) UIButton *doneButton;
+//: @property (nonatomic,strong) PlazaWisdomSuiteConnector *pickedView;
+@property (nonatomic,strong) PlazaWisdomSuiteConnector *sparkTip;
 
+//: @end
 @end
