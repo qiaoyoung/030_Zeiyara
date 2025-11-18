@@ -361,7 +361,7 @@
 //    cell.imageView.image = bodyData.img;
 
     //: if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
-    if ([bodyData respondsToSelector:@selector(translationIndicators)] && bodyData.schemeDisabled) {
+    if ([bodyData respondsToSelector:@selector(schemeDisabled)] && bodyData.schemeDisabled) {
         //: cell.accessoryType = UITableViewCellAccessoryNone;
         cell.accessoryType = UITableViewCellAccessoryNone;
     //: }else{
@@ -724,7 +724,7 @@
     //: id<LineShortcutImplement> bodyData = [self bodyDataAtIndexPath:indexPath];
     id<LineShortcutImplement> bodyData = [self add:indexPath];
     //: if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
-    if ([bodyData respondsToSelector:@selector(translationIndicators)] && bodyData.schemeDisabled) {
+    if ([bodyData respondsToSelector:@selector(schemeDisabled)] && bodyData.schemeDisabled) {
         //: return;
         return;
     }
@@ -748,7 +748,7 @@
     //: } else {
     } else {
         //: if ([bodyData respondsToSelector:@selector(action)]) {
-        if ([bodyData respondsToSelector:@selector(scrubIndex)]) {
+        if ([bodyData respondsToSelector:@selector(noneAdd)]) {
             //: if (bodyData.action) {
             if (bodyData.noneAdd) {
                 //: do {

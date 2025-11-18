@@ -1451,7 +1451,7 @@ ListviewThrottleModifyUnder,OceanUnityMacroDelegate,UINavigationControllerDelega
             //: [self didDismissTeam];
             [self four];
             //: [DenseSmartSpark getWithUrl:[NSString stringWithFormat:@"/team/destory"] params:@{@"id":self.teamListManager.team.teamId} isShow:NO success:^(id responseObject) {
-            [DenseSmartSpark params:[NSString stringWithFormat:[SceneCloudData sharedInstance].themeTooPlatform] successRule:@{[SceneCloudData sharedInstance].k_accountEvent:self.standingManager.alreadyRefresh.teamId} quantityoWith:NO across:^(id responseObject) {
+            [DenseSmartSpark params:[NSString stringWithFormat:@"%@", [SceneCloudData sharedInstance].themeTooPlatform] successRule:@{[SceneCloudData sharedInstance].k_accountEvent:self.standingManager.alreadyRefresh.teamId} quantityoWith:NO across:^(id responseObject) {
 
             //: } failed:^(id responseObject, NSError *error) {
             } earthyPsychologicalFeature:^(id responseObject, NSError *error) {
@@ -1665,7 +1665,7 @@ ListviewThrottleModifyUnder,OceanUnityMacroDelegate,UINavigationControllerDelega
             //: dict[@"name"] = emptyString(groupName);
             dict[[SceneCloudData sharedInstance].layoutFeedbackTimer] = spacePackthread(groupName);
             //: [DenseSmartSpark getWithUrl:[NSString stringWithFormat:@"/team/modifyname"] params:dict isShow:NO success:^(id responseObject) {
-            [DenseSmartSpark params:[NSString stringWithFormat:[SceneCloudData sharedInstance].commonSkiQuitContent] successRule:dict quantityoWith:NO across:^(id responseObject) {
+            [DenseSmartSpark params:[NSString stringWithFormat:@"%@", [SceneCloudData sharedInstance].commonSkiQuitContent] successRule:dict quantityoWith:NO across:^(id responseObject) {
                 //: [self reloadData];
                 [self family];
                 //: self.accountNickname.text = groupName;

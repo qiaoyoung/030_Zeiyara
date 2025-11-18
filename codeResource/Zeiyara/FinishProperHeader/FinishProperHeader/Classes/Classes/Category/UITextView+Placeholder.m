@@ -20,7 +20,7 @@
 
 
 //: @dynamic placeholder;
-@dynamic zoneMinimalled;
+@dynamic placeholder;
 //: @dynamic placeholderLabel;
 @dynamic cycleLabel;
 //: @dynamic textValue;
@@ -33,7 +33,7 @@
     return self.text;
 }
 //: -(NSString*)placeholder
--(NSString*)zoneMinimalled
+-(NSString*)placeholder
 {
     //  Returns our "placeholder" text string
     //: return objc_getAssociatedObject(self, &kKeyPlaceHolder);
@@ -88,7 +88,7 @@ NSString const *colorAdditionalValue = @"kKeyLabel";
 //: NSString const *kKeyPlaceHolder = @"kKeyPlaceHolder";
 NSString const *featureNameId = @"kKeyPlaceHolder";
 //: -(void)setPlaceholder:(NSString *)_placeholder
--(void)setZoneMinimalled:(NSString *)_placeholder
+-(void)setPlaceholder:(NSString *)_placeholder
 {
     //  Sets our "placeholder" text string, creates a new UILabel to contain it, and modifies our UITextView to cope with
     //  showing/hiding the UILabel when needed.

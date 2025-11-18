@@ -151,8 +151,7 @@ static const void *styleBadModSettings = &styleBadModSettings;
 
 //: #pragma mark - Swizzle Dealloc
 #pragma mark - Swizzle Dealloc
-//: - (void)setPlaceholder:(NSString *)placeholder
-- (void)setZoneMinimalled:(NSString *)placeholder
+- (void)setPlaceholder:(NSString *)placeholder
 {
     // 为placeholder赋值
     //: [self placeholderView].text = placeholder;
@@ -279,7 +278,7 @@ static const void *styleBadModSettings = &styleBadModSettings;
 }
 
 //: - (NSString *)placeholder
-- (NSString *)zoneMinimalled
+- (NSString *)placeholder
 {
     // 如果有placeholder值才去调用，这步很重要
     //: if (self.placeholderExist) {

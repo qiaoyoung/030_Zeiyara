@@ -190,7 +190,7 @@ Byte commonDipPage[] = {67, 7, 58, 10, 233, 76, 20, 3, 12, 28, 93, 115, 115, 115
     //: self.contentTextView.delegate = self;
     self.soundState.delegate = self;
     //: self.contentTextView.placeholder = [ViaPrimaryFacade getTextWithKey:@"Please_enter_content"];
-    self.soundState.zoneMinimalled = [ViaPrimaryFacade engine:StringFromTechnicalData(themeExplainTutConfig)];
+    self.soundState.placeholder = [ViaPrimaryFacade engine:StringFromTechnicalData(themeExplainTutConfig)];
     //: self.contentTextView.text = self.defaultContent;
     self.soundState.text = self.familyInvite;
     //: [contentView addSubview:self.contentTextView];

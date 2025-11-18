@@ -46,7 +46,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 @implementation BirchAddStep
 
 //: @synthesize placeholder = _placeholder;
-@synthesize zoneMinimalled = _singlePlaceholder;
+@synthesize placeholder = _singlePlaceholder;
 //: @synthesize placeholderLabel = _placeholderLabel;
 @synthesize cycleLabel = _strokeCap;
 //: @synthesize placeholderTextColor = _placeholderTextColor;
@@ -122,8 +122,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
     return CGRectMake(placeholderInsets.left, placeholderInsets.top, maxWidth, expectedSize.height);
 }
 
-//: -(void)setPlaceholder:(NSString *)placeholder
--(void)setZoneMinimalled:(NSString *)placeholder
+-(void)setPlaceholder:(NSString *)placeholder
 {
     //: _placeholder = placeholder;
     _singlePlaceholder = placeholder;

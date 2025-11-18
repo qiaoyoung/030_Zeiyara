@@ -449,7 +449,7 @@
     //: _recordMaxDuration = 60.f;
     _start = 60.f;
     //: _placeholder = [ViaPrimaryFacade getTextWithKey:@"message_please_enter_content"];
-    _zoneMinimalled = [ViaPrimaryFacade engine:[PuzzleData colorHalfwayId]];//@"请输入消息".;
+    _placeholder = [ViaPrimaryFacade engine:[PuzzleData colorHalfwayId]];//@"请输入消息".;
     //: _inputMaxLength = 1000;
     _elect = 1000;
     //: _nickFont = [UIFont boldSystemFontOfSize:15];

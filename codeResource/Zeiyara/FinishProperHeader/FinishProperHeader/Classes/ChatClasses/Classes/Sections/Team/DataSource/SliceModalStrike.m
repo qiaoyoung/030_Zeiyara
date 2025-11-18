@@ -202,7 +202,7 @@
 @property (nonatomic, strong) NSMutableArray <SpectrumModifyPresenter *> *policy;
 
 //: @property (nonatomic, strong) NIMSession *session;
-@property (nonatomic, strong) NIMSession *bequest;
+@property (nonatomic, strong) NIMSession *found;
 
 //: @end
 @end
@@ -1167,7 +1167,7 @@
         //: _team = team;
         _alreadyRefresh = team;
         //: _session = session;
-        _bequest = session;
+        _found = session;
         //: if (team.type == NIMTeamTypeSuper) {
         if (team.type == NIMTeamTypeSuper) {
             //: [[NIMSDK sharedSDK].superTeamManager addDelegate:self];

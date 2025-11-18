@@ -991,7 +991,7 @@ typedef struct {
     //: _textView = [[UITextView alloc] initWithFrame:CGRectMake(15, 15, [[UIScreen mainScreen] bounds].size.width-60, 230)];
     _displacementUnit = [[UITextView alloc] initWithFrame:CGRectMake(15, 15, [[UIScreen mainScreen] bounds].size.width-60, 230)];
     //: _textView.placeholder = [ViaPrimaryFacade getTextWithKey:@"report_info"];
-    _displacementUnit.zoneMinimalled = [ViaPrimaryFacade engine:[TravelData sharedInstance].widgetDarkHelper];//@"请输入您的举报信息";
+    _displacementUnit.placeholder = [ViaPrimaryFacade engine:[TravelData sharedInstance].widgetDarkHelper];//@"请输入您的举报信息";
     //: _textView.backgroundColor = [UIColor whiteColor];
     _displacementUnit.backgroundColor = [UIColor whiteColor];
     //: _textView.delegate = self;

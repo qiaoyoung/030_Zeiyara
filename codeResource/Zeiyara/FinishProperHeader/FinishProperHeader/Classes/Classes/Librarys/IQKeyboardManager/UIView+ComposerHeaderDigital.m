@@ -473,7 +473,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
         return self.vacuousComputerred;
     }
     //: else if ([self respondsToSelector:@selector(placeholder)])
-    else if ([self respondsToSelector:@selector(zoneMinimalled)])
+    else if ([self respondsToSelector:@selector(placeholder)])
     {
         //: return [(UITextField*)self placeholder];
         return [(UITextField*)self placeholder];

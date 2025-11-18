@@ -374,7 +374,7 @@ typedef struct {
         //: _textView.textColor = [UIColor colorWithHexString:@"#333333"];
         _display.textColor = [UIColor distinctDown:[[ArgumentData sharedInstance] featurePublishSceneTitle]];
         //: _textView.placeholder = [ViaPrimaryFacade getTextWithKey:@"activity_set_bio_title"];
-        _display.zoneMinimalled = [ViaPrimaryFacade engine:[[ArgumentData sharedInstance] kBridgePath]];
+        _display.placeholder = [ViaPrimaryFacade engine:[[ArgumentData sharedInstance] kBridgePath]];
         //: _textView.delegate = self;
         _display.delegate = self;
 //        _textView.textContainerInset = UIEdgeInsetsMake(20, 20, 20, 20);

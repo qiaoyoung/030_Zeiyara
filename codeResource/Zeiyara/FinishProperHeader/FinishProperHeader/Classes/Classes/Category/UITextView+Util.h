@@ -20,7 +20,7 @@ typedef void(^textViewHeightDidChangedBlock)(CGFloat currentTextViewHeight);
 
 /* 占位文字 */
 //: @property (nonatomic, copy) NSString *placeholder;
-@property (nonatomic, copy) NSString *zoneMinimalled;
+@property (nonatomic, copy) NSString *placeholder;
 /* 最小高度，如果需要随文字改变高度的时候使用 */
 //: @property (nonatomic, assign) CGFloat minHeight;
 @property (nonatomic, assign) CGFloat arc;

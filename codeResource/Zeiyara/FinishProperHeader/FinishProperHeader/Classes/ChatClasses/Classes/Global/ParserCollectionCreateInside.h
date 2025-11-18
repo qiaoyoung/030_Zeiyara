@@ -64,7 +64,7 @@ typedef NS_ENUM(NSInteger,TransformerCompactBuilderType) {
  *  输入框的占位符
  */
 //: @property (nonatomic, copy) NSString *placeholder;
-@property (nonatomic, copy) NSString *zoneMinimalled;
+@property (nonatomic, copy) NSString *placeholder;
 
 
 /**

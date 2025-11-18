@@ -347,7 +347,7 @@ typedef struct {
     //: self.contentTextView.delegate = self;
     self.rear.delegate = self;
     //: self.contentTextView.placeholder = [ViaPrimaryFacade getTextWithKey:@"Please_enter_content"];
-    self.rear.zoneMinimalled = [ViaPrimaryFacade engine:[HungryData commonLandCouldSettings]];
+    self.rear.placeholder = [ViaPrimaryFacade engine:[HungryData commonLandCouldSettings]];
     //: self.contentTextView.text = self.defaultContent;
     self.rear.text = self.forEachDoingeArtifact;
     //: [contentView addSubview:self.contentTextView];

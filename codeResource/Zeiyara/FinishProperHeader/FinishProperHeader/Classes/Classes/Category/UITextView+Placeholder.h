@@ -18,7 +18,7 @@
 //: @property (nonatomic, strong) NSString* textValue;
 @property (nonatomic, strong) NSString* eigenvalue;
 //: @property (nonatomic, strong) NSString* placeholder;
-@property (nonatomic, strong) NSString* zoneMinimalled;
+@property (nonatomic, strong) NSString* placeholder;
 //: @property (nonatomic, strong) UILabel * placeholderLabel;
 @property (nonatomic, strong) UILabel * cycleLabel;
 

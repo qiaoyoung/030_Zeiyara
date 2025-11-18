@@ -1384,7 +1384,7 @@
     self.arrowStar.vastView.attributedClusterLipogram = nil;
 
     //: NSString *placeholder = [QuintessentialContentTreat sharedKit].config.placeholder;
-    NSString *placeholder = [QuintessentialContentTreat pair].ruminate.zoneMinimalled;
+    NSString *placeholder = [QuintessentialContentTreat pair].ruminate.placeholder;
     //: [_toolBar setPlaceHolder:placeholder];
     [_arrowStar setThrough:placeholder];
 
