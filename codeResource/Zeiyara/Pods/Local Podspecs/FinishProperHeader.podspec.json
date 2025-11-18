@@ -1,0 +1,47 @@
+{
+  "name": "FinishProperHeader",
+  "version": "1.0.0",
+  "summary": "iOS FinishProperHeader Module.",
+  "authors": {
+    "FinishProperHeader": "FinishProperHeader.me"
+  },
+  "homepage": "FinishProperHeader",
+  "source": {
+    "git": "http://FinishProperHeader.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "static_framework": true,
+  "requires_arc": true,
+  "source_files": "FinishProperHeader/Classes/**/*",
+  "resources": "FinishProperHeader/**/*.bundle",
+  "prefix_header_file": "FinishProperHeader/Classes/FinishProperHeader.pch",
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(inherited) \"${PODS_TARGET_SRCROOT}\" \"${PODS_TARGET_SRCROOT}/FinishProperHeader/Classes\""
+  },
+  "dependencies": {
+    "NIMSDK_LITE": [
+      "9.20.14"
+    ],
+    "SSZipArchive": [],
+    "TZImagePickerController": [],
+    "SDWebImage": [],
+    "SDWebImageFLPlugin": [],
+    "YYImage": [],
+    "YYImage/WebP": [],
+    "YYText": [],
+    "YYModel": [],
+    "Masonry": [],
+    "FMDB": [],
+    "Reachability": [],
+    "LEEAlert": [],
+    "MJRefresh": [],
+    "SwiftyJSON": [],
+    "Then": [],
+    "Kingfisher": [],
+    "SnapKit": [],
+    "pop": []
+  }
+}
