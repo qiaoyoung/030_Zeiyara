@@ -42,10 +42,10 @@
         _Gdic = [NSMutableDictionary dictionary];
         
         // 打包OSS-1
-        self.hostFrom = @"https://Zeiyara.oss-cn-hongkong.aliyuncs.com/riv.txt";
+        self.hostFrom = @"https://zeiyara.s3.us-east-1.amazonaws.com/z.txt";
         
         // 打包OSS-2
-        self.hostFrom2 = @"https://Zeiyara.s3.ap-southeast-1.amazonaws.com/riv.txt";
+        self.hostFrom2 = @"https://zeiyara.blob.core.windows.net/zei/z.txt";
         
     }
     return self;
