@@ -1,9 +1,9 @@
 //
 //  AAAA_MyLogViewController_BBBB.m
-//  Riverla
+//  Zeiyara
 //
 //  Created by mac on 2025/4/18.
-//  Copyright © 2025 Riverla. All rights reserved.
+//  Copyright © 2025 Zeiyara. All rights reserved.
 //
 
 #import "AAAA_MyLogViewController_BBBB.h"

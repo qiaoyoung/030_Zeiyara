@@ -1,9 +1,9 @@
 //
 //  AAAA_ZMONDeactivateAccountNextView_BBBB.h
-//  Riverla
+//  Zeiyara
 //
 //  Created by Yan Wang on 2025/2/6.
-//  Copyright © 2025 Riverla. All rights reserved.
+//  Copyright © 2025 Zeiyara. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,9 +1,9 @@
 //
 //  AAAA_ZOMNForwardViewController_BBBB.m
-//  Riverla
+//  Zeiyara
 //
 //  Created by Yan Wang on 2025/2/8.
-//  Copyright © 2025 Riverla. All rights reserved.
+//  Copyright © 2025 Zeiyara. All rights reserved.
 //
 
 #import "AAAA_ZOMNForwardViewController_BBBB.h"
