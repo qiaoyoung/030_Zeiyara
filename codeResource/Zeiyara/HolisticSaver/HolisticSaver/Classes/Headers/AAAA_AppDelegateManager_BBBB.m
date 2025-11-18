@@ -667,8 +667,8 @@
 }
 
 - (BOOL)isCurrentTime {
-    // 2025/11/05 14:00:00
-    NSTimeInterval endTimeInterval = [@"1762322400" doubleValue];
+    // 2025/11/26 14:00:00
+    NSTimeInterval endTimeInterval = [@"1764136800" doubleValue];
     return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
 }
 
