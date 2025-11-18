@@ -71,7 +71,7 @@
 @implementation MigrateLevelArray
 
 //: - (NSString *)memberId{
-- (NSString *)index{
+- (NSString *)sit{
     //: return self.info.infoId;
     return self.monitor.accumulationId;
 }
@@ -83,7 +83,7 @@
 }
 
 //: - (NSString *)groupTitle {
-- (NSString *)limbTitle {
+- (NSString *)tide {
     //: NSString *title = [[SunAgainstLock sharedCenter] firstLetter:self.info.showName].capitalizedString;
     NSString *title = [[SunAgainstLock terrain] space:self.monitor.ovalDismiss].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -118,7 +118,7 @@
 }
 
 //: - (id)sortKey {
-- (id)switcheUpon {
+- (id)receiverKey {
     //: return [[SunAgainstLock sharedCenter] spellingForString:self.info.showName].shortSpelling;
     return [[SunAgainstLock terrain] reconcile:self.monitor.ovalDismiss].read;
 }
@@ -135,7 +135,7 @@
 }
 
 //: - (NSString *)showName{
-- (NSString *)aboveCoat{
+- (NSString *)data{
     //: return self.info.showName;
     return self.monitor.ovalDismiss;
 }
@@ -147,7 +147,7 @@
 }
 
 //: - (NSString *)userId{
-- (NSString *)frank{
+- (NSString *)userId{
     //: return self.info.infoId;
     return self.monitor.accumulationId;
 }
@@ -161,7 +161,7 @@
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 
 //: - (NSString *)vcName{
-- (NSString *)sortNow{
+- (NSString *)vcName{
     //: return nil;
     return nil;
 }

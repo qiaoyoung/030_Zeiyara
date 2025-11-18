@@ -31,7 +31,6 @@
 //: #import "AFSecurityPolicy.h"
 #import "AFSecurityPolicy.h"
 //: #import "AFCompatibilityMacros.h"
-#import "AFCompatibilityMacros.h"
 //: #import "AFNetworkReachabilityManager.h"
 #import "AFNetworkReachabilityManager.h"
 

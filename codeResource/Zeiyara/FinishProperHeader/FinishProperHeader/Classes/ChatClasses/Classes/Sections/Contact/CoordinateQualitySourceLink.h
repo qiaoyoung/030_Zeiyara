@@ -86,7 +86,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 
 /// 是否显示头部的群头像 群名字headerview
 //: - (BOOL)showSelectHeaderview;
-- (BOOL)userDiskHeaderview;
+- (BOOL)observe;
 
 //: @end
 @end
@@ -98,7 +98,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @interface GridDelicateMapper : NSObject<CoordinateQualitySourceLink>
 
 //: @property (nonatomic,copy) NSArray *alreadySelectedMemberId;
-@property (nonatomic,copy) NSArray *elmArrayed;
+@property (nonatomic,copy) NSArray *previous;
 
 //: @property (nonatomic,assign) BOOL showSelectDetail;
 @property (nonatomic,assign) BOOL oarsmanship;
@@ -128,7 +128,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @property (nonatomic,assign) BOOL writing;
 
 //: @property (nonatomic,copy) NSArray *alreadySelectedMemberId;
-@property (nonatomic,copy) NSArray *elmArrayed;
+@property (nonatomic,copy) NSArray *previous;
 
 //: @property (nonatomic,strong) NIMSession *session;
 @property (nonatomic,strong) NIMSession *path;
@@ -143,7 +143,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @property (nonatomic,assign) FindSpacerSpacerMultiply honest;
 
 //: @property (nonatomic,assign) BOOL showSelectHeaderview;
-@property (nonatomic,assign) BOOL front;
+@property (nonatomic,assign) BOOL observe;
 
 //: @property (nonatomic,copy) NSString *teamId;
 @property (nonatomic,copy) NSString *shareSucceed;
@@ -165,7 +165,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @property (nonatomic,assign) NSInteger name;
 
 //: @property (nonatomic,copy) NSArray *alreadySelectedMemberId;
-@property (nonatomic,copy) NSArray *elmArrayed;
+@property (nonatomic,copy) NSArray *previous;
 
 //: @property (nonatomic,copy) NSArray *filterIds;
 @property (nonatomic,copy) NSArray *messageValueOwnering;
@@ -177,7 +177,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @property (nonatomic,assign) BOOL regard;
 
 //: @property (nonatomic,assign) BOOL showSelectHeaderview;
-@property (nonatomic,assign) BOOL cut;
+@property (nonatomic,assign) BOOL observe;
 
 //: @property (nonatomic,assign) FindSpacerSpacerMultiply teamType;
 @property (nonatomic,assign) FindSpacerSpacerMultiply pathHighlight;

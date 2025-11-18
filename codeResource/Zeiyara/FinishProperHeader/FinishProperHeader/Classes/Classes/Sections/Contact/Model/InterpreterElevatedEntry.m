@@ -71,7 +71,7 @@
         //: for (id<CentralWealthyPrivateLeap> member in members) {
         for (id<CentralWealthyPrivateLeap> member in members) {
             //: if ([[member memberId] isEqualToString:uid]) {
-            if ([[member rock] isEqualToString:uid]) {
+            if ([[member sit] isEqualToString:uid]) {
                 //: return member;
                 return member;
             }
@@ -124,12 +124,12 @@
     //: for (id<CentralWealthyPrivateLeap>member in members) {
     for (id<CentralWealthyPrivateLeap>member in members) {
         //: if ([[member memberId] isEqualToString:me]) {
-        if ([[member rock] isEqualToString:me]) {
+        if ([[member sit] isEqualToString:me]) {
             //: continue;
             continue;
         }
         //: NSString *groupTitle = [member groupTitle];
-        NSString *groupTitle = [member precise];
+        NSString *groupTitle = [member tide];
         //: NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         //: if(!groupedMembers) {
@@ -188,7 +188,7 @@
         //: [groupedMembers sortUsingComparator:^NSComparisonResult(id<CentralWealthyPrivateLeap> member1, id<CentralWealthyPrivateLeap> member2) {
         [groupedMembers sortUsingComparator:^NSComparisonResult(id<CentralWealthyPrivateLeap> member1, id<CentralWealthyPrivateLeap> member2) {
             //: return _groupMemberComparator([member1 sortKey], [member2 sortKey]);
-            return _today([member1 shadow], [member2 shadow]);
+            return _today([member1 receiverKey], [member2 receiverKey]);
         //: }];
         }];
     //: }];
@@ -241,7 +241,7 @@
 - (void)tableMember:(id<CentralWealthyPrivateLeap>)member
 {
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member precise];
+    NSString *groupTitle = [member tide];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_point indexOfObject:groupTitle];
     //: HillModalMask *pair = [_groups objectAtIndex:groupIndex];
@@ -330,7 +330,7 @@
 //: - (void)removeGroupMember:(id<CentralWealthyPrivateLeap>)member{
 - (void)eraseWater:(id<CentralWealthyPrivateLeap>)member{
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member precise];
+    NSString *groupTitle = [member tide];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_point indexOfObject:groupTitle];
     //: HillModalMask *pair = [_groups objectAtIndex:groupIndex];

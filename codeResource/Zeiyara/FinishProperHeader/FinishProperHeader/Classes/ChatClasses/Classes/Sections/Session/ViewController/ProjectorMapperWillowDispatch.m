@@ -2560,7 +2560,7 @@
 }
 
 //: - (void)onTapMenuItemCopy:(LargeTenseBroad *)item
-- (void)compoundCopy:(LargeTenseBroad *)item
+- (void)onTapMenuItemCopy:(LargeTenseBroad *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self obliqueAngle];

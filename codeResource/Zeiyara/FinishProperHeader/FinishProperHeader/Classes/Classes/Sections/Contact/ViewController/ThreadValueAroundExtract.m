@@ -858,17 +858,17 @@ ConsoleUpbeatRenderTemplateDelegate> {
               ([self performSelector:sel withObject:nil]);
         }
         //: else if (contactItem.vcName.length) {
-        else if (contactItem.unity.length) {
+        else if (contactItem.vcName.length) {
             //: Class clazz = NSClassFromString(contactItem.vcName);
-            Class clazz = NSClassFromString(contactItem.unity);
+            Class clazz = NSClassFromString(contactItem.vcName);
             //: UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             //: [self.navigationController pushViewController:vc animated:YES];
             [self.navigationController pushViewController:vc animated:YES];
         //: }else if([contactItem respondsToSelector:@selector(userId)]){
-        }else if([contactItem respondsToSelector:@selector(startingBies)]){
+        }else if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.tempExpression;
+            NSString * friendId = contactItem.userId;
             //: [self enterPersonalCard:friendId];
             [self heroicPoetry:friendId];
         }
@@ -1299,9 +1299,9 @@ ConsoleUpbeatRenderTemplateDelegate> {
         //: id<ClusterSunRender> contactItem = (id<ClusterSunRender>)[_contacts memberOfIndex:indexPath];
         id<ClusterSunRender> contactItem = (id<ClusterSunRender>)[_disabled exclude:indexPath];
         //: if([contactItem respondsToSelector:@selector(userId)]){
-        if([contactItem respondsToSelector:@selector(startingBies)]){
+        if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.tempExpression;
+            NSString * friendId = contactItem.userId;
             //: if ([ids containsObject:friendId]) {
             if ([ids containsObject:friendId]) {
                 //: [indexPaths addObject:indexPath];

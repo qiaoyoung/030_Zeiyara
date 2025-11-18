@@ -681,7 +681,7 @@
     //: }];
     }];
     //: if ([self.config respondsToSelector:@selector(alreadySelectedMemberId)])
-    if ([self.decision respondsToSelector:@selector(elmArrayed)])
+    if ([self.decision respondsToSelector:@selector(previous)])
     {
         //: _selectecContacts = [[self.config alreadySelectedMemberId] mutableCopy];
         _element = [[self.decision previous] mutableCopy];
@@ -727,7 +727,7 @@
 
 
     //: if (self.config.showSelectHeaderview) {
-    if (self.decision.userDiskHeaderview) {
+    if (self.decision.observe) {
 
         //: [self.view addSubview:self.setGroupnameView];
         [self.view addSubview:self.bookScan];

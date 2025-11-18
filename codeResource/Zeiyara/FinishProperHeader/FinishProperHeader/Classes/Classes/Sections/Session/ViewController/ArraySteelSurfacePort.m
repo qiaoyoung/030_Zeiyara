@@ -1873,7 +1873,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemDelete:(LargeTenseBroad *)item
-- (void)cell:(LargeTenseBroad *)item
+- (void)onTapMenuItemDelete:(LargeTenseBroad *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self obliqueAngle];
@@ -2111,7 +2111,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemAudio2Text:(LargeTenseBroad *)item
-- (void)happyMobile:(LargeTenseBroad *)item
+- (void)onTapMenuItemAudio2Text:(LargeTenseBroad *)item
 {
 
 }
@@ -2279,7 +2279,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemReport:(LargeTenseBroad *)item
-- (void)billOfFareReport:(LargeTenseBroad *)item
+- (void)onTapMenuItemReport:(LargeTenseBroad *)item
 {
     //: [self.view addSubview:self.translateView];
     [self.view addSubview:self.compare];
@@ -2393,7 +2393,7 @@ JubilantYearCheckSpacerNextDelegate>
 //: #pragma mark - Cell Actions
 #pragma mark - Cell Actions
 //: - (void)showImage:(NIMMessage *)message
-- (void)abstract:(NIMMessage *)message
+- (void)showImage:(NIMMessage *)message
 {
     //: NIMImageObject *object = message.messageObject;
     NIMImageObject *object = message.messageObject;
@@ -2450,7 +2450,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemUnpin:(LargeTenseBroad *)item
-- (void)item:(LargeTenseBroad *)item
+- (void)onTapMenuItemUnpin:(LargeTenseBroad *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self obliqueAngle];
@@ -2891,7 +2891,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)showVideo:(NIMMessage *)message
-- (void)slipPast:(NIMMessage *)message
+- (void)showVideo:(NIMMessage *)message
 {
     //: NIMVideoObject *object = message.messageObject;
     NIMVideoObject *object = message.messageObject;
@@ -3352,7 +3352,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)showCustom:(NIMMessage *)message
-- (void)nim:(NIMMessage *)message
+- (void)showCustom:(NIMMessage *)message
 {
    //普通的自定义消息点击事件可以在这里做哦~
 
@@ -3619,7 +3619,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemRevoke:(LargeTenseBroad *)item
-- (void)onRow:(LargeTenseBroad *)item
+- (void)onTapMenuItemRevoke:(LargeTenseBroad *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self obliqueAngle];
@@ -3777,7 +3777,7 @@ JubilantYearCheckSpacerNextDelegate>
 
 
 //: - (void)onTapMenuItemPin:(LargeTenseBroad *)item
-- (void)anyIndex:(LargeTenseBroad *)item
+- (void)onTapMenuItemPin:(LargeTenseBroad *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self obliqueAngle];
@@ -3891,7 +3891,7 @@ JubilantYearCheckSpacerNextDelegate>
 //: #pragma mark - 菜单
 #pragma mark - 菜单
 //: - (void)onTapMenuItemReply:(LargeTenseBroad *)item
-- (void)rush:(LargeTenseBroad *)item
+- (void)onTapMenuItemReply:(LargeTenseBroad *)item
 {
     //: NIMMessage *menuMessage = [self messageForMenu];
     NIMMessage *menuMessage = [self obliqueAngle];
@@ -3968,7 +3968,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemForword:(LargeTenseBroad *)item
-- (void)opinion:(LargeTenseBroad *)item
+- (void)onTapMenuItemForword:(LargeTenseBroad *)item
 {
     //: MatchFactoryAgainstBuild *vc = [[MatchFactoryAgainstBuild alloc]init];
     MatchFactoryAgainstBuild *vc = [[MatchFactoryAgainstBuild alloc]init];
@@ -3993,7 +3993,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemMark:(LargeTenseBroad *)item
-- (void)space:(LargeTenseBroad *)item
+- (void)onTapMenuItemMark:(LargeTenseBroad *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self obliqueAngle];
@@ -4335,7 +4335,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemTranslation:(LargeTenseBroad *)item
-- (void)saving:(LargeTenseBroad *)item
+- (void)onTapMenuItemTranslation:(LargeTenseBroad *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self obliqueAngle];
@@ -4520,7 +4520,7 @@ JubilantYearCheckSpacerNextDelegate>
 }
 
 //: - (void)onTapMenuItemMutiSelect:(LargeTenseBroad *)item
-- (void)judgeExamine:(LargeTenseBroad *)item
+- (void)onTapMenuItemMutiSelect:(LargeTenseBroad *)item
 {
     //: [self switchUIWithSessionState:AnimateGulfRangeParserSelect];
     [self stem:AnimateGulfRangeParserSelect];

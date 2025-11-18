@@ -2250,7 +2250,7 @@
     //: config.filterIds = users;
     config.messageValueOwnering = users;
     //: config.alreadySelectedMemberId = @[self.userId];
-    config.elmArrayed = @[self.startingBies];
+    config.previous = @[self.startingBies];
     //需要多选
     //: config.needMutiSelected = YES;
     config.routeSelected = YES;

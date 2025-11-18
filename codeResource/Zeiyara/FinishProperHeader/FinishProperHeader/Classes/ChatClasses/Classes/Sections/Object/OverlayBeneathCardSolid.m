@@ -88,7 +88,7 @@
 }
 
 //: @property (nonatomic,weak) id<TheoryCacheStrongVolume> delegate;
-@property (nonatomic,weak) id<TheoryCacheStrongVolume> characterThroughoutted;
+@property (nonatomic,weak) id<TheoryCacheStrongVolume> skillReliable;
 
 //: @property (nonatomic,strong) NIMSession *session;
 @property (nonatomic,strong) NIMSession *decent;
@@ -458,10 +458,10 @@
 - (void)selectOutSwitchtoDefineBrake:(id)sender
 {
     //: if ([self.delegate respondsToSelector:@selector(onRefresh)])
-    if ([self.characterThroughoutted respondsToSelector:@selector(totalAround)])
+    if ([self.skillReliable respondsToSelector:@selector(totalAround)])
     {
         //: [self.delegate onRefresh];
-        [self.characterThroughoutted totalAround];
+        [self.skillReliable totalAround];
     }
 }
 

@@ -16,11 +16,11 @@
 @protocol CentralWealthyPrivateLeap <NSObject>
 
 //: - (NSString *)groupTitle;
-- (NSString *)precise;
+- (NSString *)tide;
 //: - (NSString *)memberId;
-- (NSString *)rock;
+- (NSString *)sit;
 //: - (id)sortKey;
-- (id)shadow;
+- (id)receiverKey;
 
 //: @end
 @end

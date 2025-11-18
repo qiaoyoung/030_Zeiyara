@@ -193,7 +193,7 @@ dispatch_queue_t clipThe()
 @property (nonatomic,strong) id<WorldScenarioSelector> flush;
 
 //: @property (nonatomic,strong) NIMMessage *referenceMessage;
-@property (nonatomic,strong) NIMMessage *authorSContentCurveMessage;
+@property (nonatomic,strong) NIMMessage *suspendMessage;
 
 //: @property (nonatomic,strong) NIMSession *session;
 @property (nonatomic,strong) NIMSession *beside;
@@ -1166,7 +1166,7 @@ dispatch_queue_t clipThe()
              workInCompletion:(void(^)(NSError *error))completion
 {
     //: NIMMessage *message = self.referenceMessage;
-    NIMMessage *message = self.authorSContentCurveMessage;
+    NIMMessage *message = self.suspendMessage;
     //: if (message)
     if (message)
     {
@@ -1186,7 +1186,7 @@ dispatch_queue_t clipThe()
         //: }];
         }];
         //: self.referenceMessage = nil;
-        self.authorSContentCurveMessage = nil;
+        self.suspendMessage = nil;
     }
 }
 
@@ -1236,7 +1236,7 @@ dispatch_queue_t clipThe()
                                                   completion:^(NSError * _Nullable error)
     {
         //: weakSelf.referenceMessage = nil;
-        weakSelf.authorSContentCurveMessage = nil;
+        weakSelf.suspendMessage = nil;
         //: [weakSelf refreshQuickComments:message completion:nil];
         [weakSelf tabCommentsQuickCompletion:message persistQuick:nil];
         //: if (completion)

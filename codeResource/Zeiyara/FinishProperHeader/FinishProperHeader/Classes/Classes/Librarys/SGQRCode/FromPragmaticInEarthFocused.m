@@ -373,7 +373,7 @@
     //: if (self.link == nil) {
     if (self.totaly == nil) {
         //: self.link = [CADisplayLink displayLinkWithTarget:[DistantMessageLedgeSound weakProxyWithTarget:self] selector:@selector(updateUI)];
-        self.totaly = [CADisplayLink displayLinkWithTarget:[DistantMessageLedgeSound smart:self] selector:@selector(updateUI)];
+        self.totaly = [CADisplayLink displayLinkWithTarget:[DistantMessageLedgeSound smart:self] selector:@selector(passageTo)];
         //: [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
         [self.totaly addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
     }
