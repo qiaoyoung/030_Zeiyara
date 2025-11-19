@@ -220,7 +220,7 @@
  *  会话页详细配置
  */
 //: - (id<WorldScenarioSelector>)sessionConfig;
-- (id<WorldScenarioSelector>)bull;
+- (id<WorldScenarioSelector>)exitTing;
 
 
 /**
