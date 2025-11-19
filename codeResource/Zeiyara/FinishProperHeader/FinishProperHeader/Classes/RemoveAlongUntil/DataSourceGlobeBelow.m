@@ -437,10 +437,10 @@ dispatch_queue_t clipThe()
                                                 error:nil];
     }
     //: else if ([self.sessionConfig respondsToSelector:@selector(threadMessage)] && [self.sessionConfig threadMessage])
-    else if ([self.flush respondsToSelector:@selector(whisperParenting)] && [self.flush water])
+    else if ([self.flush respondsToSelector:@selector(whisperParenting)] && [self.flush whisperParenting])
     {
         //: NIMMessage *threadMessage = [self.sessionConfig threadMessage];
-        NIMMessage *threadMessage = [self.flush water];
+        NIMMessage *threadMessage = [self.flush whisperParenting];
         //: [[[NIMSDK sharedSDK] chatExtendManager] reply:message
         [[[NIMSDK sharedSDK] chatExtendManager] reply:message
                                                    //: to:threadMessage
@@ -1020,10 +1020,10 @@ dispatch_queue_t clipThe()
         }];
     }
     //: else if ([self.sessionConfig respondsToSelector:@selector(threadMessage)] && [self.sessionConfig threadMessage])
-    else if ([self.flush respondsToSelector:@selector(whisperParenting)] && [self.flush water])
+    else if ([self.flush respondsToSelector:@selector(whisperParenting)] && [self.flush whisperParenting])
     {
         //: NIMMessage *threadMessage = [self.sessionConfig threadMessage];
-        NIMMessage *threadMessage = [self.flush water];
+        NIMMessage *threadMessage = [self.flush whisperParenting];
         //: [[[NIMSDK sharedSDK] chatExtendManager] reply:message
         [[[NIMSDK sharedSDK] chatExtendManager] reply:message
                                                    //: to:threadMessage

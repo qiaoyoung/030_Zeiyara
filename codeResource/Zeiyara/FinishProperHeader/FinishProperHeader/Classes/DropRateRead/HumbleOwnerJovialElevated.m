@@ -164,7 +164,7 @@
         //: WorkflowAnimatorFormatQuickSelectorSchedule *model = (WorkflowAnimatorFormatQuickSelectorSchedule *)data;
         WorkflowAnimatorFormatQuickSelectorSchedule *model = (WorkflowAnimatorFormatQuickSelectorSchedule *)data;
         //: [_timeLabel setText:[UpdaterCanyonShoreLoad showTime:model.messageTime showDetail:YES]];
-        [_capability setText:[UpdaterCanyonShoreLoad flame:model.hintCircuit thread:YES]];
+        [_capability setText:[UpdaterCanyonShoreLoad flame:model.diskTime thread:YES]];
     }
 }
 

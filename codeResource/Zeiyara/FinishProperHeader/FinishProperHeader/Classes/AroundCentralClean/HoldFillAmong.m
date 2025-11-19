@@ -85,7 +85,7 @@
             //: WorkflowAnimatorFormatQuickSelectorSchedule *timeModel = [[WorkflowAnimatorFormatQuickSelectorSchedule alloc] init];
             WorkflowAnimatorFormatQuickSelectorSchedule *timeModel = [[WorkflowAnimatorFormatQuickSelectorSchedule alloc] init];
             //: timeModel.messageTime = model.messageTime;
-            timeModel.hintCircuit = model.diskTime;
+            timeModel.diskTime = model.diskTime;
             //: [self.items insertObject:timeModel atIndex:index];
             [self.gamut insertObject:timeModel atIndex:index];
             //: [inserts addObject:@(index)];
@@ -367,7 +367,7 @@
         //: WorkflowAnimatorFormatQuickSelectorSchedule *timeModel = [[WorkflowAnimatorFormatQuickSelectorSchedule alloc] init];
         WorkflowAnimatorFormatQuickSelectorSchedule *timeModel = [[WorkflowAnimatorFormatQuickSelectorSchedule alloc] init];
         //: timeModel.messageTime = model.messageTime;
-        timeModel.hintCircuit = model.diskTime;
+        timeModel.diskTime = model.diskTime;
         //: [self.items insertObject:timeModel atIndex:0];
         [self.gamut insertObject:timeModel atIndex:0];
     }
