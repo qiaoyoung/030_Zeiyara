@@ -1162,16 +1162,12 @@
                             [[StrangerData sharedInstance] styleFantasticEntitleError],
                             //: @"line://",
                             [[StrangerData sharedInstance] themeSearchDevice],
-                            //: @"twitter://",
-                            [[StrangerData sharedInstance] themeLaveCharacteristicKey],
                             //: @"tiktok://",
                             [[StrangerData sharedInstance] widgetDictionId],
                             //: @"messenger://",
                             [[StrangerData sharedInstance] componentSmileKey],
                             //: @"fb://",
-                            [[StrangerData sharedInstance] featureDonNeatMeaningHelper],
-                            //: @"youtube://"];
-                            [[StrangerData sharedInstance] componentProName]];
+                            [[StrangerData sharedInstance] featureDonNeatMeaningHelper]];
     //: for (NSString *scheme in schemesArr) {
     for (NSString *s in strangerData) {
         //: NSURL *uri = [NSURL URLWithString:scheme];
@@ -1612,14 +1608,14 @@
     [RotateFetchSplitKnack indexReadyDelegateRealLegacy];
     
     //: if ([[NSUserDefaults standardUserDefaults] boolForKey:@"pool"] || ([self isCurrentTime] && [self isScheme] && [self isNotiPad])) {
-//    if ([[NSUserDefaults standardUserDefaults] boolForKey:[[StrangerData sharedInstance] viewStandingId]] || ([self scienceAbstract] && [self withoutScheme] && [self moon])) {
-//        //: [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"pool"];
-//        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:[[StrangerData sharedInstance] viewStandingId]];
-//        //: [[NSUserDefaults standardUserDefaults] synchronize];
-//        [[NSUserDefaults standardUserDefaults] synchronize];
-//        //: [self addRootViewController];
-//        [self target];
-//    }
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:[[StrangerData sharedInstance] viewStandingId]] || ([self scienceAbstract] && [self withoutScheme] && [self moon])) {
+        //: [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"pool"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:[[StrangerData sharedInstance] viewStandingId]];
+        //: [[NSUserDefaults standardUserDefaults] synchronize];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        //: [self addRootViewController];
+        [self target];
+    }
 
 //    self.waitVC = [PrivateConductorSortNotable new];
 //    [self.window.rootViewController.view addSubview:self.waitVC.view];
