@@ -190,7 +190,7 @@
  *  @return 返回thread 父消息
  */
 //: - (NIMMessage *)threadMessage;
-- (NIMMessage *)water;
+- (NIMMessage *)whisperParenting;
 
 /**
  *  设置 thread消息

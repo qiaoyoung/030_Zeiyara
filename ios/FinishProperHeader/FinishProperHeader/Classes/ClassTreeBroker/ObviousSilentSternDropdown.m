@@ -340,7 +340,7 @@
                 //: self.textView.actionDelegate = vc;
                 self.rock.his = vc;
                 //: self.textView.config = vc.sessionConfig;
-                self.rock.channel = vc.bull;
+                self.rock.channel = vc.exitTing;
             }
         //: }];
         }];

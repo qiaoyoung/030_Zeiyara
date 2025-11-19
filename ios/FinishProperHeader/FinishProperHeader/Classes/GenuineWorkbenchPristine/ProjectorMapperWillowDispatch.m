@@ -900,9 +900,9 @@
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableInputView)]) {
-    if ([self.bull respondsToSelector:@selector(distinctDuring)]) {
+    if ([self.exitTing respondsToSelector:@selector(distinctDuring)]) {
         //: should = ![self.sessionConfig disableInputView];
-        should = ![self.bull distinctDuring];
+        should = ![self.exitTing distinctDuring];
     }
     //: return should;
     return should;
@@ -1055,9 +1055,9 @@
     //: BOOL needProximityMonitor = YES;
     BOOL needProximityMonitor = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableProximityMonitor)]) {
-    if ([self.bull respondsToSelector:@selector(orientationSolid)]) {
+    if ([self.exitTing respondsToSelector:@selector(orientationSolid)]) {
         //: needProximityMonitor = !self.sessionConfig.disableProximityMonitor;
-        needProximityMonitor = !self.bull.orientationSolid;
+        needProximityMonitor = !self.exitTing.orientationSolid;
     }
     //: return needProximityMonitor;
     return needProximityMonitor;
@@ -1193,7 +1193,7 @@
     if ([self board])
     {
         //: self.sessionInputView = [[OwlLaunchFormal alloc] initWithFrame:CGRectMake(0, 0, self.view.device_width,0) config:self.sessionConfig];
-        self.variableStarIdentify = [[OwlLaunchFormal alloc] initWithHoldDoing:CGRectMake(0, 0, self.view.filter,0) vehicle:self.bull];
+        self.variableStarIdentify = [[OwlLaunchFormal alloc] initWithHoldDoing:CGRectMake(0, 0, self.view.filter,0) vehicle:self.exitTing];
         //: self.sessionInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         self.variableStarIdentify.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         //: [self.sessionInputView setSession:self.session];
@@ -1256,9 +1256,9 @@
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableReceiveNewMessages)]) {
-    if ([self.bull respondsToSelector:@selector(authorDefender)]) {
+    if ([self.exitTing respondsToSelector:@selector(authorDefender)]) {
         //: should = ![self.sessionConfig disableReceiveNewMessages];
-        should = ![self.bull authorDefender];
+        should = ![self.exitTing authorDefender];
     }
     //: return should;
     return should;
@@ -1413,16 +1413,16 @@
     //: NSArray *items;
     NSArray *items;
     //: if (!self.sessionConfig)
-    if (!self.bull)
+    if (!self.exitTing)
     {
         //: items = [[QuintessentialContentTreat sharedKit].config defaultMenuItemsWithMessage:message];
         items = [[QuintessentialContentTreat pair].ruminate minute:message];
     }
     //: else if([self.sessionConfig respondsToSelector:@selector(menuItemsWithMessage:)])
-    else if([self.bull respondsToSelector:@selector(packratMessage:)])
+    else if([self.exitTing respondsToSelector:@selector(packratMessage:)])
     {
         //: items = [self.sessionConfig menuItemsWithMessage:message];
-        items = [self.bull packratMessage:message];
+        items = [self.exitTing packratMessage:message];
     }
 
     //: [items enumerateObjectsUsingBlock:^(LargeTenseBroad *item, NSUInteger idx, BOOL *stop) {
@@ -2010,10 +2010,10 @@
     //: BOOL disable = NO;
     BOOL disable = NO;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableAudioPlayedStatusIcon)])
-    if ([self.bull respondsToSelector:@selector(southSeaIcon)])
+    if ([self.exitTing respondsToSelector:@selector(southSeaIcon)])
     {
         //: disable = [self.sessionConfig disableAudioPlayedStatusIcon];
-        disable = [self.bull southSeaIcon];
+        disable = [self.exitTing southSeaIcon];
     }
     //: return disable;
     return disable;
@@ -2473,9 +2473,9 @@
     //: NIMAudioType type = NIMAudioTypeAAC;
     NIMAudioType type = NIMAudioTypeAAC;
     //: if ([self.sessionConfig respondsToSelector:@selector(recordType)]) {
-    if ([self.bull respondsToSelector:@selector(rounderSubstance)]) {
+    if ([self.exitTing respondsToSelector:@selector(rounderSubstance)]) {
         //: type = [self.sessionConfig recordType];
-        type = [self.bull rounderSubstance];
+        type = [self.exitTing rounderSubstance];
     }
     //: return type;
     return type;
@@ -2752,7 +2752,7 @@
 //: #pragma mark - 配置项
 #pragma mark - 配置项
 //: - (id<WorldScenarioSelector>)sessionConfig
-- (id<WorldScenarioSelector>)bull
+- (id<WorldScenarioSelector>)exitTing
 {
     //: return nil; 
     return nil; //使用默认配置
@@ -3173,13 +3173,13 @@
     [self.volumeProgram setSuspendMessage:nil];
 
     //: if ([self.sessionConfig respondsToSelector:@selector(clearThreadMessageAfterSent)])
-    if ([self.bull respondsToSelector:@selector(pureCurrent)])
+    if ([self.exitTing respondsToSelector:@selector(pureCurrent)])
     {
         //: if ([self.sessionConfig clearThreadMessageAfterSent])
-        if ([self.bull pureCurrent])
+        if ([self.exitTing pureCurrent])
         {
             //: [self.sessionConfig cleanThreadMessage];
-            [self.bull backMap];
+            [self.exitTing backMap];
         }
     }
 }

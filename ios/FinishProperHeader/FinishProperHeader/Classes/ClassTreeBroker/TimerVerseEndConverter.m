@@ -78,7 +78,7 @@
     //: NIMSession *session = vc.session;
     NIMSession *session = vc.space;
     //: id<WorldScenarioSelector> sessionConfig = vc.sessionConfig;
-    id<WorldScenarioSelector> sessionConfig = vc.bull;
+    id<WorldScenarioSelector> sessionConfig = vc.exitTing;
     //: UITableView *tableView = vc.tableView;
     UITableView *tableView = vc.calendar;
     //: OwlLaunchFormal *inputView = vc.sessionInputView;

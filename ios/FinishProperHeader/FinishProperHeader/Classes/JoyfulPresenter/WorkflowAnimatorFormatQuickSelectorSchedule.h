@@ -27,7 +27,7 @@
 @property (nonatomic, assign) CGFloat written;
 
 //: @property (nonatomic, assign) NSTimeInterval messageTime;
-@property (nonatomic, assign) NSTimeInterval hintCircuit;
+@property (nonatomic, assign) NSTimeInterval diskTime;
 
 //: @end
 @end
